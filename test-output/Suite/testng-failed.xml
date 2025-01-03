@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="utilities.ExtentReportManager"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="orderUpdateDispatch.TestsOrderUpdateDispatch">
+        <methods>
+          <include name="testOrderUpdateDispatchInventoryDetailsAfterBatchAssign"/>
+          <include name="testOrderUpdateDispatchInventoryDetailsBeforeCreateOrder"/>
+          <include name="testOrderUpdateDispatchBatchAssign"/>
+          <include name="testOrderUpdateDispatchInventoryDetailsAfterMarkPacked"/>
+          <include name="testOrderUpdateDispatchInventoryDetailsAfterDispatch"/>
+          <include name="testOrderUpdateDispatchUpdateOrder"/>
+          <include name="testOrderUpdateDispatchInventoryDetailsAfterUpdateOrder"/>
+          <include name="testOrderUpdateDispatchInventoryDetailsAfterCreateOrder"/>
+          <include name="testOrderUpdateDispatchDispatch"/>
+          <include name="testOrderUpdateDispatchCreateShipment"/>
+          <include name="testOrderUpdateDispatchCreateOrder"/>
+          <include name="testOrderUpdateDispatchMarkPacked"/>
+          <include name="testOrderUpdateDispatchInventoryDetailsAfterCreateShipment"/>
+        </methods>
+      </class> <!-- orderUpdateDispatch.TestsOrderUpdateDispatch -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

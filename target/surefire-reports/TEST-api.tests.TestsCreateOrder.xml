@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="api.tests.TestsCreateOrder" time="16.281" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="22"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/admin/ParasUAT/ParasUATProject/target/test-classes:/Users/admin/ParasUAT/ParasUATProject/target/classes:/Users/admin/.m2/repository/org/testng/testng/7.10.2/testng-7.10.2.jar:/Users/admin/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/admin/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/admin/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/admin/.m2/repository/io/rest-assured/rest-assured/5.5.0/rest-assured-5.5.0.jar:/Users/admin/.m2/repository/org/apache/groovy/groovy/4.0.22/groovy-4.0.22.jar:/Users/admin/.m2/repository/org/apache/groovy/groovy-xml/4.0.22/groovy-xml-4.0.22.jar:/Users/admin/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/admin/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/admin/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/admin/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/admin/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/admin/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/admin/.m2/repository/org/apache/logging/log4j/log4j-api/2.3.2/log4j-api-2.3.2.jar:/Users/admin/.m2/repository/org/apache/logging/log4j/log4j-core/2.3.2/log4j-core-2.3.2.jar:/Users/admin/.m2/repository/com/github/scribejava/scribejava-apis/8.3.1/scribejava-apis-8.3.1.jar:/Users/admin/.m2/repository/com/github/scribejava/scribejava-core/8.3.1/scribejava-core-8.3.1.jar:/Users/admin/.m2/repository/com/github/scribejava/scribejava-java8/8.3.1/scribejava-java8-8.3.1.jar:/Users/admin/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.12.3/jackson-databind-2.12.3.jar:/Users/admin/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.12.3/jackson-annotations-2.12.3.jar:/Users/admin/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.3/jackson-core-2.12.3.jar:/Users/admin/.m2/repository/com/github/java-json-tools/json-schema-validator/2.2.14/json-schema-validator-2.2.14.jar:/Users/admin/.m2/repository/com/google/guava/guava/28.2-android/guava-28.2-android.jar:/Users/admin/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/admin/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/admin/.m2/repository/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5.jar:/Users/admin/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/admin/.m2/repository/com/github/java-json-tools/jackson-coreutils-equivalence/1.0/jackson-coreutils-equivalence-1.0.jar:/Users/admin/.m2/repository/com/github/java-json-tools/jackson-coreutils/2.0/jackson-coreutils-2.0.jar:/Users/admin/.m2/repository/com/github/java-json-tools/msg-simple/1.2/msg-simple-1.2.jar:/Users/admin/.m2/repository/com/github/java-json-tools/btf/1.3/btf-1.3.jar:/Users/admin/.m2/repository/com/github/java-json-tools/json-schema-core/1.2.14/json-schema-core-1.2.14.jar:/Users/admin/.m2/repository/com/github/java-json-tools/uri-template/0.10/uri-template-0.10.jar:/Users/admin/.m2/repository/org/mozilla/rhino/1.7.7.2/rhino-1.7.7.2.jar:/Users/admin/.m2/repository/com/sun/mail/mailapi/1.6.2/mailapi-1.6.2.jar:/Users/admin/.m2/repository/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar:/Users/admin/.m2/repository/com/googlecode/libphonenumber/libphonenumber/8.11.1/libphonenumber-8.11.1.jar:/Users/admin/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/admin/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/Users/admin/.m2/repository/io/rest-assured/json-schema-validator/5.3.0/json-schema-validator-5.3.0.jar:/Users/admin/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar:/Users/admin/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/admin/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/admin/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/admin/.m2/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar:/Users/admin/.m2/repository/org/apache/poi/poi/5.2.5/poi-5.2.5.jar:/Users/admin/.m2/repository/commons-codec/commons-codec/1.16.0/commons-codec-1.16.0.jar:/Users/admin/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/admin/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/admin/.m2/repository/commons-io/commons-io/2.15.0/commons-io-2.15.0.jar:/Users/admin/.m2/repository/com/zaxxer/SparseBitSet/1.3/SparseBitSet-1.3.jar:/Users/admin/.m2/repository/org/apache/poi/poi-ooxml/5.3.0/poi-ooxml-5.3.0.jar:/Users/admin/.m2/repository/org/apache/poi/poi-ooxml-lite/5.3.0/poi-ooxml-lite-5.3.0.jar:/Users/admin/.m2/repository/org/apache/xmlbeans/xmlbeans/5.2.1/xmlbeans-5.2.1.jar:/Users/admin/.m2/repository/org/apache/commons/commons-compress/1.26.2/commons-compress-1.26.2.jar:/Users/admin/.m2/repository/com/github/virtuald/curvesapi/1.08/curvesapi-1.08.jar:/Users/admin/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/admin/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/admin/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/admin/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/admin/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/admin/.m2/repository/org/json/json/20240303/json-20240303.jar:/Users/admin/.m2/repository/io/rest-assured/json-path/5.5.0/json-path-5.5.0.jar:/Users/admin/.m2/repository/org/apache/groovy/groovy-json/4.0.22/groovy-json-4.0.22.jar:/Users/admin/.m2/repository/io/rest-assured/rest-assured-common/5.5.0/rest-assured-common-5.5.0.jar:/Users/admin/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/Users/admin/.m2/repository/junit/junit/4.10/junit-4.10.jar:/Users/admin/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar:/Users/admin/.m2/repository/io/rest-assured/xml-path/5.5.0/xml-path-5.5.0.jar:/Users/admin/.m2/repository/com/google/code/gson/gson/2.11.0/gson-2.11.0.jar:/Users/admin/.m2/repository/com/google/errorprone/error_prone_annotations/2.27.0/error_prone_annotations-2.27.0.jar:"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="22"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.boot.library.path" value="/Users/admin/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_22.0.1.v20240426-1149/jre/lib"/>
+    <property name="sun.java.command" value="/Users/admin/ParasUAT/ParasUATProject/target/surefire/surefirebooter-20241209170534492_3.jar /Users/admin/ParasUAT/ParasUATProject/target/surefire 2024-12-09T17-05-33_438-jvmRun1 surefire-20241209170534492_1tmp surefire_0-20241209170534492_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/admin/ParasUAT/ParasUATProject/target/test-classes:/Users/admin/ParasUAT/ParasUATProject/target/classes:/Users/admin/.m2/repository/org/testng/testng/7.10.2/testng-7.10.2.jar:/Users/admin/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/admin/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/admin/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/admin/.m2/repository/io/rest-assured/rest-assured/5.5.0/rest-assured-5.5.0.jar:/Users/admin/.m2/repository/org/apache/groovy/groovy/4.0.22/groovy-4.0.22.jar:/Users/admin/.m2/repository/org/apache/groovy/groovy-xml/4.0.22/groovy-xml-4.0.22.jar:/Users/admin/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/admin/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/admin/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/admin/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/admin/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/admin/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/admin/.m2/repository/org/apache/logging/log4j/log4j-api/2.3.2/log4j-api-2.3.2.jar:/Users/admin/.m2/repository/org/apache/logging/log4j/log4j-core/2.3.2/log4j-core-2.3.2.jar:/Users/admin/.m2/repository/com/github/scribejava/scribejava-apis/8.3.1/scribejava-apis-8.3.1.jar:/Users/admin/.m2/repository/com/github/scribejava/scribejava-core/8.3.1/scribejava-core-8.3.1.jar:/Users/admin/.m2/repository/com/github/scribejava/scribejava-java8/8.3.1/scribejava-java8-8.3.1.jar:/Users/admin/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.12.3/jackson-databind-2.12.3.jar:/Users/admin/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.12.3/jackson-annotations-2.12.3.jar:/Users/admin/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.3/jackson-core-2.12.3.jar:/Users/admin/.m2/repository/com/github/java-json-tools/json-schema-validator/2.2.14/json-schema-validator-2.2.14.jar:/Users/admin/.m2/repository/com/google/guava/guava/28.2-android/guava-28.2-android.jar:/Users/admin/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/admin/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/admin/.m2/repository/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5.jar:/Users/admin/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/admin/.m2/repository/com/github/java-json-tools/jackson-coreutils-equivalence/1.0/jackson-coreutils-equivalence-1.0.jar:/Users/admin/.m2/repository/com/github/java-json-tools/jackson-coreutils/2.0/jackson-coreutils-2.0.jar:/Users/admin/.m2/repository/com/github/java-json-tools/msg-simple/1.2/msg-simple-1.2.jar:/Users/admin/.m2/repository/com/github/java-json-tools/btf/1.3/btf-1.3.jar:/Users/admin/.m2/repository/com/github/java-json-tools/json-schema-core/1.2.14/json-schema-core-1.2.14.jar:/Users/admin/.m2/repository/com/github/java-json-tools/uri-template/0.10/uri-template-0.10.jar:/Users/admin/.m2/repository/org/mozilla/rhino/1.7.7.2/rhino-1.7.7.2.jar:/Users/admin/.m2/repository/com/sun/mail/mailapi/1.6.2/mailapi-1.6.2.jar:/Users/admin/.m2/repository/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar:/Users/admin/.m2/repository/com/googlecode/libphonenumber/libphonenumber/8.11.1/libphonenumber-8.11.1.jar:/Users/admin/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/admin/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/Users/admin/.m2/repository/io/rest-assured/json-schema-validator/5.3.0/json-schema-validator-5.3.0.jar:/Users/admin/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar:/Users/admin/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/admin/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/admin/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/admin/.m2/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar:/Users/admin/.m2/repository/org/apache/poi/poi/5.2.5/poi-5.2.5.jar:/Users/admin/.m2/repository/commons-codec/commons-codec/1.16.0/commons-codec-1.16.0.jar:/Users/admin/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/admin/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/admin/.m2/repository/commons-io/commons-io/2.15.0/commons-io-2.15.0.jar:/Users/admin/.m2/repository/com/zaxxer/SparseBitSet/1.3/SparseBitSet-1.3.jar:/Users/admin/.m2/repository/org/apache/poi/poi-ooxml/5.3.0/poi-ooxml-5.3.0.jar:/Users/admin/.m2/repository/org/apache/poi/poi-ooxml-lite/5.3.0/poi-ooxml-lite-5.3.0.jar:/Users/admin/.m2/repository/org/apache/xmlbeans/xmlbeans/5.2.1/xmlbeans-5.2.1.jar:/Users/admin/.m2/repository/org/apache/commons/commons-compress/1.26.2/commons-compress-1.26.2.jar:/Users/admin/.m2/repository/com/github/virtuald/curvesapi/1.08/curvesapi-1.08.jar:/Users/admin/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/admin/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/admin/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/admin/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/admin/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/admin/.m2/repository/org/json/json/20240303/json-20240303.jar:/Users/admin/.m2/repository/io/rest-assured/json-path/5.5.0/json-path-5.5.0.jar:/Users/admin/.m2/repository/org/apache/groovy/groovy-json/4.0.22/groovy-json-4.0.22.jar:/Users/admin/.m2/repository/io/rest-assured/rest-assured-common/5.5.0/rest-assured-common-5.5.0.jar:/Users/admin/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/Users/admin/.m2/repository/junit/junit/4.10/junit-4.10.jar:/Users/admin/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar:/Users/admin/.m2/repository/io/rest-assured/xml-path/5.5.0/xml-path-5.5.0.jar:/Users/admin/.m2/repository/com/google/code/gson/gson/2.11.0/gson-2.11.0.jar:/Users/admin/.m2/repository/com/google/errorprone/error_prone_annotations/2.27.0/error_prone_annotations-2.27.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/admin"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-04-16"/>
+    <property name="java.home" value="/Users/admin/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_22.0.1.v20240426-1149/jre"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/admin/ParasUAT/ParasUATProject"/>
+    <property name="style.color" value="always"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/admin/ParasUAT/ParasUATProject/target/surefire/surefirebooter-20241209170534492_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="22.0.1+8"/>
+    <property name="user.name" value="admin"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="13.7.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-22.0.1+8"/>
+    <property name="localRepository" value="/Users/admin/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/74/nr_b2kmd7h31285ff_nl0f080000gn/T/"/>
+    <property name="java.version" value="22.0.1"/>
+    <property name="user.dir" value="/Users/admin/ParasUAT/ParasUATProject"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/admin/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="22.0.1+8"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="66.0"/>
+  </properties>
+  <testcase name="createOrderOrderModuleTest" classname="api.tests.TestsCreateOrder" time="5.13">
+    <system-out><![CDATA[17:05:41.023 [main] INFO  api.tests.TestsCreateOrder - *********	Creating Order	*********
+Request method:	POST
+Request URI:	https://order-uat.kredmint.in/api/orders/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJQWjN2ZXV3T1hvRkNmaEVwNWdmamVRTVpXTzVMSGo4OTd2NnFZVlg2UDZFIn0.eyJleHAiOjE3MzM3NDQzOTEsImlhdCI6MTczMzc0MDc5MSwianRpIjoiZWU1ZTJjZTQtYWIyZC00NDlmLTgyNWQtMzBkMjcwYzljMWFiIiwiaXNzIjoiaHR0cHM6Ly9rZXljbG9hay1wcm9kLmtyZWRtaW50LmluL3JlYWxtcy9wYXJhc2dyb3VwX3VhdCIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiI3ZGM0ZDBkMC0yZjUyLTQ3YmMtYTg5Ny05ZTU0MGNlMWIyZTciLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJwYXJhcy1jbGllbnQiLCJzZXNzaW9uX3N0YXRlIjoiOTZhMmM5YjYtNzYzYy00ZjJhLTg0Y2MtOTY4ZmNmMWJlZTE4IiwiYWNyIjoiMSIsImFsbG93ZWQtb3JpZ2lucyI6WyIvKiJdLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsiU1VQRVJfQURNSU4iLCJvZmZsaW5lX2FjY2VzcyIsInVtYV9hdXRob3JpemF0aW9uIiwiZGVmYXVsdC1yb2xlcy1wYXJhc2dyb3VwX3VhdCJdfSwicmVzb3VyY2VfYWNjZXNzIjp7ImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoicHJvZmlsZSBlbWFpbCIsInNpZCI6Ijk2YTJjOWI2LTc2M2MtNGYyYS04NGNjLTk2OGZjZjFiZWUxOCIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwicHJlZmVycmVkX3VzZXJuYW1lIjoic3VwZXJAcGFyYXMuY29tIiwiZ2l2ZW5fbmFtZSI6IiIsImZhbWlseV9uYW1lIjoiIn0.d1oJWSFS5mlRF8UerjiT_u626gApP_GE4VZt21a6zqJQ4d11tGb78Z_Lae5BKSfexqVFUvWdeYi0vUCQFeNdtb92RYqTLrX3UCBKh6XA-hS403RwEThF9xPOdpk39A2fQlRfxkeUu0WuyfMArVK55YatckEgVqnD9OkQJbkzj9NEhpREuLjf2oLNzFu982WGaDS1TwfeSCWV_BNB2rTiaVww-_wthb8ChX66nmta9SAlzaeSQadRZcEjJLIcHz3Wci_prenrEqu9-tgTPjCAmBr5QeucL2hSi2io-2tfdpo-8jsfN2OPY826Vd100j_-eRNwKJe_g3rydVibJT5ZcQ
+				Referer=https://order-uat.kredmint.in/create-order/
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "fromLocationId": "FT1",
+    "toLocationId": "HB2",
+    "items": [
+        {
+            "sku": "SKUUH1",
+            "quantity": 55,
+            "distributorPrice": 0.03,
+            "ssPrice": 0.03,
+            "packType": "CARTON",
+            "packOf": 50,
+            "mrp": 0.03,
+            "discount": 0.0
+        },
+        {
+            "sku": "280000",
+            "quantity": 5,
+            "distributorPrice": 566.78,
+            "ssPrice": 564.78,
+            "packType": "CARTON",
+            "packOf": 4,
+            "mrp": 831.25,
+            "discount": 264.48
+        }
+    ],
+    "orderSource": "SUPER_ADMIN",
+    "orderSlot": {
+        "start": "2024-12-09",
+        "end": null
+    },
+    "poNumber": "123456789",
+    "couponId": "CUP60991",
+    "freeItems": [
+        {
+            "sku": "SKUUH1",
+            "multiplier": 1,
+            "maxOrder": 0,
+            "name": "Dairy Cream 1 Ltr(270264)",
+            "unitWeight": 0,
+            "packType": "CARTON",
+            "mrp": 1.0,
+            "o2rlp": 0.0,
+            "sellingPrice": 0.0,
+            "distributorPrice": 1.0,
+            "inventorySellingPrice": 0.0,
+            "quantity": 2,
+            "transactedQuantity": 0,
+            "shortQuantity": 0,
+            "amount": 0.0,
+            "discount": 100.0,
+            "discountType": "PERCENT",
+            "totalDiscount": 0.0,
+            "totalSellingPrice": 0.0,
+            "retailerPrice": 0.0,
+            "retailerDiscount": 0.0,
+            "totalTaxAmount": 0.0,
+            "cess": 0.0,
+            "cessAmt": 0.0,
+            "gst": 0.0,
+            "gstAmt": 0.0,
+            "basicAmount": 0.0,
+            "taxableAmount": 0.0,
+            "rateAmount": 0.0,
+            "sno": 0,
+            "cgst": 0.0,
+            "igst": 0.0,
+            "sgst": 0.0,
+            "sgstAmt": 0.0,
+            "cgstAmt": 0.0,
+            "igstAmt": 0.0,
+            "free": false,
+            "deliveredQuantity": 2
+        }
+    ]
+}
+HTTP/1.1 200 OK
+content-type: application/json; charset=utf-8
+etag: "12wtc03es7v3g7"
+vary: Accept-Encoding
+content-encoding: gzip
+date: Mon, 09 Dec 2024 11:35:46 GMT
+via: 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Transfer-Encoding: chunked
+
+{
+    "payload": {
+        "log": "09-Dec-2024 05:05:45 PM @ Updated By: Super Admin Order updated with amount: 2826.0",
+        "id": "24120900022",
+        "partnerId": "FT1",
+        "orgId": "paras",
+        "createdBy": "USR-00",
+        "createdByName": "8687887481",
+        "lastModifiedByName": "8687887481",
+        "creationDate": "2024-12-09T11:35:45.903+0000",
+        "lastModifiedDate": "2024-12-09T11:35:45.903+0000",
+        "lastModifiedBy": "USR-00",
+        "orderNumber": "24120900022",
+        "couponId": "CUP60991",
+        "mrp": 16708,
+        "sellingPrice": 2826,
+        "itemsDiscount": 13882,
+        "couponDiscountOrder": 0,
+        "couponDiscountDelivery": 0,
+        "fromLocation": {
+            "id": "FT1",
+            "type": "FACTORY",
+            "address": {
+                "addressLine1": "test",
+                "pincode": "273209",
+                "addressLines": "test"
+            },
+            "gstNumber": "09AAJCK6298G1ZX",
+            "panNumber": "1111111111",
+            "fssaiNumber": "11111111111111",
+            "fssaiExpiryDate": "2024-10-23T00:00:00.000+0000",
+            "mobile": "8707802233",
+            "emailId": "parasfactory@gmail.com",
+            "companyName": "paras factory",
+            "leadTime": 0,
+            "latLng": {
+                "lat": 44.4444,
+                "lng": 33.4444
+            },
+            "status": "Active",
+            "productCategories": [
+                "GHEE"
+            ],
+            "emailForInvoice": ", parasfactory@gmail.com"
+        },
+        "toLocation": {
+            "id": "HB2",
+            "type": "DISTRIBUTOR",
+            "address": {
+                "state": "Punjab",
+                "city": "PATIALA",
+                "pincode": "147105"
+            },
+            "mobile": "7696448044",
+            "contactPersonName": "7696448044",
+            "companyName": "Harbans Lal & Sons",
+            "leadTime": 0,
+            "status": "Active",
+            "productCategories": [
+                "MILK POWDER",
+                "UHT",
+                "GHEE",
+                "BUTTER"
+            ],
+            "emailForInvoice": ""
+        },
+        "orderDate": "2024-12-09",
+        "orderSlot": {
+            "start": "2024-12-09T00:00:00.000+0000"
+        },
+        "orderDateStr": "2024-12-09",
+        "totalDiscount": 13882,
+        "totalItems": 3,
+        "totalQuantity": 60,
+        "items": [
+            {
+                "sku": "SKUUH1",
+                "parentVariant": "SKUUH1",
+                "multiplier": 1,
+                "maxOrder": 0,
+                "name": "Dairy Cream 1 Ltr(270264)",
+                "brandName": "Paras",
+                "category": "UHT",
+                "packOf": 50,
+                "unitWeight": 0,
+                "packType": "CARTON",
+                "mrp": 1.5,
+                "o2rlp": 0,
+                "sellingPrice": 0.03,
+                "distributorPrice": 0.03,
+                "inventorySellingPrice": 0,
+                "quantity": 55,
+                "transactedQuantity": 0,
+                "shortQuantity": 0,
+                "amount": 0,
+                "discount": 0,
+                "discountType": "VALUE",
+                "totalDiscount": 80.85,
+                "totalSellingPrice": 1.65,
+                "retailerPrice": 1.5,
+                "retailerDiscount": 0,
+                "thumbnail": {
+                    "id": "66ffb002a2e5056dc92dc942",
+                    "createdBy": "USR-00",
+                    "url": "https://storage.googleapis.com/paras-prod/USR-00/OZMIRV-5fbdd4caf8ad9bb322db89a8e8497c00b6cab6f2.jpg",
+                    "name": "5fbdd4caf8ad9bb322db89a8e8497c00b6cab6f2.jpg",
+                    "relativeUrl": "USR-00/OZMIRV-5fbdd4caf8ad9bb322db89a8e8497c00b6cab6f2.jpg"
+                },
+                "hsnNumber": "4012000",
+                "totalTaxAmount": 0,
+                "cess": 0,
+                "cessAmt": 0,
+                "gst": 5,
+                "gstAmt": 0,
+                "isNonDiscountable": false,
+                "itemType": "FOOD",
+                "basicAmount": 0,
+                "taxableAmount": 0,
+                "rateAmount": 0,
+                "sno": 0,
+                "free": false,
+                "sgst": 0,
+                "cgst": 0,
+                "igst": 0,
+                "sgstAmt": 0,
+                "cgstAmt": 0,
+                "deliveredQuantity": 55,
+                "igstAmt": 0
+            },
+            {
+                "sku": "280000",
+                "multiplier": 1,
+                "maxOrder": 0,
+                "name": "PARAS Ghee Tin 5 Ltr",
+                "brandName": "Paras",
+                "category": "GHEE",
+                "packOf": 4,
+                "unitWeight": 0,
+                "packType": "CARTON",
+                "mrp": 3325,
+                "o2rlp": 0,
+                "sellingPrice": 564.78,
+                "distributorPrice": 566.78,
+                "inventorySellingPrice": 0,
+                "quantity": 5,
+                "transactedQuantity": 0,
+                "shortQuantity": 0,
+                "amount": 0,
+                "discount": 1052.89,
+                "discountType": "VALUE",
+                "totalDiscount": 13801.11,
+                "totalSellingPrice": 2823.9,
+                "retailerPrice": 2272.16,
+                "retailerDiscount": 0,
+                "thumbnail": {
+                    "id": "66aa64a8beadf161a13560ca",
+                    "createdBy": "USR-8",
+                    "url": "https://storage.googleapis.com/paras-prod/USR-8/GweeZM-WHITE_GHEE_15_LTR_TIN.jpg",
+                    "name": "WHITE GHEE 15 LTR TIN.jpg",
+                    "relativeUrl": "USR-8/GweeZM-WHITE_GHEE_15_LTR_TIN.jpg"
+                },
+                "hsnNumber": "4059020",
+                "totalTaxAmount": 0,
+                "cess": 18,
+                "cessAmt": 0,
+                "gst": 12,
+                "gstAmt": 0,
+                "isNonDiscountable": false,
+                "itemType": "FOOD",
+                "basicAmount": 0,
+                "taxableAmount": 0,
+                "rateAmount": 0,
+                "sno": 0,
+                "free": false,
+                "sgst": 0,
+                "cgst": 0,
+                "igst": 0,
+                "sgstAmt": 0,
+                "cgstAmt": 0,
+                "deliveredQuantity": 5,
+                "igstAmt": 0
+            },
+            {
+                "sku": "SKUUH1",
+                "multiplier": 1,
+                "maxOrder": 0,
+                "name": "Dairy Cream 1 Ltr(270264)",
+                "unitWeight": 0,
+                "packType": "CARTON",
+                "mrp": 1,
+                "o2rlp": 0,
+                "sellingPrice": 0,
+                "distributorPrice": 1,
+                "inventorySellingPrice": 0,
+                "quantity": 2,
+                "transactedQuantity": 0,
+                "shortQuantity": 0,
+                "amount": 0,
+                "discount": 100,
+                "discountType": "PERCENT",
+                "totalDiscount": 0,
+                "totalSellingPrice": 0,
+                "retailerPrice": 0,
+                "retailerDiscount": 0,
+                "totalTaxAmount": 0,
+                "cess": 0,
+                "cessAmt": 0,
+                "gst": 0,
+                "gstAmt": 0,
+                "basicAmount": 0,
+                "taxableAmount": 0,
+                "rateAmount": 0,
+                "sno": 0,
+                "free": true,
+                "sgst": 0,
+                "cgst": 0,
+                "igst": 0,
+                "sgstAmt": 0,
+                "cgstAmt": 0,
+                "deliveredQuantity": 2,
+                "igstAmt": 0
+            }
+        ],
+        "orderSource": "SUPER_ADMIN",
+        "orderFlow": "FACTORY_TO_DISTRIBUTOR",
+        "deliveryCharge": 0,
+        "handlingCharge": 0,
+        "grandTotal": 2826,
+        "totalCollectedAmount": 0,
+        "totalOriginalAmount": 2826,
+        "status": "Created",
+        "appStatus": "Order Placed",
+        "type": "DROP",
+        "ptt": 0,
+        "abt": 0,
+        "poNumber": "123456789",
+        "riderAssigned": false,
+        "seqPrefixLength": 5
+    },
+    "sum": 0,
+    "timestamp": 1733744146253
+}
+17:05:46.144 [main] INFO  api.tests.TestsCreateOrder - *********	Order Is Created	*********
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+</testsuite>
