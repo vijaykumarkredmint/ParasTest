@@ -6,37 +6,10 @@
   </listeners>
   <test thread-count="5" name="Test(failed)" verbose="0">
     <classes>
-      <class name="orderFlowPositive.TestsOrderFlowPositive">
-        <methods>
-          <include name="testOrderFlowPositivecreateOrder"/>
-          <include name="testOrderFlowPositiveMarkPacked"/>
-          <include name="testOrderFlowPositiveInventoryDetailsAfterInventorySettlement"/>
-          <include name="testOrderFlowPositiveInventoryDetailsAfterActionCompleteQC"/>
-          <include name="testOrderFlowPositiveInvoiceNumber"/>
-          <include name="testOrderFlowPositiveInventoryDetailsAfterMarkPacked"/>
-          <include name="testOrderFlowPositiveInventoryDetailsAfterBatchAssign"/>
-          <include name="testOrderFlowPositiveActionCompleteQC"/>
-          <include name="testOrderFlowPositiveAcceptItemQC"/>
-          <include name="testOrderFlowPositiveInventoryDetailsAfterCompleteQC"/>
-          <include name="testOrderFlowPositiveCompleteQC"/>
-          <include name="testOrderFlowPositiveInventoryDetailsBeforeCreateOrder"/>
-          <include name="testOrderFlowPositiveBatchAssign"/>
-          <include name="testOrderFlowPositiveInventoryDetailsAfterDispatch"/>
-          <include name="testOrderFlowPositiveInventoryDetailsAfterCreateOrder"/>
-          <include name="testOrderFlowPositiveInventoryDetailsAfterCreateShipment"/>
-          <include name="testOrderFlowPositiveInventoryDetailsAfterInvoiceNumber"/>
-          <include name="testOrderFlowPositiveDispatch"/>
-          <include name="testOrderFlowPositiveCreateShipment"/>
-          <include name="testOrderFlowPositiveInventorySettlement"/>
-          <include name="testOrderFlowPositiveInventoryDetailsAfterAcceptItemQC"/>
-          <include name="testOrderFlowPositiveInventoryDetailsAfterDeliver"/>
-          <include name="testOrderFlowPositiveDeliver"/>
-        </methods>
-      </class> <!-- orderFlowPositive.TestsOrderFlowPositive -->
       <class name="orderFlowNegative.TestsOrderFlowNegative">
         <methods>
-          <include name="testOrderFlowNegativeInventoryDetailsAfterDispatch"/>
           <include name="testOrderFlowNegativeInventoryDetailsAfterCompleteQCReturn"/>
+          <include name="testOrderFlowNegativeInventoryDetailsAfterDispatch"/>
           <include name="testOrderFlowNegativeRejectItemQC"/>
           <include name="testOrderFlowNegativeAcceptItemQCReturn"/>
           <include name="testOrderFlowNegativeInventoryDetailsAfterCreateShipment"/>
@@ -63,9 +36,9 @@
           <include name="testOrderFlowNegativeInventoryDetailsAfterCompleteQC"/>
           <include name="testOrderFlowNegativeCompleteQC"/>
           <include name="testOrderFlowNegativeBatchAssign"/>
-          <include name="testOrderFlowNegativeInventorySettlement"/>
-          <include name="testOrderFlowNegativeInventoryDetailsAfterRejectItemQC"/>
           <include name="testOrderFlowNegativeInventoryDetailsAfterAcceptItemQCReturn"/>
+          <include name="testOrderFlowNegativeInventoryDetailsAfterRejectItemQC"/>
+          <include name="testOrderFlowNegativeInventorySettlement"/>
           <include name="testOrderFlowNegativeInventoryDetailsAfterCreateOrder"/>
           <include name="testOrderFlowNegativeInventoryDetailsAfterInventorySettlement"/>
         </methods>
@@ -74,8 +47,8 @@
         <methods>
           <include name="testOrderUpdateDispatchInventoryDetailsAfterBatchAssign"/>
           <include name="testOrderUpdateDispatchBatchAssign"/>
-          <include name="testOrderUpdateDispatchInventoryDetailsBeforeCreateOrder"/>
           <include name="testOrderUpdateDispatchInventoryDetailsAfterMarkPacked"/>
+          <include name="testOrderUpdateDispatchInventoryDetailsBeforeCreateOrder"/>
           <include name="testOrderUpdateDispatchInventoryDetailsAfterDispatch"/>
           <include name="testOrderUpdateDispatchUpdateOrder"/>
           <include name="testOrderUpdateDispatchInventoryDetailsAfterUpdateOrder"/>
@@ -87,6 +60,33 @@
           <include name="testOrderUpdateDispatchInventoryDetailsAfterCreateShipment"/>
         </methods>
       </class> <!-- orderUpdateDispatch.TestsOrderUpdateDispatch -->
+      <class name="orderFlowPositive.TestsOrderFlowPositive">
+        <methods>
+          <include name="testOrderFlowPositivecreateOrder"/>
+          <include name="testOrderFlowPositiveMarkPacked"/>
+          <include name="testOrderFlowPositiveInventoryDetailsAfterActionCompleteQC"/>
+          <include name="testOrderFlowPositiveInvoiceNumber"/>
+          <include name="testOrderFlowPositiveInventoryDetailsAfterInventorySettlement"/>
+          <include name="testOrderFlowPositiveInventoryDetailsAfterMarkPacked"/>
+          <include name="testOrderFlowPositiveInventoryDetailsAfterBatchAssign"/>
+          <include name="testOrderFlowPositiveAcceptItemQC"/>
+          <include name="testOrderFlowPositiveActionCompleteQC"/>
+          <include name="testOrderFlowPositiveInventoryDetailsAfterCompleteQC"/>
+          <include name="testOrderFlowPositiveCompleteQC"/>
+          <include name="testOrderFlowPositiveInventoryDetailsBeforeCreateOrder"/>
+          <include name="testOrderFlowPositiveBatchAssign"/>
+          <include name="testOrderFlowPositiveInventoryDetailsAfterDispatch"/>
+          <include name="testOrderFlowPositiveInventoryDetailsAfterCreateOrder"/>
+          <include name="testOrderFlowPositiveInventoryDetailsAfterCreateShipment"/>
+          <include name="testOrderFlowPositiveInventoryDetailsAfterInvoiceNumber"/>
+          <include name="testOrderFlowPositiveDispatch"/>
+          <include name="testOrderFlowPositiveCreateShipment"/>
+          <include name="testOrderFlowPositiveInventorySettlement"/>
+          <include name="testOrderFlowPositiveInventoryDetailsAfterAcceptItemQC"/>
+          <include name="testOrderFlowPositiveInventoryDetailsAfterDeliver"/>
+          <include name="testOrderFlowPositiveDeliver"/>
+        </methods>
+      </class> <!-- orderFlowPositive.TestsOrderFlowPositive -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
