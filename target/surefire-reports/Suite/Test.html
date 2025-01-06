@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>44/3/28</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Jan 06 14:34:37 IST 2025</td>
+<td>Started on:</td><td>Mon Jan 06 15:01:21 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>23 seconds (23031 ms)</td>
+<tr><td>Total time:</td><td>26 seconds (26827 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -80,14 +80,16 @@ function toggleAllBoxes() {
 <td><div><pre>java.lang.AssertionError: Test failed due to unexpected status code: 400
 	at allCommonData.TestHelper.validateStatusCode(TestHelper.java:21)
 	at orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveDeliver(TestsOrderFlowPositive.java:565)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1266333611", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1266333611'><pre>java.lang.AssertionError: Test failed due to unexpected status code: 400
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace414453734", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace414453734'><pre>java.lang.AssertionError: Test failed due to unexpected status code: 400
 	at org.testng.Assert.fail(Assert.java:111)
 	at allCommonData.TestHelper.validateStatusCode(TestHelper.java:21)
 	at orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveDeliver(TestsOrderFlowPositive.java:565)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
 	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
@@ -96,7 +98,7 @@ function toggleAllBoxes() {
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at org.testng.TestRunner.privateRun(TestRunner.java:739)
 	at org.testng.TestRunner.run(TestRunner.java:614)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
@@ -118,20 +120,73 @@ function toggleAllBoxes() {
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 </pre></div></td>
 <td>0</td>
-<td>orderFlowPositive.TestsOrderFlowPositive@475c9c31</td></tr>
+<td>orderFlowPositive.TestsOrderFlowPositive@3349e9bb</td></tr>
+<tr>
+<td title='orderUpdateDispatch.TestsOrderUpdateDispatch.testOrderUpdateDispatchInventoryDetailsAfterUpdateOrder()'><b>testOrderUpdateDispatchInventoryDetailsAfterUpdateOrder</b><br>Test class: orderUpdateDispatch.TestsOrderUpdateDispatch</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	Pending Stock value Before Create Order is: 72, New Ordered Quantity is: 7, Expected Pending Stock value (Pending Stock Value Before Updating Order + New Ordered Quantity) After Update Order is: 79, But Actual Pending Stock value After Update Order is: 77. Incorrect,
+	Expected Intransient Stock value (Intransient Stock value After Update Order = Intransient Stock value Before Create Order) After Update Order is: 50 But Actual Intransient Stock value After Update Order is: 52. Incorrect,
+	Expected Available Stock value (Available Stock value After Update Order = Available Stock value Before Create Order) After Update Order is: 99944 But Actual Available Stock value After Update Order is: 99942. Incorrect
+	at orderUpdateDispatch.TestsOrderUpdateDispatch.testOrderUpdateDispatchInventoryDetailsAfterUpdateOrder(TestsOrderUpdateDispatch.java:543)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1080559851", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1080559851'><pre>java.lang.AssertionError: The following asserts failed:
+	Pending Stock value Before Create Order is: 72, New Ordered Quantity is: 7, Expected Pending Stock value (Pending Stock Value Before Updating Order + New Ordered Quantity) After Update Order is: 79, But Actual Pending Stock value After Update Order is: 77. Incorrect,
+	Expected Intransient Stock value (Intransient Stock value After Update Order = Intransient Stock value Before Create Order) After Update Order is: 50 But Actual Intransient Stock value After Update Order is: 52. Incorrect,
+	Expected Available Stock value (Available Stock value After Update Order = Available Stock value Before Create Order) After Update Order is: 99944 But Actual Available Stock value After Update Order is: 99942. Incorrect
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+	at orderUpdateDispatch.TestsOrderUpdateDispatch.testOrderUpdateDispatchInventoryDetailsAfterUpdateOrder(TestsOrderUpdateDispatch.java:543)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>0</td>
+<td>orderUpdateDispatch.TestsOrderUpdateDispatch@49e53c76</td></tr>
 <tr>
 <td title='orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeDeliver()'><b>testOrderFlowNegativeDeliver</b><br>Test class: orderFlowNegative.TestsOrderFlowNegative</td>
 <td><div><pre>java.lang.AssertionError: Test failed due to unexpected status code: 400
 	at allCommonData.TestHelper.validateStatusCode(TestHelper.java:21)
 	at orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeDeliver(TestsOrderFlowNegative.java:550)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace208402649", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace208402649'><pre>java.lang.AssertionError: Test failed due to unexpected status code: 400
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1887459401", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1887459401'><pre>java.lang.AssertionError: Test failed due to unexpected status code: 400
 	at org.testng.Assert.fail(Assert.java:111)
 	at allCommonData.TestHelper.validateStatusCode(TestHelper.java:21)
 	at orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeDeliver(TestsOrderFlowNegative.java:550)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
 	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
@@ -140,7 +195,7 @@ function toggleAllBoxes() {
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at org.testng.TestRunner.privateRun(TestRunner.java:739)
 	at org.testng.TestRunner.run(TestRunner.java:614)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
@@ -162,56 +217,7 @@ function toggleAllBoxes() {
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 </pre></div></td>
 <td>0</td>
-<td>orderFlowNegative.TestsOrderFlowNegative@5c86a017</td></tr>
-<tr>
-<td title='orderUpdateDispatch.TestsOrderUpdateDispatch.testOrderUpdateDispatchInventoryDetailsAfterUpdateOrder()'><b>testOrderUpdateDispatchInventoryDetailsAfterUpdateOrder</b><br>Test class: orderUpdateDispatch.TestsOrderUpdateDispatch</td>
-<td><div><pre>java.lang.AssertionError: The following asserts failed:
-	Pending Stock value Before Create Order is: 57, New Ordered Quantity is: 7, Expected Pending Stock value (Pending Stock Value Before Updating Order + New Ordered Quantity) After Update Order is: 64, But Actual Pending Stock value After Update Order is: 62. Incorrect,
-	Expected Intransient Stock value (Intransient Stock value After Update Order = Intransient Stock value Before Create Order) After Update Order is: 44 But Actual Intransient Stock value After Update Order is: 46. Incorrect,
-	Expected Available Stock value (Available Stock value After Update Order = Available Stock value Before Create Order) After Update Order is: 99950 But Actual Available Stock value After Update Order is: 99948. Incorrect
-	at orderUpdateDispatch.TestsOrderUpdateDispatch.testOrderUpdateDispatchInventoryDetailsAfterUpdateOrder(TestsOrderUpdateDispatch.java:543)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1266421561", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1266421561'><pre>java.lang.AssertionError: The following asserts failed:
-	Pending Stock value Before Create Order is: 57, New Ordered Quantity is: 7, Expected Pending Stock value (Pending Stock Value Before Updating Order + New Ordered Quantity) After Update Order is: 64, But Actual Pending Stock value After Update Order is: 62. Incorrect,
-	Expected Intransient Stock value (Intransient Stock value After Update Order = Intransient Stock value Before Create Order) After Update Order is: 44 But Actual Intransient Stock value After Update Order is: 46. Incorrect,
-	Expected Available Stock value (Available Stock value After Update Order = Available Stock value Before Create Order) After Update Order is: 99950 But Actual Available Stock value After Update Order is: 99948. Incorrect
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
-	at orderUpdateDispatch.TestsOrderUpdateDispatch.testOrderUpdateDispatchInventoryDetailsAfterUpdateOrder(TestsOrderUpdateDispatch.java:543)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-</pre></div></td>
-<td>0</td>
-<td>orderUpdateDispatch.TestsOrderUpdateDispatch@5276d6ee</td></tr>
+<td>orderFlowNegative.TestsOrderFlowNegative@409bf450</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -222,225 +228,225 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveCreateShipment()'><b>testOrderFlowPositiveCreateShipment</b><br>Test class: orderFlowPositive.TestsOrderFlowPositive</td>
-<td></td>
-<td>1</td>
-<td>orderFlowPositive.TestsOrderFlowPositive@475c9c31</td></tr>
-<tr>
-<td title='orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativecreateOrder()'><b>testOrderFlowNegativecreateOrder</b><br>Test class: orderFlowNegative.TestsOrderFlowNegative</td>
-<td></td>
-<td>0</td>
-<td>orderFlowNegative.TestsOrderFlowNegative@5c86a017</td></tr>
-<tr>
-<td title='orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterBatchAssign()'><b>testOrderFlowNegativeInventoryDetailsAfterBatchAssign</b><br>Test class: orderFlowNegative.TestsOrderFlowNegative</td>
-<td></td>
-<td>0</td>
-<td>orderFlowNegative.TestsOrderFlowNegative@5c86a017</td></tr>
-<tr>
-<td title='orderUpdateDispatch.TestsOrderUpdateDispatch.testOrderUpdateDispatchInventoryDetailsAfterCreateShipment()'><b>testOrderUpdateDispatchInventoryDetailsAfterCreateShipment</b><br>Test class: orderUpdateDispatch.TestsOrderUpdateDispatch</td>
-<td></td>
-<td>0</td>
-<td>orderUpdateDispatch.TestsOrderUpdateDispatch@5276d6ee</td></tr>
-<tr>
-<td title='orderUpdateDispatch.TestsOrderUpdateDispatch.testOrderUpdateDispatchInventoryDetailsAfterDispatch()'><b>testOrderUpdateDispatchInventoryDetailsAfterDispatch</b><br>Test class: orderUpdateDispatch.TestsOrderUpdateDispatch</td>
-<td></td>
-<td>0</td>
-<td>orderUpdateDispatch.TestsOrderUpdateDispatch@5276d6ee</td></tr>
-<tr>
-<td title='orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositivecreateOrder()'><b>testOrderFlowPositivecreateOrder</b><br>Test class: orderFlowPositive.TestsOrderFlowPositive</td>
-<td></td>
-<td>1</td>
-<td>orderFlowPositive.TestsOrderFlowPositive@475c9c31</td></tr>
-<tr>
-<td title='orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterBatchAssign()'><b>testOrderFlowPositiveInventoryDetailsAfterBatchAssign</b><br>Test class: orderFlowPositive.TestsOrderFlowPositive</td>
-<td></td>
-<td>0</td>
-<td>orderFlowPositive.TestsOrderFlowPositive@475c9c31</td></tr>
-<tr>
-<td title='orderUpdateDispatch.TestsOrderUpdateDispatch.testOrderUpdateDispatchInventoryDetailsAfterBatchAssign()'><b>testOrderUpdateDispatchInventoryDetailsAfterBatchAssign</b><br>Test class: orderUpdateDispatch.TestsOrderUpdateDispatch</td>
-<td></td>
-<td>0</td>
-<td>orderUpdateDispatch.TestsOrderUpdateDispatch@5276d6ee</td></tr>
-<tr>
-<td title='orderUpdateDispatch.TestsOrderUpdateDispatch.testOrderUpdateDispatchDispatch()'><b>testOrderUpdateDispatchDispatch</b><br>Test class: orderUpdateDispatch.TestsOrderUpdateDispatch</td>
-<td></td>
-<td>0</td>
-<td>orderUpdateDispatch.TestsOrderUpdateDispatch@5276d6ee</td></tr>
-<tr>
-<td title='orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterCreateShipment()'><b>testOrderFlowNegativeInventoryDetailsAfterCreateShipment</b><br>Test class: orderFlowNegative.TestsOrderFlowNegative</td>
-<td></td>
-<td>0</td>
-<td>orderFlowNegative.TestsOrderFlowNegative@5c86a017</td></tr>
-<tr>
-<td title='orderCancelCreateOrder.TestsOrderCancelCreateOrder.testOrderCancelCreateOrderCreateOrder()'><b>testOrderCancelCreateOrderCreateOrder</b><br>Test class: orderCancelCreateOrder.TestsOrderCancelCreateOrder</td>
-<td></td>
-<td>0</td>
-<td>orderCancelCreateOrder.TestsOrderCancelCreateOrder@5c7bfdc1</td></tr>
-<tr>
-<td title='orderCancelCreateOrder.TestsOrderCancelCreateOrder.testOrderCancelCreateOrderCancelOrder()'><b>testOrderCancelCreateOrderCancelOrder</b><br>Test class: orderCancelCreateOrder.TestsOrderCancelCreateOrder</td>
-<td></td>
-<td>0</td>
-<td>orderCancelCreateOrder.TestsOrderCancelCreateOrder@5c7bfdc1</td></tr>
-<tr>
-<td title='orderCancelCreateOrder.TestsOrderCancelCreateOrder.testOrderCancelCreateOrderInventoryDetailsBeforeCreateOrder()'><b>testOrderCancelCreateOrderInventoryDetailsBeforeCreateOrder</b><br>Test class: orderCancelCreateOrder.TestsOrderCancelCreateOrder</td>
-<td></td>
-<td>0</td>
-<td>orderCancelCreateOrder.TestsOrderCancelCreateOrder@5c7bfdc1</td></tr>
-<tr>
-<td title='orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterDispatch()'><b>testOrderFlowPositiveInventoryDetailsAfterDispatch</b><br>Test class: orderFlowPositive.TestsOrderFlowPositive</td>
-<td></td>
-<td>0</td>
-<td>orderFlowPositive.TestsOrderFlowPositive@475c9c31</td></tr>
-<tr>
-<td title='orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInvoiceNumber()'><b>testOrderFlowPositiveInvoiceNumber</b><br>Test class: orderFlowPositive.TestsOrderFlowPositive</td>
-<td></td>
-<td>0</td>
-<td>orderFlowPositive.TestsOrderFlowPositive@475c9c31</td></tr>
-<tr>
-<td title='orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsBeforeCreateOrder()'><b>testOrderFlowPositiveInventoryDetailsBeforeCreateOrder</b><br>Test class: orderFlowPositive.TestsOrderFlowPositive</td>
-<td></td>
-<td>0</td>
-<td>orderFlowPositive.TestsOrderFlowPositive@475c9c31</td></tr>
-<tr>
-<td title='orderUpdateDispatch.TestsOrderUpdateDispatch.testOrderUpdateDispatchInventoryDetailsBeforeCreateOrder()'><b>testOrderUpdateDispatchInventoryDetailsBeforeCreateOrder</b><br>Test class: orderUpdateDispatch.TestsOrderUpdateDispatch</td>
-<td></td>
-<td>0</td>
-<td>orderUpdateDispatch.TestsOrderUpdateDispatch@5276d6ee</td></tr>
-<tr>
-<td title='orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveDispatch()'><b>testOrderFlowPositiveDispatch</b><br>Test class: orderFlowPositive.TestsOrderFlowPositive</td>
-<td></td>
-<td>0</td>
-<td>orderFlowPositive.TestsOrderFlowPositive@475c9c31</td></tr>
-<tr>
-<td title='orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterInvoiceNumber()'><b>testOrderFlowPositiveInventoryDetailsAfterInvoiceNumber</b><br>Test class: orderFlowPositive.TestsOrderFlowPositive</td>
-<td></td>
-<td>0</td>
-<td>orderFlowPositive.TestsOrderFlowPositive@475c9c31</td></tr>
-<tr>
 <td title='orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsBeforeCreateOrder()'><b>testOrderFlowNegativeInventoryDetailsBeforeCreateOrder</b><br>Test class: orderFlowNegative.TestsOrderFlowNegative</td>
 <td></td>
 <td>0</td>
-<td>orderFlowNegative.TestsOrderFlowNegative@5c86a017</td></tr>
-<tr>
-<td title='orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeBatchAssign()'><b>testOrderFlowNegativeBatchAssign</b><br>Test class: orderFlowNegative.TestsOrderFlowNegative</td>
-<td></td>
-<td>0</td>
-<td>orderFlowNegative.TestsOrderFlowNegative@5c86a017</td></tr>
-<tr>
-<td title='orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterCreateOrder()'><b>testOrderFlowPositiveInventoryDetailsAfterCreateOrder</b><br>Test class: orderFlowPositive.TestsOrderFlowPositive</td>
-<td></td>
-<td>0</td>
-<td>orderFlowPositive.TestsOrderFlowPositive@475c9c31</td></tr>
+<td>orderFlowNegative.TestsOrderFlowNegative@409bf450</td></tr>
 <tr>
 <td title='orderCancelCreateOrder.TestsOrderCancelCreateOrder.testOrderCancelCreateOrderInventoryDetailsAfterCreateOrder()'><b>testOrderCancelCreateOrderInventoryDetailsAfterCreateOrder</b><br>Test class: orderCancelCreateOrder.TestsOrderCancelCreateOrder</td>
 <td></td>
 <td>0</td>
-<td>orderCancelCreateOrder.TestsOrderCancelCreateOrder@5c7bfdc1</td></tr>
+<td>orderCancelCreateOrder.TestsOrderCancelCreateOrder@38d8f54a</td></tr>
 <tr>
-<td title='orderUpdateDispatch.TestsOrderUpdateDispatch.testOrderUpdateDispatchInventoryDetailsAfterMarkPacked()'><b>testOrderUpdateDispatchInventoryDetailsAfterMarkPacked</b><br>Test class: orderUpdateDispatch.TestsOrderUpdateDispatch</td>
+<td title='orderUpdateDispatch.TestsOrderUpdateDispatch.testOrderUpdateDispatchInventoryDetailsAfterBatchAssign()'><b>testOrderUpdateDispatchInventoryDetailsAfterBatchAssign</b><br>Test class: orderUpdateDispatch.TestsOrderUpdateDispatch</td>
 <td></td>
 <td>0</td>
-<td>orderUpdateDispatch.TestsOrderUpdateDispatch@5276d6ee</td></tr>
-<tr>
-<td title='orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeDispatch()'><b>testOrderFlowNegativeDispatch</b><br>Test class: orderFlowNegative.TestsOrderFlowNegative</td>
-<td></td>
-<td>1</td>
-<td>orderFlowNegative.TestsOrderFlowNegative@5c86a017</td></tr>
-<tr>
-<td title='orderUpdateDispatch.TestsOrderUpdateDispatch.testOrderUpdateDispatchBatchAssign()'><b>testOrderUpdateDispatchBatchAssign</b><br>Test class: orderUpdateDispatch.TestsOrderUpdateDispatch</td>
-<td></td>
-<td>0</td>
-<td>orderUpdateDispatch.TestsOrderUpdateDispatch@5276d6ee</td></tr>
-<tr>
-<td title='orderUpdateDispatch.TestsOrderUpdateDispatch.testOrderUpdateDispatchMarkPacked()'><b>testOrderUpdateDispatchMarkPacked</b><br>Test class: orderUpdateDispatch.TestsOrderUpdateDispatch</td>
-<td></td>
-<td>0</td>
-<td>orderUpdateDispatch.TestsOrderUpdateDispatch@5276d6ee</td></tr>
-<tr>
-<td title='orderUpdateDispatch.TestsOrderUpdateDispatch.testOrderUpdateDispatchInventoryDetailsAfterCreateOrder()'><b>testOrderUpdateDispatchInventoryDetailsAfterCreateOrder</b><br>Test class: orderUpdateDispatch.TestsOrderUpdateDispatch</td>
-<td></td>
-<td>0</td>
-<td>orderUpdateDispatch.TestsOrderUpdateDispatch@5276d6ee</td></tr>
-<tr>
-<td title='orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterInvoiceNumber()'><b>testOrderFlowNegativeInventoryDetailsAfterInvoiceNumber</b><br>Test class: orderFlowNegative.TestsOrderFlowNegative</td>
-<td></td>
-<td>0</td>
-<td>orderFlowNegative.TestsOrderFlowNegative@5c86a017</td></tr>
-<tr>
-<td title='orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInvoiceNumber()'><b>testOrderFlowNegativeInvoiceNumber</b><br>Test class: orderFlowNegative.TestsOrderFlowNegative</td>
-<td></td>
-<td>1</td>
-<td>orderFlowNegative.TestsOrderFlowNegative@5c86a017</td></tr>
-<tr>
-<td title='orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterCreateShipment()'><b>testOrderFlowPositiveInventoryDetailsAfterCreateShipment</b><br>Test class: orderFlowPositive.TestsOrderFlowPositive</td>
-<td></td>
-<td>0</td>
-<td>orderFlowPositive.TestsOrderFlowPositive@475c9c31</td></tr>
-<tr>
-<td title='orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeMarkPacked()'><b>testOrderFlowNegativeMarkPacked</b><br>Test class: orderFlowNegative.TestsOrderFlowNegative</td>
-<td></td>
-<td>0</td>
-<td>orderFlowNegative.TestsOrderFlowNegative@5c86a017</td></tr>
-<tr>
-<td title='orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterCreateOrder()'><b>testOrderFlowNegativeInventoryDetailsAfterCreateOrder</b><br>Test class: orderFlowNegative.TestsOrderFlowNegative</td>
-<td></td>
-<td>0</td>
-<td>orderFlowNegative.TestsOrderFlowNegative@5c86a017</td></tr>
-<tr>
-<td title='bearerTokenGenerate.TestsBearerTokenGenerate.testOrderFlowGenerateToken()'><b>testOrderFlowGenerateToken</b><br>Test class: bearerTokenGenerate.TestsBearerTokenGenerate</td>
-<td></td>
-<td>2</td>
-<td>bearerTokenGenerate.TestsBearerTokenGenerate@7857fe2</td></tr>
-<tr>
-<td title='orderUpdateDispatch.TestsOrderUpdateDispatch.testOrderUpdateDispatchCreateShipment()'><b>testOrderUpdateDispatchCreateShipment</b><br>Test class: orderUpdateDispatch.TestsOrderUpdateDispatch</td>
-<td></td>
-<td>0</td>
-<td>orderUpdateDispatch.TestsOrderUpdateDispatch@5276d6ee</td></tr>
-<tr>
-<td title='orderCancelCreateOrder.TestsOrderCancelCreateOrder.testOrderCancelCreateOrderInventoryDetailsAfterCancelOrder()'><b>testOrderCancelCreateOrderInventoryDetailsAfterCancelOrder</b><br>Test class: orderCancelCreateOrder.TestsOrderCancelCreateOrder</td>
-<td></td>
-<td>0</td>
-<td>orderCancelCreateOrder.TestsOrderCancelCreateOrder@5c7bfdc1</td></tr>
-<tr>
-<td title='orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveMarkPacked()'><b>testOrderFlowPositiveMarkPacked</b><br>Test class: orderFlowPositive.TestsOrderFlowPositive</td>
-<td></td>
-<td>0</td>
-<td>orderFlowPositive.TestsOrderFlowPositive@475c9c31</td></tr>
-<tr>
-<td title='orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeCreateShipment()'><b>testOrderFlowNegativeCreateShipment</b><br>Test class: orderFlowNegative.TestsOrderFlowNegative</td>
-<td></td>
-<td>0</td>
-<td>orderFlowNegative.TestsOrderFlowNegative@5c86a017</td></tr>
-<tr>
-<td title='orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterMarkPacked()'><b>testOrderFlowPositiveInventoryDetailsAfterMarkPacked</b><br>Test class: orderFlowPositive.TestsOrderFlowPositive</td>
-<td></td>
-<td>0</td>
-<td>orderFlowPositive.TestsOrderFlowPositive@475c9c31</td></tr>
-<tr>
-<td title='orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterMarkPacked()'><b>testOrderFlowNegativeInventoryDetailsAfterMarkPacked</b><br>Test class: orderFlowNegative.TestsOrderFlowNegative</td>
-<td></td>
-<td>0</td>
-<td>orderFlowNegative.TestsOrderFlowNegative@5c86a017</td></tr>
+<td>orderUpdateDispatch.TestsOrderUpdateDispatch@49e53c76</td></tr>
 <tr>
 <td title='orderUpdateDispatch.TestsOrderUpdateDispatch.testOrderUpdateDispatchCreateOrder()'><b>testOrderUpdateDispatchCreateOrder</b><br>Test class: orderUpdateDispatch.TestsOrderUpdateDispatch</td>
 <td></td>
 <td>0</td>
-<td>orderUpdateDispatch.TestsOrderUpdateDispatch@5276d6ee</td></tr>
+<td>orderUpdateDispatch.TestsOrderUpdateDispatch@49e53c76</td></tr>
 <tr>
-<td title='orderUpdateDispatch.TestsOrderUpdateDispatch.testOrderUpdateDispatchUpdateOrder()'><b>testOrderUpdateDispatchUpdateOrder</b><br>Test class: orderUpdateDispatch.TestsOrderUpdateDispatch</td>
+<td title='orderCancelCreateOrder.TestsOrderCancelCreateOrder.testOrderCancelCreateOrderCreateOrder()'><b>testOrderCancelCreateOrderCreateOrder</b><br>Test class: orderCancelCreateOrder.TestsOrderCancelCreateOrder</td>
 <td></td>
 <td>0</td>
-<td>orderUpdateDispatch.TestsOrderUpdateDispatch@5276d6ee</td></tr>
+<td>orderCancelCreateOrder.TestsOrderCancelCreateOrder@38d8f54a</td></tr>
 <tr>
 <td title='orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterDispatch()'><b>testOrderFlowNegativeInventoryDetailsAfterDispatch</b><br>Test class: orderFlowNegative.TestsOrderFlowNegative</td>
 <td></td>
 <td>0</td>
-<td>orderFlowNegative.TestsOrderFlowNegative@5c86a017</td></tr>
+<td>orderFlowNegative.TestsOrderFlowNegative@409bf450</td></tr>
+<tr>
+<td title='orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeCreateShipment()'><b>testOrderFlowNegativeCreateShipment</b><br>Test class: orderFlowNegative.TestsOrderFlowNegative</td>
+<td></td>
+<td>0</td>
+<td>orderFlowNegative.TestsOrderFlowNegative@409bf450</td></tr>
+<tr>
+<td title='orderUpdateDispatch.TestsOrderUpdateDispatch.testOrderUpdateDispatchMarkPacked()'><b>testOrderUpdateDispatchMarkPacked</b><br>Test class: orderUpdateDispatch.TestsOrderUpdateDispatch</td>
+<td></td>
+<td>0</td>
+<td>orderUpdateDispatch.TestsOrderUpdateDispatch@49e53c76</td></tr>
+<tr>
+<td title='orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterCreateShipment()'><b>testOrderFlowPositiveInventoryDetailsAfterCreateShipment</b><br>Test class: orderFlowPositive.TestsOrderFlowPositive</td>
+<td></td>
+<td>0</td>
+<td>orderFlowPositive.TestsOrderFlowPositive@3349e9bb</td></tr>
+<tr>
+<td title='orderUpdateDispatch.TestsOrderUpdateDispatch.testOrderUpdateDispatchBatchAssign()'><b>testOrderUpdateDispatchBatchAssign</b><br>Test class: orderUpdateDispatch.TestsOrderUpdateDispatch</td>
+<td></td>
+<td>0</td>
+<td>orderUpdateDispatch.TestsOrderUpdateDispatch@49e53c76</td></tr>
+<tr>
+<td title='orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterMarkPacked()'><b>testOrderFlowPositiveInventoryDetailsAfterMarkPacked</b><br>Test class: orderFlowPositive.TestsOrderFlowPositive</td>
+<td></td>
+<td>0</td>
+<td>orderFlowPositive.TestsOrderFlowPositive@3349e9bb</td></tr>
+<tr>
+<td title='orderUpdateDispatch.TestsOrderUpdateDispatch.testOrderUpdateDispatchInventoryDetailsAfterMarkPacked()'><b>testOrderUpdateDispatchInventoryDetailsAfterMarkPacked</b><br>Test class: orderUpdateDispatch.TestsOrderUpdateDispatch</td>
+<td></td>
+<td>0</td>
+<td>orderUpdateDispatch.TestsOrderUpdateDispatch@49e53c76</td></tr>
+<tr>
+<td title='orderCancelCreateOrder.TestsOrderCancelCreateOrder.testOrderCancelCreateOrderInventoryDetailsBeforeCreateOrder()'><b>testOrderCancelCreateOrderInventoryDetailsBeforeCreateOrder</b><br>Test class: orderCancelCreateOrder.TestsOrderCancelCreateOrder</td>
+<td></td>
+<td>0</td>
+<td>orderCancelCreateOrder.TestsOrderCancelCreateOrder@38d8f54a</td></tr>
+<tr>
+<td title='orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositivecreateOrder()'><b>testOrderFlowPositivecreateOrder</b><br>Test class: orderFlowPositive.TestsOrderFlowPositive</td>
+<td></td>
+<td>2</td>
+<td>orderFlowPositive.TestsOrderFlowPositive@3349e9bb</td></tr>
+<tr>
+<td title='orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterInvoiceNumber()'><b>testOrderFlowPositiveInventoryDetailsAfterInvoiceNumber</b><br>Test class: orderFlowPositive.TestsOrderFlowPositive</td>
+<td></td>
+<td>0</td>
+<td>orderFlowPositive.TestsOrderFlowPositive@3349e9bb</td></tr>
+<tr>
+<td title='orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveCreateShipment()'><b>testOrderFlowPositiveCreateShipment</b><br>Test class: orderFlowPositive.TestsOrderFlowPositive</td>
+<td></td>
+<td>1</td>
+<td>orderFlowPositive.TestsOrderFlowPositive@3349e9bb</td></tr>
+<tr>
+<td title='orderUpdateDispatch.TestsOrderUpdateDispatch.testOrderUpdateDispatchInventoryDetailsBeforeCreateOrder()'><b>testOrderUpdateDispatchInventoryDetailsBeforeCreateOrder</b><br>Test class: orderUpdateDispatch.TestsOrderUpdateDispatch</td>
+<td></td>
+<td>0</td>
+<td>orderUpdateDispatch.TestsOrderUpdateDispatch@49e53c76</td></tr>
+<tr>
+<td title='orderUpdateDispatch.TestsOrderUpdateDispatch.testOrderUpdateDispatchUpdateOrder()'><b>testOrderUpdateDispatchUpdateOrder</b><br>Test class: orderUpdateDispatch.TestsOrderUpdateDispatch</td>
+<td></td>
+<td>1</td>
+<td>orderUpdateDispatch.TestsOrderUpdateDispatch@49e53c76</td></tr>
+<tr>
+<td title='bearerTokenGenerate.TestsBearerTokenGenerate.testOrderFlowGenerateToken()'><b>testOrderFlowGenerateToken</b><br>Test class: bearerTokenGenerate.TestsBearerTokenGenerate</td>
+<td></td>
+<td>5</td>
+<td>bearerTokenGenerate.TestsBearerTokenGenerate@130d63be</td></tr>
+<tr>
+<td title='orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterCreateShipment()'><b>testOrderFlowNegativeInventoryDetailsAfterCreateShipment</b><br>Test class: orderFlowNegative.TestsOrderFlowNegative</td>
+<td></td>
+<td>0</td>
+<td>orderFlowNegative.TestsOrderFlowNegative@409bf450</td></tr>
+<tr>
+<td title='orderUpdateDispatch.TestsOrderUpdateDispatch.testOrderUpdateDispatchInventoryDetailsAfterCreateShipment()'><b>testOrderUpdateDispatchInventoryDetailsAfterCreateShipment</b><br>Test class: orderUpdateDispatch.TestsOrderUpdateDispatch</td>
+<td></td>
+<td>0</td>
+<td>orderUpdateDispatch.TestsOrderUpdateDispatch@49e53c76</td></tr>
+<tr>
+<td title='orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterMarkPacked()'><b>testOrderFlowNegativeInventoryDetailsAfterMarkPacked</b><br>Test class: orderFlowNegative.TestsOrderFlowNegative</td>
+<td></td>
+<td>0</td>
+<td>orderFlowNegative.TestsOrderFlowNegative@409bf450</td></tr>
+<tr>
+<td title='orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterDispatch()'><b>testOrderFlowPositiveInventoryDetailsAfterDispatch</b><br>Test class: orderFlowPositive.TestsOrderFlowPositive</td>
+<td></td>
+<td>0</td>
+<td>orderFlowPositive.TestsOrderFlowPositive@3349e9bb</td></tr>
+<tr>
+<td title='orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInvoiceNumber()'><b>testOrderFlowNegativeInvoiceNumber</b><br>Test class: orderFlowNegative.TestsOrderFlowNegative</td>
+<td></td>
+<td>0</td>
+<td>orderFlowNegative.TestsOrderFlowNegative@409bf450</td></tr>
+<tr>
+<td title='orderCancelCreateOrder.TestsOrderCancelCreateOrder.testOrderCancelCreateOrderCancelOrder()'><b>testOrderCancelCreateOrderCancelOrder</b><br>Test class: orderCancelCreateOrder.TestsOrderCancelCreateOrder</td>
+<td></td>
+<td>0</td>
+<td>orderCancelCreateOrder.TestsOrderCancelCreateOrder@38d8f54a</td></tr>
+<tr>
+<td title='orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterCreateOrder()'><b>testOrderFlowPositiveInventoryDetailsAfterCreateOrder</b><br>Test class: orderFlowPositive.TestsOrderFlowPositive</td>
+<td></td>
+<td>0</td>
+<td>orderFlowPositive.TestsOrderFlowPositive@3349e9bb</td></tr>
+<tr>
+<td title='orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeBatchAssign()'><b>testOrderFlowNegativeBatchAssign</b><br>Test class: orderFlowNegative.TestsOrderFlowNegative</td>
+<td></td>
+<td>0</td>
+<td>orderFlowNegative.TestsOrderFlowNegative@409bf450</td></tr>
+<tr>
+<td title='orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveMarkPacked()'><b>testOrderFlowPositiveMarkPacked</b><br>Test class: orderFlowPositive.TestsOrderFlowPositive</td>
+<td></td>
+<td>0</td>
+<td>orderFlowPositive.TestsOrderFlowPositive@3349e9bb</td></tr>
+<tr>
+<td title='orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveDispatch()'><b>testOrderFlowPositiveDispatch</b><br>Test class: orderFlowPositive.TestsOrderFlowPositive</td>
+<td></td>
+<td>0</td>
+<td>orderFlowPositive.TestsOrderFlowPositive@3349e9bb</td></tr>
+<tr>
+<td title='orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterInvoiceNumber()'><b>testOrderFlowNegativeInventoryDetailsAfterInvoiceNumber</b><br>Test class: orderFlowNegative.TestsOrderFlowNegative</td>
+<td></td>
+<td>0</td>
+<td>orderFlowNegative.TestsOrderFlowNegative@409bf450</td></tr>
+<tr>
+<td title='orderCancelCreateOrder.TestsOrderCancelCreateOrder.testOrderCancelCreateOrderInventoryDetailsAfterCancelOrder()'><b>testOrderCancelCreateOrderInventoryDetailsAfterCancelOrder</b><br>Test class: orderCancelCreateOrder.TestsOrderCancelCreateOrder</td>
+<td></td>
+<td>0</td>
+<td>orderCancelCreateOrder.TestsOrderCancelCreateOrder@38d8f54a</td></tr>
+<tr>
+<td title='orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsBeforeCreateOrder()'><b>testOrderFlowPositiveInventoryDetailsBeforeCreateOrder</b><br>Test class: orderFlowPositive.TestsOrderFlowPositive</td>
+<td></td>
+<td>0</td>
+<td>orderFlowPositive.TestsOrderFlowPositive@3349e9bb</td></tr>
+<tr>
+<td title='orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterCreateOrder()'><b>testOrderFlowNegativeInventoryDetailsAfterCreateOrder</b><br>Test class: orderFlowNegative.TestsOrderFlowNegative</td>
+<td></td>
+<td>0</td>
+<td>orderFlowNegative.TestsOrderFlowNegative@409bf450</td></tr>
+<tr>
+<td title='orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterBatchAssign()'><b>testOrderFlowPositiveInventoryDetailsAfterBatchAssign</b><br>Test class: orderFlowPositive.TestsOrderFlowPositive</td>
+<td></td>
+<td>0</td>
+<td>orderFlowPositive.TestsOrderFlowPositive@3349e9bb</td></tr>
 <tr>
 <td title='orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveBatchAssign()'><b>testOrderFlowPositiveBatchAssign</b><br>Test class: orderFlowPositive.TestsOrderFlowPositive</td>
 <td></td>
 <td>0</td>
-<td>orderFlowPositive.TestsOrderFlowPositive@475c9c31</td></tr>
+<td>orderFlowPositive.TestsOrderFlowPositive@3349e9bb</td></tr>
+<tr>
+<td title='orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeMarkPacked()'><b>testOrderFlowNegativeMarkPacked</b><br>Test class: orderFlowNegative.TestsOrderFlowNegative</td>
+<td></td>
+<td>0</td>
+<td>orderFlowNegative.TestsOrderFlowNegative@409bf450</td></tr>
+<tr>
+<td title='orderUpdateDispatch.TestsOrderUpdateDispatch.testOrderUpdateDispatchDispatch()'><b>testOrderUpdateDispatchDispatch</b><br>Test class: orderUpdateDispatch.TestsOrderUpdateDispatch</td>
+<td></td>
+<td>0</td>
+<td>orderUpdateDispatch.TestsOrderUpdateDispatch@49e53c76</td></tr>
+<tr>
+<td title='orderUpdateDispatch.TestsOrderUpdateDispatch.testOrderUpdateDispatchInventoryDetailsAfterCreateOrder()'><b>testOrderUpdateDispatchInventoryDetailsAfterCreateOrder</b><br>Test class: orderUpdateDispatch.TestsOrderUpdateDispatch</td>
+<td></td>
+<td>0</td>
+<td>orderUpdateDispatch.TestsOrderUpdateDispatch@49e53c76</td></tr>
+<tr>
+<td title='orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterBatchAssign()'><b>testOrderFlowNegativeInventoryDetailsAfterBatchAssign</b><br>Test class: orderFlowNegative.TestsOrderFlowNegative</td>
+<td></td>
+<td>0</td>
+<td>orderFlowNegative.TestsOrderFlowNegative@409bf450</td></tr>
+<tr>
+<td title='orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeDispatch()'><b>testOrderFlowNegativeDispatch</b><br>Test class: orderFlowNegative.TestsOrderFlowNegative</td>
+<td></td>
+<td>0</td>
+<td>orderFlowNegative.TestsOrderFlowNegative@409bf450</td></tr>
+<tr>
+<td title='orderUpdateDispatch.TestsOrderUpdateDispatch.testOrderUpdateDispatchCreateShipment()'><b>testOrderUpdateDispatchCreateShipment</b><br>Test class: orderUpdateDispatch.TestsOrderUpdateDispatch</td>
+<td></td>
+<td>0</td>
+<td>orderUpdateDispatch.TestsOrderUpdateDispatch@49e53c76</td></tr>
+<tr>
+<td title='orderUpdateDispatch.TestsOrderUpdateDispatch.testOrderUpdateDispatchInventoryDetailsAfterDispatch()'><b>testOrderUpdateDispatchInventoryDetailsAfterDispatch</b><br>Test class: orderUpdateDispatch.TestsOrderUpdateDispatch</td>
+<td></td>
+<td>0</td>
+<td>orderUpdateDispatch.TestsOrderUpdateDispatch@49e53c76</td></tr>
+<tr>
+<td title='orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativecreateOrder()'><b>testOrderFlowNegativecreateOrder</b><br>Test class: orderFlowNegative.TestsOrderFlowNegative</td>
+<td></td>
+<td>0</td>
+<td>orderFlowNegative.TestsOrderFlowNegative@409bf450</td></tr>
+<tr>
+<td title='orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInvoiceNumber()'><b>testOrderFlowPositiveInvoiceNumber</b><br>Test class: orderFlowPositive.TestsOrderFlowPositive</td>
+<td></td>
+<td>0</td>
+<td>orderFlowPositive.TestsOrderFlowPositive@3349e9bb</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
@@ -451,17 +457,17 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventorySettlement()'><b>testOrderFlowNegativeInventorySettlement</b><br>Test class: orderFlowNegative.TestsOrderFlowNegative</td>
-<td><div><pre>java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventorySettlement() on instance orderFlowNegative.TestsOrderFlowNegative@5c86a017 depends on not successfully finished methods 
-[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterCompleteQC() on instance orderFlowNegative.TestsOrderFlowNegative@5c86a017]
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace812423980", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace812423980'><pre>java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventorySettlement() on instance orderFlowNegative.TestsOrderFlowNegative@5c86a017 depends on not successfully finished methods 
-[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterCompleteQC() on instance orderFlowNegative.TestsOrderFlowNegative@5c86a017]
+<td title='orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryAfterDetailsOrderIdReturn()'><b>testOrderFlowNegativeInventoryAfterDetailsOrderIdReturn</b><br>Test class: orderFlowNegative.TestsOrderFlowNegative</td>
+<td><div><pre>java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryAfterDetailsOrderIdReturn() on instance orderFlowNegative.TestsOrderFlowNegative@409bf450 depends on not successfully finished methods 
+[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeOrderIdReturn() on instance orderFlowNegative.TestsOrderFlowNegative@409bf450]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1993314761", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1993314761'><pre>java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryAfterDetailsOrderIdReturn() on instance orderFlowNegative.TestsOrderFlowNegative@409bf450 depends on not successfully finished methods 
+[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeOrderIdReturn() on instance orderFlowNegative.TestsOrderFlowNegative@409bf450]
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at org.testng.TestRunner.privateRun(TestRunner.java:739)
 	at org.testng.TestRunner.run(TestRunner.java:614)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
@@ -483,189 +489,19 @@ function toggleAllBoxes() {
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 </pre></div></td>
 <td>0</td>
-<td>orderFlowNegative.TestsOrderFlowNegative@5c86a017</td></tr>
-<tr>
-<td title='orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventorySettlement()'><b>testOrderFlowPositiveInventorySettlement</b><br>Test class: orderFlowPositive.TestsOrderFlowPositive</td>
-<td><div><pre>java.lang.Throwable: Method orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventorySettlement() on instance orderFlowPositive.TestsOrderFlowPositive@475c9c31 depends on not successfully finished methods 
-[orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterCompleteQC() on instance orderFlowPositive.TestsOrderFlowPositive@475c9c31]
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1111497601", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1111497601'><pre>java.lang.Throwable: Method orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventorySettlement() on instance orderFlowPositive.TestsOrderFlowPositive@475c9c31 depends on not successfully finished methods 
-[orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterCompleteQC() on instance orderFlowPositive.TestsOrderFlowPositive@475c9c31]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-</pre></div></td>
-<td>0</td>
-<td>orderFlowPositive.TestsOrderFlowPositive@475c9c31</td></tr>
-<tr>
-<td title='orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterRejectItemQC()'><b>testOrderFlowNegativeInventoryDetailsAfterRejectItemQC</b><br>Test class: orderFlowNegative.TestsOrderFlowNegative</td>
-<td><div><pre>java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterRejectItemQC() on instance orderFlowNegative.TestsOrderFlowNegative@5c86a017 depends on not successfully finished methods 
-[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeRejectItemQC() on instance orderFlowNegative.TestsOrderFlowNegative@5c86a017]
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1604238682", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1604238682'><pre>java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterRejectItemQC() on instance orderFlowNegative.TestsOrderFlowNegative@5c86a017 depends on not successfully finished methods 
-[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeRejectItemQC() on instance orderFlowNegative.TestsOrderFlowNegative@5c86a017]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-</pre></div></td>
-<td>0</td>
-<td>orderFlowNegative.TestsOrderFlowNegative@5c86a017</td></tr>
-<tr>
-<td title='orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveCompleteQC()'><b>testOrderFlowPositiveCompleteQC</b><br>Test class: orderFlowPositive.TestsOrderFlowPositive</td>
-<td><div><pre>java.lang.Throwable: Method orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveCompleteQC() on instance orderFlowPositive.TestsOrderFlowPositive@475c9c31 depends on not successfully finished methods 
-[orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterAcceptItemQC() on instance orderFlowPositive.TestsOrderFlowPositive@475c9c31]
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1242584406", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1242584406'><pre>java.lang.Throwable: Method orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveCompleteQC() on instance orderFlowPositive.TestsOrderFlowPositive@475c9c31 depends on not successfully finished methods 
-[orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterAcceptItemQC() on instance orderFlowPositive.TestsOrderFlowPositive@475c9c31]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-</pre></div></td>
-<td>0</td>
-<td>orderFlowPositive.TestsOrderFlowPositive@475c9c31</td></tr>
-<tr>
-<td title='orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterActionCompleteQCReturn()'><b>testOrderFlowNegativeInventoryDetailsAfterActionCompleteQCReturn</b><br>Test class: orderFlowNegative.TestsOrderFlowNegative</td>
-<td><div><pre>java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterActionCompleteQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@5c86a017 depends on not successfully finished methods 
-[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeActionCompleteQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@5c86a017]
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1043162593", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1043162593'><pre>java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterActionCompleteQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@5c86a017 depends on not successfully finished methods 
-[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeActionCompleteQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@5c86a017]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-</pre></div></td>
-<td>0</td>
-<td>orderFlowNegative.TestsOrderFlowNegative@5c86a017</td></tr>
-<tr>
-<td title='orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeCompleteQCReturn()'><b>testOrderFlowNegativeCompleteQCReturn</b><br>Test class: orderFlowNegative.TestsOrderFlowNegative</td>
-<td><div><pre>java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeCompleteQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@5c86a017 depends on not successfully finished methods 
-[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterAcceptItemQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@5c86a017]
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1339630217", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1339630217'><pre>java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeCompleteQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@5c86a017 depends on not successfully finished methods 
-[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterAcceptItemQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@5c86a017]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-</pre></div></td>
-<td>0</td>
-<td>orderFlowNegative.TestsOrderFlowNegative@5c86a017</td></tr>
+<td>orderFlowNegative.TestsOrderFlowNegative@409bf450</td></tr>
 <tr>
 <td title='orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterActionCompleteQC()'><b>testOrderFlowNegativeInventoryDetailsAfterActionCompleteQC</b><br>Test class: orderFlowNegative.TestsOrderFlowNegative</td>
-<td><div><pre>java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterActionCompleteQC() on instance orderFlowNegative.TestsOrderFlowNegative@5c86a017 depends on not successfully finished methods 
-[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeActionCompleteQC() on instance orderFlowNegative.TestsOrderFlowNegative@5c86a017]
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace27754166", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace27754166'><pre>java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterActionCompleteQC() on instance orderFlowNegative.TestsOrderFlowNegative@5c86a017 depends on not successfully finished methods 
-[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeActionCompleteQC() on instance orderFlowNegative.TestsOrderFlowNegative@5c86a017]
+<td><div><pre>java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterActionCompleteQC() on instance orderFlowNegative.TestsOrderFlowNegative@409bf450 depends on not successfully finished methods 
+[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeActionCompleteQC() on instance orderFlowNegative.TestsOrderFlowNegative@409bf450]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace112524669", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace112524669'><pre>java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterActionCompleteQC() on instance orderFlowNegative.TestsOrderFlowNegative@409bf450 depends on not successfully finished methods 
+[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeActionCompleteQC() on instance orderFlowNegative.TestsOrderFlowNegative@409bf450]
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at org.testng.TestRunner.privateRun(TestRunner.java:739)
 	at org.testng.TestRunner.run(TestRunner.java:614)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
@@ -687,563 +523,19 @@ function toggleAllBoxes() {
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 </pre></div></td>
 <td>0</td>
-<td>orderFlowNegative.TestsOrderFlowNegative@5c86a017</td></tr>
-<tr>
-<td title='orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeCompleteQC()'><b>testOrderFlowNegativeCompleteQC</b><br>Test class: orderFlowNegative.TestsOrderFlowNegative</td>
-<td><div><pre>java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeCompleteQC() on instance orderFlowNegative.TestsOrderFlowNegative@5c86a017 depends on not successfully finished methods 
-[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterRejectItemQC() on instance orderFlowNegative.TestsOrderFlowNegative@5c86a017]
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace391903689", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace391903689'><pre>java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeCompleteQC() on instance orderFlowNegative.TestsOrderFlowNegative@5c86a017 depends on not successfully finished methods 
-[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterRejectItemQC() on instance orderFlowNegative.TestsOrderFlowNegative@5c86a017]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-</pre></div></td>
-<td>0</td>
-<td>orderFlowNegative.TestsOrderFlowNegative@5c86a017</td></tr>
-<tr>
-<td title='orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterAcceptItemQC()'><b>testOrderFlowPositiveInventoryDetailsAfterAcceptItemQC</b><br>Test class: orderFlowPositive.TestsOrderFlowPositive</td>
-<td><div><pre>java.lang.Throwable: Method orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterAcceptItemQC() on instance orderFlowPositive.TestsOrderFlowPositive@475c9c31 depends on not successfully finished methods 
-[orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveAcceptItemQC() on instance orderFlowPositive.TestsOrderFlowPositive@475c9c31]
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace107577149", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace107577149'><pre>java.lang.Throwable: Method orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterAcceptItemQC() on instance orderFlowPositive.TestsOrderFlowPositive@475c9c31 depends on not successfully finished methods 
-[orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveAcceptItemQC() on instance orderFlowPositive.TestsOrderFlowPositive@475c9c31]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-</pre></div></td>
-<td>0</td>
-<td>orderFlowPositive.TestsOrderFlowPositive@475c9c31</td></tr>
-<tr>
-<td title='orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeOrderIdReturn()'><b>testOrderFlowNegativeOrderIdReturn</b><br>Test class: orderFlowNegative.TestsOrderFlowNegative</td>
-<td><div><pre>java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeOrderIdReturn() on instance orderFlowNegative.TestsOrderFlowNegative@5c86a017 depends on not successfully finished methods 
-[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterInventorySettlement() on instance orderFlowNegative.TestsOrderFlowNegative@5c86a017]
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1391440696", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1391440696'><pre>java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeOrderIdReturn() on instance orderFlowNegative.TestsOrderFlowNegative@5c86a017 depends on not successfully finished methods 
-[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterInventorySettlement() on instance orderFlowNegative.TestsOrderFlowNegative@5c86a017]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-</pre></div></td>
-<td>0</td>
-<td>orderFlowNegative.TestsOrderFlowNegative@5c86a017</td></tr>
-<tr>
-<td title='orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryAfterDetailsOrderIdReturn()'><b>testOrderFlowNegativeInventoryAfterDetailsOrderIdReturn</b><br>Test class: orderFlowNegative.TestsOrderFlowNegative</td>
-<td><div><pre>java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryAfterDetailsOrderIdReturn() on instance orderFlowNegative.TestsOrderFlowNegative@5c86a017 depends on not successfully finished methods 
-[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeOrderIdReturn() on instance orderFlowNegative.TestsOrderFlowNegative@5c86a017]
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1682999176", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1682999176'><pre>java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryAfterDetailsOrderIdReturn() on instance orderFlowNegative.TestsOrderFlowNegative@5c86a017 depends on not successfully finished methods 
-[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeOrderIdReturn() on instance orderFlowNegative.TestsOrderFlowNegative@5c86a017]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-</pre></div></td>
-<td>0</td>
-<td>orderFlowNegative.TestsOrderFlowNegative@5c86a017</td></tr>
-<tr>
-<td title='orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterCompleteQC()'><b>testOrderFlowPositiveInventoryDetailsAfterCompleteQC</b><br>Test class: orderFlowPositive.TestsOrderFlowPositive</td>
-<td><div><pre>java.lang.Throwable: Method orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterCompleteQC() on instance orderFlowPositive.TestsOrderFlowPositive@475c9c31 depends on not successfully finished methods 
-[orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveCompleteQC() on instance orderFlowPositive.TestsOrderFlowPositive@475c9c31]
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace980607720", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace980607720'><pre>java.lang.Throwable: Method orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterCompleteQC() on instance orderFlowPositive.TestsOrderFlowPositive@475c9c31 depends on not successfully finished methods 
-[orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveCompleteQC() on instance orderFlowPositive.TestsOrderFlowPositive@475c9c31]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-</pre></div></td>
-<td>0</td>
-<td>orderFlowPositive.TestsOrderFlowPositive@475c9c31</td></tr>
-<tr>
-<td title='orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeAcceptItemQCReturn()'><b>testOrderFlowNegativeAcceptItemQCReturn</b><br>Test class: orderFlowNegative.TestsOrderFlowNegative</td>
-<td><div><pre>java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeAcceptItemQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@5c86a017 depends on not successfully finished methods 
-[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterActionCompleteQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@5c86a017]
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace292841327", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace292841327'><pre>java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeAcceptItemQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@5c86a017 depends on not successfully finished methods 
-[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterActionCompleteQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@5c86a017]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-</pre></div></td>
-<td>0</td>
-<td>orderFlowNegative.TestsOrderFlowNegative@5c86a017</td></tr>
-<tr>
-<td title='orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterDeliver()'><b>testOrderFlowNegativeInventoryDetailsAfterDeliver</b><br>Test class: orderFlowNegative.TestsOrderFlowNegative</td>
-<td><div><pre>java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterDeliver() on instance orderFlowNegative.TestsOrderFlowNegative@5c86a017 depends on not successfully finished methods 
-[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeDeliver() on instance orderFlowNegative.TestsOrderFlowNegative@5c86a017]
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1144598116", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1144598116'><pre>java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterDeliver() on instance orderFlowNegative.TestsOrderFlowNegative@5c86a017 depends on not successfully finished methods 
-[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeDeliver() on instance orderFlowNegative.TestsOrderFlowNegative@5c86a017]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-</pre></div></td>
-<td>0</td>
-<td>orderFlowNegative.TestsOrderFlowNegative@5c86a017</td></tr>
-<tr>
-<td title='orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveActionCompleteQC()'><b>testOrderFlowPositiveActionCompleteQC</b><br>Test class: orderFlowPositive.TestsOrderFlowPositive</td>
-<td><div><pre>java.lang.Throwable: Method orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveActionCompleteQC() on instance orderFlowPositive.TestsOrderFlowPositive@475c9c31 depends on not successfully finished methods 
-[orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterDeliver() on instance orderFlowPositive.TestsOrderFlowPositive@475c9c31]
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace235423657", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace235423657'><pre>java.lang.Throwable: Method orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveActionCompleteQC() on instance orderFlowPositive.TestsOrderFlowPositive@475c9c31 depends on not successfully finished methods 
-[orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterDeliver() on instance orderFlowPositive.TestsOrderFlowPositive@475c9c31]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-</pre></div></td>
-<td>0</td>
-<td>orderFlowPositive.TestsOrderFlowPositive@475c9c31</td></tr>
-<tr>
-<td title='orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterDeliver()'><b>testOrderFlowPositiveInventoryDetailsAfterDeliver</b><br>Test class: orderFlowPositive.TestsOrderFlowPositive</td>
-<td><div><pre>java.lang.Throwable: Method orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterDeliver() on instance orderFlowPositive.TestsOrderFlowPositive@475c9c31 depends on not successfully finished methods 
-[orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveDeliver() on instance orderFlowPositive.TestsOrderFlowPositive@475c9c31]
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1367421029", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1367421029'><pre>java.lang.Throwable: Method orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterDeliver() on instance orderFlowPositive.TestsOrderFlowPositive@475c9c31 depends on not successfully finished methods 
-[orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveDeliver() on instance orderFlowPositive.TestsOrderFlowPositive@475c9c31]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-</pre></div></td>
-<td>0</td>
-<td>orderFlowPositive.TestsOrderFlowPositive@475c9c31</td></tr>
-<tr>
-<td title='orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterInventorySettlement()'><b>testOrderFlowNegativeInventoryDetailsAfterInventorySettlement</b><br>Test class: orderFlowNegative.TestsOrderFlowNegative</td>
-<td><div><pre>java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterInventorySettlement() on instance orderFlowNegative.TestsOrderFlowNegative@5c86a017 depends on not successfully finished methods 
-[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventorySettlement() on instance orderFlowNegative.TestsOrderFlowNegative@5c86a017]
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace447906838", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace447906838'><pre>java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterInventorySettlement() on instance orderFlowNegative.TestsOrderFlowNegative@5c86a017 depends on not successfully finished methods 
-[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventorySettlement() on instance orderFlowNegative.TestsOrderFlowNegative@5c86a017]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-</pre></div></td>
-<td>0</td>
-<td>orderFlowNegative.TestsOrderFlowNegative@5c86a017</td></tr>
-<tr>
-<td title='orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeActionCompleteQCReturn()'><b>testOrderFlowNegativeActionCompleteQCReturn</b><br>Test class: orderFlowNegative.TestsOrderFlowNegative</td>
-<td><div><pre>java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeActionCompleteQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@5c86a017 depends on not successfully finished methods 
-[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryAfterDetailsOrderIdReturn() on instance orderFlowNegative.TestsOrderFlowNegative@5c86a017]
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace816956885", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace816956885'><pre>java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeActionCompleteQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@5c86a017 depends on not successfully finished methods 
-[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryAfterDetailsOrderIdReturn() on instance orderFlowNegative.TestsOrderFlowNegative@5c86a017]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-</pre></div></td>
-<td>0</td>
-<td>orderFlowNegative.TestsOrderFlowNegative@5c86a017</td></tr>
-<tr>
-<td title='orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterCompleteQC()'><b>testOrderFlowNegativeInventoryDetailsAfterCompleteQC</b><br>Test class: orderFlowNegative.TestsOrderFlowNegative</td>
-<td><div><pre>java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterCompleteQC() on instance orderFlowNegative.TestsOrderFlowNegative@5c86a017 depends on not successfully finished methods 
-[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeCompleteQC() on instance orderFlowNegative.TestsOrderFlowNegative@5c86a017]
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace766732122", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace766732122'><pre>java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterCompleteQC() on instance orderFlowNegative.TestsOrderFlowNegative@5c86a017 depends on not successfully finished methods 
-[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeCompleteQC() on instance orderFlowNegative.TestsOrderFlowNegative@5c86a017]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-</pre></div></td>
-<td>0</td>
-<td>orderFlowNegative.TestsOrderFlowNegative@5c86a017</td></tr>
-<tr>
-<td title='orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventorySettlementReturn()'><b>testOrderFlowNegativeInventorySettlementReturn</b><br>Test class: orderFlowNegative.TestsOrderFlowNegative</td>
-<td><div><pre>java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventorySettlementReturn() on instance orderFlowNegative.TestsOrderFlowNegative@5c86a017 depends on not successfully finished methods 
-[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterCompleteQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@5c86a017]
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace678631391", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace678631391'><pre>java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventorySettlementReturn() on instance orderFlowNegative.TestsOrderFlowNegative@5c86a017 depends on not successfully finished methods 
-[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterCompleteQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@5c86a017]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-</pre></div></td>
-<td>0</td>
-<td>orderFlowNegative.TestsOrderFlowNegative@5c86a017</td></tr>
-<tr>
-<td title='orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterInventorySettlementReturn()'><b>testOrderFlowNegativeInventoryDetailsAfterInventorySettlementReturn</b><br>Test class: orderFlowNegative.TestsOrderFlowNegative</td>
-<td><div><pre>java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterInventorySettlementReturn() on instance orderFlowNegative.TestsOrderFlowNegative@5c86a017 depends on not successfully finished methods 
-[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventorySettlementReturn() on instance orderFlowNegative.TestsOrderFlowNegative@5c86a017]
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace533476449", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace533476449'><pre>java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterInventorySettlementReturn() on instance orderFlowNegative.TestsOrderFlowNegative@5c86a017 depends on not successfully finished methods 
-[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventorySettlementReturn() on instance orderFlowNegative.TestsOrderFlowNegative@5c86a017]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-</pre></div></td>
-<td>0</td>
-<td>orderFlowNegative.TestsOrderFlowNegative@5c86a017</td></tr>
-<tr>
-<td title='orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterCompleteQCReturn()'><b>testOrderFlowNegativeInventoryDetailsAfterCompleteQCReturn</b><br>Test class: orderFlowNegative.TestsOrderFlowNegative</td>
-<td><div><pre>java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterCompleteQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@5c86a017 depends on not successfully finished methods 
-[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeCompleteQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@5c86a017]
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace445531390", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace445531390'><pre>java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterCompleteQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@5c86a017 depends on not successfully finished methods 
-[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeCompleteQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@5c86a017]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-</pre></div></td>
-<td>0</td>
-<td>orderFlowNegative.TestsOrderFlowNegative@5c86a017</td></tr>
-<tr>
-<td title='orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeRejectItemQC()'><b>testOrderFlowNegativeRejectItemQC</b><br>Test class: orderFlowNegative.TestsOrderFlowNegative</td>
-<td><div><pre>java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeRejectItemQC() on instance orderFlowNegative.TestsOrderFlowNegative@5c86a017 depends on not successfully finished methods 
-[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterActionCompleteQC() on instance orderFlowNegative.TestsOrderFlowNegative@5c86a017]
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1390015339", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1390015339'><pre>java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeRejectItemQC() on instance orderFlowNegative.TestsOrderFlowNegative@5c86a017 depends on not successfully finished methods 
-[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterActionCompleteQC() on instance orderFlowNegative.TestsOrderFlowNegative@5c86a017]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-</pre></div></td>
-<td>0</td>
-<td>orderFlowNegative.TestsOrderFlowNegative@5c86a017</td></tr>
+<td>orderFlowNegative.TestsOrderFlowNegative@409bf450</td></tr>
 <tr>
 <td title='orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterActionCompleteQC()'><b>testOrderFlowPositiveInventoryDetailsAfterActionCompleteQC</b><br>Test class: orderFlowPositive.TestsOrderFlowPositive</td>
-<td><div><pre>java.lang.Throwable: Method orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterActionCompleteQC() on instance orderFlowPositive.TestsOrderFlowPositive@475c9c31 depends on not successfully finished methods 
-[orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveActionCompleteQC() on instance orderFlowPositive.TestsOrderFlowPositive@475c9c31]
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1366572224", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1366572224'><pre>java.lang.Throwable: Method orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterActionCompleteQC() on instance orderFlowPositive.TestsOrderFlowPositive@475c9c31 depends on not successfully finished methods 
-[orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveActionCompleteQC() on instance orderFlowPositive.TestsOrderFlowPositive@475c9c31]
+<td><div><pre>java.lang.Throwable: Method orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterActionCompleteQC() on instance orderFlowPositive.TestsOrderFlowPositive@3349e9bb depends on not successfully finished methods 
+[orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveActionCompleteQC() on instance orderFlowPositive.TestsOrderFlowPositive@3349e9bb]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1668136935", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1668136935'><pre>java.lang.Throwable: Method orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterActionCompleteQC() on instance orderFlowPositive.TestsOrderFlowPositive@3349e9bb depends on not successfully finished methods 
+[orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveActionCompleteQC() on instance orderFlowPositive.TestsOrderFlowPositive@3349e9bb]
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at org.testng.TestRunner.privateRun(TestRunner.java:739)
 	at org.testng.TestRunner.run(TestRunner.java:614)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
@@ -1265,19 +557,19 @@ function toggleAllBoxes() {
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 </pre></div></td>
 <td>0</td>
-<td>orderFlowPositive.TestsOrderFlowPositive@475c9c31</td></tr>
+<td>orderFlowPositive.TestsOrderFlowPositive@3349e9bb</td></tr>
 <tr>
-<td title='orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterAcceptItemQCReturn()'><b>testOrderFlowNegativeInventoryDetailsAfterAcceptItemQCReturn</b><br>Test class: orderFlowNegative.TestsOrderFlowNegative</td>
-<td><div><pre>java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterAcceptItemQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@5c86a017 depends on not successfully finished methods 
-[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeAcceptItemQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@5c86a017]
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1912131086", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1912131086'><pre>java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterAcceptItemQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@5c86a017 depends on not successfully finished methods 
-[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeAcceptItemQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@5c86a017]
+<td title='orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterCompleteQC()'><b>testOrderFlowPositiveInventoryDetailsAfterCompleteQC</b><br>Test class: orderFlowPositive.TestsOrderFlowPositive</td>
+<td><div><pre>java.lang.Throwable: Method orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterCompleteQC() on instance orderFlowPositive.TestsOrderFlowPositive@3349e9bb depends on not successfully finished methods 
+[orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveCompleteQC() on instance orderFlowPositive.TestsOrderFlowPositive@3349e9bb]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2111019038", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2111019038'><pre>java.lang.Throwable: Method orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterCompleteQC() on instance orderFlowPositive.TestsOrderFlowPositive@3349e9bb depends on not successfully finished methods 
+[orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveCompleteQC() on instance orderFlowPositive.TestsOrderFlowPositive@3349e9bb]
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at org.testng.TestRunner.privateRun(TestRunner.java:739)
 	at org.testng.TestRunner.run(TestRunner.java:614)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
@@ -1299,19 +591,257 @@ function toggleAllBoxes() {
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 </pre></div></td>
 <td>0</td>
-<td>orderFlowNegative.TestsOrderFlowNegative@5c86a017</td></tr>
+<td>orderFlowPositive.TestsOrderFlowPositive@3349e9bb</td></tr>
+<tr>
+<td title='orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterDeliver()'><b>testOrderFlowNegativeInventoryDetailsAfterDeliver</b><br>Test class: orderFlowNegative.TestsOrderFlowNegative</td>
+<td><div><pre>java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterDeliver() on instance orderFlowNegative.TestsOrderFlowNegative@409bf450 depends on not successfully finished methods 
+[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeDeliver() on instance orderFlowNegative.TestsOrderFlowNegative@409bf450]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace243076530", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace243076530'><pre>java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterDeliver() on instance orderFlowNegative.TestsOrderFlowNegative@409bf450 depends on not successfully finished methods 
+[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeDeliver() on instance orderFlowNegative.TestsOrderFlowNegative@409bf450]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>0</td>
+<td>orderFlowNegative.TestsOrderFlowNegative@409bf450</td></tr>
+<tr>
+<td title='orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveCompleteQC()'><b>testOrderFlowPositiveCompleteQC</b><br>Test class: orderFlowPositive.TestsOrderFlowPositive</td>
+<td><div><pre>java.lang.Throwable: Method orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveCompleteQC() on instance orderFlowPositive.TestsOrderFlowPositive@3349e9bb depends on not successfully finished methods 
+[orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterAcceptItemQC() on instance orderFlowPositive.TestsOrderFlowPositive@3349e9bb]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1934590743", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1934590743'><pre>java.lang.Throwable: Method orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveCompleteQC() on instance orderFlowPositive.TestsOrderFlowPositive@3349e9bb depends on not successfully finished methods 
+[orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterAcceptItemQC() on instance orderFlowPositive.TestsOrderFlowPositive@3349e9bb]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>0</td>
+<td>orderFlowPositive.TestsOrderFlowPositive@3349e9bb</td></tr>
+<tr>
+<td title='orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterDeliver()'><b>testOrderFlowPositiveInventoryDetailsAfterDeliver</b><br>Test class: orderFlowPositive.TestsOrderFlowPositive</td>
+<td><div><pre>java.lang.Throwable: Method orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterDeliver() on instance orderFlowPositive.TestsOrderFlowPositive@3349e9bb depends on not successfully finished methods 
+[orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveDeliver() on instance orderFlowPositive.TestsOrderFlowPositive@3349e9bb]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace621843976", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace621843976'><pre>java.lang.Throwable: Method orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterDeliver() on instance orderFlowPositive.TestsOrderFlowPositive@3349e9bb depends on not successfully finished methods 
+[orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveDeliver() on instance orderFlowPositive.TestsOrderFlowPositive@3349e9bb]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>0</td>
+<td>orderFlowPositive.TestsOrderFlowPositive@3349e9bb</td></tr>
+<tr>
+<td title='orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeActionCompleteQCReturn()'><b>testOrderFlowNegativeActionCompleteQCReturn</b><br>Test class: orderFlowNegative.TestsOrderFlowNegative</td>
+<td><div><pre>java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeActionCompleteQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@409bf450 depends on not successfully finished methods 
+[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryAfterDetailsOrderIdReturn() on instance orderFlowNegative.TestsOrderFlowNegative@409bf450]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1958731110", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1958731110'><pre>java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeActionCompleteQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@409bf450 depends on not successfully finished methods 
+[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryAfterDetailsOrderIdReturn() on instance orderFlowNegative.TestsOrderFlowNegative@409bf450]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>0</td>
+<td>orderFlowNegative.TestsOrderFlowNegative@409bf450</td></tr>
+<tr>
+<td title='orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeOrderIdReturn()'><b>testOrderFlowNegativeOrderIdReturn</b><br>Test class: orderFlowNegative.TestsOrderFlowNegative</td>
+<td><div><pre>java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeOrderIdReturn() on instance orderFlowNegative.TestsOrderFlowNegative@409bf450 depends on not successfully finished methods 
+[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterInventorySettlement() on instance orderFlowNegative.TestsOrderFlowNegative@409bf450]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2001194011", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2001194011'><pre>java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeOrderIdReturn() on instance orderFlowNegative.TestsOrderFlowNegative@409bf450 depends on not successfully finished methods 
+[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterInventorySettlement() on instance orderFlowNegative.TestsOrderFlowNegative@409bf450]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>0</td>
+<td>orderFlowNegative.TestsOrderFlowNegative@409bf450</td></tr>
+<tr>
+<td title='orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventorySettlement()'><b>testOrderFlowPositiveInventorySettlement</b><br>Test class: orderFlowPositive.TestsOrderFlowPositive</td>
+<td><div><pre>java.lang.Throwable: Method orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventorySettlement() on instance orderFlowPositive.TestsOrderFlowPositive@3349e9bb depends on not successfully finished methods 
+[orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterCompleteQC() on instance orderFlowPositive.TestsOrderFlowPositive@3349e9bb]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1496396949", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1496396949'><pre>java.lang.Throwable: Method orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventorySettlement() on instance orderFlowPositive.TestsOrderFlowPositive@3349e9bb depends on not successfully finished methods 
+[orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterCompleteQC() on instance orderFlowPositive.TestsOrderFlowPositive@3349e9bb]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>0</td>
+<td>orderFlowPositive.TestsOrderFlowPositive@3349e9bb</td></tr>
+<tr>
+<td title='orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterInventorySettlementReturn()'><b>testOrderFlowNegativeInventoryDetailsAfterInventorySettlementReturn</b><br>Test class: orderFlowNegative.TestsOrderFlowNegative</td>
+<td><div><pre>java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterInventorySettlementReturn() on instance orderFlowNegative.TestsOrderFlowNegative@409bf450 depends on not successfully finished methods 
+[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventorySettlementReturn() on instance orderFlowNegative.TestsOrderFlowNegative@409bf450]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace546392117", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace546392117'><pre>java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterInventorySettlementReturn() on instance orderFlowNegative.TestsOrderFlowNegative@409bf450 depends on not successfully finished methods 
+[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventorySettlementReturn() on instance orderFlowNegative.TestsOrderFlowNegative@409bf450]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>0</td>
+<td>orderFlowNegative.TestsOrderFlowNegative@409bf450</td></tr>
 <tr>
 <td title='orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeActionCompleteQC()'><b>testOrderFlowNegativeActionCompleteQC</b><br>Test class: orderFlowNegative.TestsOrderFlowNegative</td>
-<td><div><pre>java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeActionCompleteQC() on instance orderFlowNegative.TestsOrderFlowNegative@5c86a017 depends on not successfully finished methods 
-[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterDeliver() on instance orderFlowNegative.TestsOrderFlowNegative@5c86a017]
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace236507810", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace236507810'><pre>java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeActionCompleteQC() on instance orderFlowNegative.TestsOrderFlowNegative@5c86a017 depends on not successfully finished methods 
-[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterDeliver() on instance orderFlowNegative.TestsOrderFlowNegative@5c86a017]
+<td><div><pre>java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeActionCompleteQC() on instance orderFlowNegative.TestsOrderFlowNegative@409bf450 depends on not successfully finished methods 
+[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterDeliver() on instance orderFlowNegative.TestsOrderFlowNegative@409bf450]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1245825773", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1245825773'><pre>java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeActionCompleteQC() on instance orderFlowNegative.TestsOrderFlowNegative@409bf450 depends on not successfully finished methods 
+[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterDeliver() on instance orderFlowNegative.TestsOrderFlowNegative@409bf450]
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at org.testng.TestRunner.privateRun(TestRunner.java:739)
 	at org.testng.TestRunner.run(TestRunner.java:614)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
@@ -1333,19 +863,19 @@ function toggleAllBoxes() {
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 </pre></div></td>
 <td>0</td>
-<td>orderFlowNegative.TestsOrderFlowNegative@5c86a017</td></tr>
+<td>orderFlowNegative.TestsOrderFlowNegative@409bf450</td></tr>
 <tr>
-<td title='orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveAcceptItemQC()'><b>testOrderFlowPositiveAcceptItemQC</b><br>Test class: orderFlowPositive.TestsOrderFlowPositive</td>
-<td><div><pre>java.lang.Throwable: Method orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveAcceptItemQC() on instance orderFlowPositive.TestsOrderFlowPositive@475c9c31 depends on not successfully finished methods 
-[orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterActionCompleteQC() on instance orderFlowPositive.TestsOrderFlowPositive@475c9c31]
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace154021011", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace154021011'><pre>java.lang.Throwable: Method orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveAcceptItemQC() on instance orderFlowPositive.TestsOrderFlowPositive@475c9c31 depends on not successfully finished methods 
-[orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterActionCompleteQC() on instance orderFlowPositive.TestsOrderFlowPositive@475c9c31]
+<td title='orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveActionCompleteQC()'><b>testOrderFlowPositiveActionCompleteQC</b><br>Test class: orderFlowPositive.TestsOrderFlowPositive</td>
+<td><div><pre>java.lang.Throwable: Method orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveActionCompleteQC() on instance orderFlowPositive.TestsOrderFlowPositive@3349e9bb depends on not successfully finished methods 
+[orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterDeliver() on instance orderFlowPositive.TestsOrderFlowPositive@3349e9bb]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace689162814", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace689162814'><pre>java.lang.Throwable: Method orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveActionCompleteQC() on instance orderFlowPositive.TestsOrderFlowPositive@3349e9bb depends on not successfully finished methods 
+[orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterDeliver() on instance orderFlowPositive.TestsOrderFlowPositive@3349e9bb]
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at org.testng.TestRunner.privateRun(TestRunner.java:739)
 	at org.testng.TestRunner.run(TestRunner.java:614)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
@@ -1367,19 +897,121 @@ function toggleAllBoxes() {
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 </pre></div></td>
 <td>0</td>
-<td>orderFlowPositive.TestsOrderFlowPositive@475c9c31</td></tr>
+<td>orderFlowPositive.TestsOrderFlowPositive@3349e9bb</td></tr>
+<tr>
+<td title='orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterAcceptItemQC()'><b>testOrderFlowPositiveInventoryDetailsAfterAcceptItemQC</b><br>Test class: orderFlowPositive.TestsOrderFlowPositive</td>
+<td><div><pre>java.lang.Throwable: Method orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterAcceptItemQC() on instance orderFlowPositive.TestsOrderFlowPositive@3349e9bb depends on not successfully finished methods 
+[orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveAcceptItemQC() on instance orderFlowPositive.TestsOrderFlowPositive@3349e9bb]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1144714132", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1144714132'><pre>java.lang.Throwable: Method orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterAcceptItemQC() on instance orderFlowPositive.TestsOrderFlowPositive@3349e9bb depends on not successfully finished methods 
+[orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveAcceptItemQC() on instance orderFlowPositive.TestsOrderFlowPositive@3349e9bb]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>0</td>
+<td>orderFlowPositive.TestsOrderFlowPositive@3349e9bb</td></tr>
+<tr>
+<td title='orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterRejectItemQC()'><b>testOrderFlowNegativeInventoryDetailsAfterRejectItemQC</b><br>Test class: orderFlowNegative.TestsOrderFlowNegative</td>
+<td><div><pre>java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterRejectItemQC() on instance orderFlowNegative.TestsOrderFlowNegative@409bf450 depends on not successfully finished methods 
+[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeRejectItemQC() on instance orderFlowNegative.TestsOrderFlowNegative@409bf450]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace309476445", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace309476445'><pre>java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterRejectItemQC() on instance orderFlowNegative.TestsOrderFlowNegative@409bf450 depends on not successfully finished methods 
+[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeRejectItemQC() on instance orderFlowNegative.TestsOrderFlowNegative@409bf450]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>0</td>
+<td>orderFlowNegative.TestsOrderFlowNegative@409bf450</td></tr>
+<tr>
+<td title='orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterActionCompleteQCReturn()'><b>testOrderFlowNegativeInventoryDetailsAfterActionCompleteQCReturn</b><br>Test class: orderFlowNegative.TestsOrderFlowNegative</td>
+<td><div><pre>java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterActionCompleteQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@409bf450 depends on not successfully finished methods 
+[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeActionCompleteQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@409bf450]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1875372072", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1875372072'><pre>java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterActionCompleteQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@409bf450 depends on not successfully finished methods 
+[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeActionCompleteQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@409bf450]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>0</td>
+<td>orderFlowNegative.TestsOrderFlowNegative@409bf450</td></tr>
 <tr>
 <td title='orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterInventorySettlement()'><b>testOrderFlowPositiveInventoryDetailsAfterInventorySettlement</b><br>Test class: orderFlowPositive.TestsOrderFlowPositive</td>
-<td><div><pre>java.lang.Throwable: Method orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterInventorySettlement() on instance orderFlowPositive.TestsOrderFlowPositive@475c9c31 depends on not successfully finished methods 
-[orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventorySettlement() on instance orderFlowPositive.TestsOrderFlowPositive@475c9c31]
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace253564003", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace253564003'><pre>java.lang.Throwable: Method orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterInventorySettlement() on instance orderFlowPositive.TestsOrderFlowPositive@475c9c31 depends on not successfully finished methods 
-[orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventorySettlement() on instance orderFlowPositive.TestsOrderFlowPositive@475c9c31]
+<td><div><pre>java.lang.Throwable: Method orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterInventorySettlement() on instance orderFlowPositive.TestsOrderFlowPositive@3349e9bb depends on not successfully finished methods 
+[orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventorySettlement() on instance orderFlowPositive.TestsOrderFlowPositive@3349e9bb]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1241827956", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1241827956'><pre>java.lang.Throwable: Method orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterInventorySettlement() on instance orderFlowPositive.TestsOrderFlowPositive@3349e9bb depends on not successfully finished methods 
+[orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventorySettlement() on instance orderFlowPositive.TestsOrderFlowPositive@3349e9bb]
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at org.testng.TestRunner.privateRun(TestRunner.java:739)
 	at org.testng.TestRunner.run(TestRunner.java:614)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
@@ -1401,7 +1033,381 @@ function toggleAllBoxes() {
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 </pre></div></td>
 <td>0</td>
-<td>orderFlowPositive.TestsOrderFlowPositive@475c9c31</td></tr>
+<td>orderFlowPositive.TestsOrderFlowPositive@3349e9bb</td></tr>
+<tr>
+<td title='orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterCompleteQCReturn()'><b>testOrderFlowNegativeInventoryDetailsAfterCompleteQCReturn</b><br>Test class: orderFlowNegative.TestsOrderFlowNegative</td>
+<td><div><pre>java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterCompleteQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@409bf450 depends on not successfully finished methods 
+[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeCompleteQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@409bf450]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1995103322", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1995103322'><pre>java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterCompleteQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@409bf450 depends on not successfully finished methods 
+[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeCompleteQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@409bf450]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>0</td>
+<td>orderFlowNegative.TestsOrderFlowNegative@409bf450</td></tr>
+<tr>
+<td title='orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeCompleteQCReturn()'><b>testOrderFlowNegativeCompleteQCReturn</b><br>Test class: orderFlowNegative.TestsOrderFlowNegative</td>
+<td><div><pre>java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeCompleteQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@409bf450 depends on not successfully finished methods 
+[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterAcceptItemQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@409bf450]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace649913869", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace649913869'><pre>java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeCompleteQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@409bf450 depends on not successfully finished methods 
+[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterAcceptItemQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@409bf450]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>0</td>
+<td>orderFlowNegative.TestsOrderFlowNegative@409bf450</td></tr>
+<tr>
+<td title='orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventorySettlement()'><b>testOrderFlowNegativeInventorySettlement</b><br>Test class: orderFlowNegative.TestsOrderFlowNegative</td>
+<td><div><pre>java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventorySettlement() on instance orderFlowNegative.TestsOrderFlowNegative@409bf450 depends on not successfully finished methods 
+[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterCompleteQC() on instance orderFlowNegative.TestsOrderFlowNegative@409bf450]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace653557958", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace653557958'><pre>java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventorySettlement() on instance orderFlowNegative.TestsOrderFlowNegative@409bf450 depends on not successfully finished methods 
+[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterCompleteQC() on instance orderFlowNegative.TestsOrderFlowNegative@409bf450]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>0</td>
+<td>orderFlowNegative.TestsOrderFlowNegative@409bf450</td></tr>
+<tr>
+<td title='orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeRejectItemQC()'><b>testOrderFlowNegativeRejectItemQC</b><br>Test class: orderFlowNegative.TestsOrderFlowNegative</td>
+<td><div><pre>java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeRejectItemQC() on instance orderFlowNegative.TestsOrderFlowNegative@409bf450 depends on not successfully finished methods 
+[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterActionCompleteQC() on instance orderFlowNegative.TestsOrderFlowNegative@409bf450]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1946464242", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1946464242'><pre>java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeRejectItemQC() on instance orderFlowNegative.TestsOrderFlowNegative@409bf450 depends on not successfully finished methods 
+[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterActionCompleteQC() on instance orderFlowNegative.TestsOrderFlowNegative@409bf450]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>0</td>
+<td>orderFlowNegative.TestsOrderFlowNegative@409bf450</td></tr>
+<tr>
+<td title='orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterInventorySettlement()'><b>testOrderFlowNegativeInventoryDetailsAfterInventorySettlement</b><br>Test class: orderFlowNegative.TestsOrderFlowNegative</td>
+<td><div><pre>java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterInventorySettlement() on instance orderFlowNegative.TestsOrderFlowNegative@409bf450 depends on not successfully finished methods 
+[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventorySettlement() on instance orderFlowNegative.TestsOrderFlowNegative@409bf450]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace627556497", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace627556497'><pre>java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterInventorySettlement() on instance orderFlowNegative.TestsOrderFlowNegative@409bf450 depends on not successfully finished methods 
+[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventorySettlement() on instance orderFlowNegative.TestsOrderFlowNegative@409bf450]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>0</td>
+<td>orderFlowNegative.TestsOrderFlowNegative@409bf450</td></tr>
+<tr>
+<td title='orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeAcceptItemQCReturn()'><b>testOrderFlowNegativeAcceptItemQCReturn</b><br>Test class: orderFlowNegative.TestsOrderFlowNegative</td>
+<td><div><pre>java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeAcceptItemQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@409bf450 depends on not successfully finished methods 
+[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterActionCompleteQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@409bf450]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace648660703", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace648660703'><pre>java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeAcceptItemQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@409bf450 depends on not successfully finished methods 
+[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterActionCompleteQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@409bf450]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>0</td>
+<td>orderFlowNegative.TestsOrderFlowNegative@409bf450</td></tr>
+<tr>
+<td title='orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveAcceptItemQC()'><b>testOrderFlowPositiveAcceptItemQC</b><br>Test class: orderFlowPositive.TestsOrderFlowPositive</td>
+<td><div><pre>java.lang.Throwable: Method orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveAcceptItemQC() on instance orderFlowPositive.TestsOrderFlowPositive@3349e9bb depends on not successfully finished methods 
+[orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterActionCompleteQC() on instance orderFlowPositive.TestsOrderFlowPositive@3349e9bb]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1122813268", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1122813268'><pre>java.lang.Throwable: Method orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveAcceptItemQC() on instance orderFlowPositive.TestsOrderFlowPositive@3349e9bb depends on not successfully finished methods 
+[orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterActionCompleteQC() on instance orderFlowPositive.TestsOrderFlowPositive@3349e9bb]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>0</td>
+<td>orderFlowPositive.TestsOrderFlowPositive@3349e9bb</td></tr>
+<tr>
+<td title='orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterAcceptItemQCReturn()'><b>testOrderFlowNegativeInventoryDetailsAfterAcceptItemQCReturn</b><br>Test class: orderFlowNegative.TestsOrderFlowNegative</td>
+<td><div><pre>java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterAcceptItemQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@409bf450 depends on not successfully finished methods 
+[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeAcceptItemQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@409bf450]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace753027610", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace753027610'><pre>java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterAcceptItemQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@409bf450 depends on not successfully finished methods 
+[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeAcceptItemQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@409bf450]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>0</td>
+<td>orderFlowNegative.TestsOrderFlowNegative@409bf450</td></tr>
+<tr>
+<td title='orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventorySettlementReturn()'><b>testOrderFlowNegativeInventorySettlementReturn</b><br>Test class: orderFlowNegative.TestsOrderFlowNegative</td>
+<td><div><pre>java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventorySettlementReturn() on instance orderFlowNegative.TestsOrderFlowNegative@409bf450 depends on not successfully finished methods 
+[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterCompleteQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@409bf450]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace513635174", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace513635174'><pre>java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventorySettlementReturn() on instance orderFlowNegative.TestsOrderFlowNegative@409bf450 depends on not successfully finished methods 
+[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterCompleteQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@409bf450]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>0</td>
+<td>orderFlowNegative.TestsOrderFlowNegative@409bf450</td></tr>
+<tr>
+<td title='orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeCompleteQC()'><b>testOrderFlowNegativeCompleteQC</b><br>Test class: orderFlowNegative.TestsOrderFlowNegative</td>
+<td><div><pre>java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeCompleteQC() on instance orderFlowNegative.TestsOrderFlowNegative@409bf450 depends on not successfully finished methods 
+[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterRejectItemQC() on instance orderFlowNegative.TestsOrderFlowNegative@409bf450]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1453365852", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1453365852'><pre>java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeCompleteQC() on instance orderFlowNegative.TestsOrderFlowNegative@409bf450 depends on not successfully finished methods 
+[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterRejectItemQC() on instance orderFlowNegative.TestsOrderFlowNegative@409bf450]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>0</td>
+<td>orderFlowNegative.TestsOrderFlowNegative@409bf450</td></tr>
+<tr>
+<td title='orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterCompleteQC()'><b>testOrderFlowNegativeInventoryDetailsAfterCompleteQC</b><br>Test class: orderFlowNegative.TestsOrderFlowNegative</td>
+<td><div><pre>java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterCompleteQC() on instance orderFlowNegative.TestsOrderFlowNegative@409bf450 depends on not successfully finished methods 
+[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeCompleteQC() on instance orderFlowNegative.TestsOrderFlowNegative@409bf450]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2002705120", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2002705120'><pre>java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterCompleteQC() on instance orderFlowNegative.TestsOrderFlowNegative@409bf450 depends on not successfully finished methods 
+[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeCompleteQC() on instance orderFlowNegative.TestsOrderFlowNegative@409bf450]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>0</td>
+<td>orderFlowNegative.TestsOrderFlowNegative@409bf450</td></tr>
 </table><p>
 </body>
 </html>
