@@ -6,6 +6,70 @@
   </listeners>
   <test thread-count="5" name="Test(failed)" verbose="0">
     <classes>
+      <class name="orderFlowPositive.TestsOrderFlowPositive">
+        <methods>
+          <include name="testOrderFlowPositivecreateOrder"/>
+          <include name="testOrderFlowPositiveMarkPacked"/>
+          <include name="testOrderFlowPositiveInventoryDetailsAfterInventorySettlement"/>
+          <include name="testOrderFlowPositiveInventoryDetailsAfterActionCompleteQC"/>
+          <include name="testOrderFlowPositiveInvoiceNumber"/>
+          <include name="testOrderFlowPositiveInventoryDetailsAfterMarkPacked"/>
+          <include name="testOrderFlowPositiveInventoryDetailsAfterBatchAssign"/>
+          <include name="testOrderFlowPositiveActionCompleteQC"/>
+          <include name="testOrderFlowPositiveAcceptItemQC"/>
+          <include name="testOrderFlowPositiveInventoryDetailsAfterCompleteQC"/>
+          <include name="testOrderFlowPositiveCompleteQC"/>
+          <include name="testOrderFlowPositiveInventoryDetailsBeforeCreateOrder"/>
+          <include name="testOrderFlowPositiveBatchAssign"/>
+          <include name="testOrderFlowPositiveInventoryDetailsAfterDispatch"/>
+          <include name="testOrderFlowPositiveInventoryDetailsAfterCreateOrder"/>
+          <include name="testOrderFlowPositiveInventoryDetailsAfterCreateShipment"/>
+          <include name="testOrderFlowPositiveInventoryDetailsAfterInvoiceNumber"/>
+          <include name="testOrderFlowPositiveDispatch"/>
+          <include name="testOrderFlowPositiveCreateShipment"/>
+          <include name="testOrderFlowPositiveInventorySettlement"/>
+          <include name="testOrderFlowPositiveInventoryDetailsAfterAcceptItemQC"/>
+          <include name="testOrderFlowPositiveInventoryDetailsAfterDeliver"/>
+          <include name="testOrderFlowPositiveDeliver"/>
+        </methods>
+      </class> <!-- orderFlowPositive.TestsOrderFlowPositive -->
+      <class name="orderFlowNegative.TestsOrderFlowNegative">
+        <methods>
+          <include name="testOrderFlowNegativeInventoryDetailsAfterDispatch"/>
+          <include name="testOrderFlowNegativeInventoryDetailsAfterCompleteQCReturn"/>
+          <include name="testOrderFlowNegativeRejectItemQC"/>
+          <include name="testOrderFlowNegativeAcceptItemQCReturn"/>
+          <include name="testOrderFlowNegativeInventoryDetailsAfterCreateShipment"/>
+          <include name="testOrderFlowNegativeInventoryDetailsAfterDeliver"/>
+          <include name="testOrderFlowNegativeInventoryDetailsAfterActionCompleteQC"/>
+          <include name="testOrderFlowNegativeInventoryDetailsAfterActionCompleteQCReturn"/>
+          <include name="testOrderFlowNegativeInventoryAfterDetailsOrderIdReturn"/>
+          <include name="testOrderFlowNegativeInventorySettlementReturn"/>
+          <include name="testOrderFlowNegativecreateOrder"/>
+          <include name="testOrderFlowNegativeInventoryDetailsAfterBatchAssign"/>
+          <include name="testOrderFlowNegativeMarkPacked"/>
+          <include name="testOrderFlowNegativeCreateShipment"/>
+          <include name="testOrderFlowNegativeActionCompleteQC"/>
+          <include name="testOrderFlowNegativeInventoryDetailsAfterInventorySettlementReturn"/>
+          <include name="testOrderFlowNegativeDispatch"/>
+          <include name="testOrderFlowNegativeCompleteQCReturn"/>
+          <include name="testOrderFlowNegativeOrderIdReturn"/>
+          <include name="testOrderFlowNegativeActionCompleteQCReturn"/>
+          <include name="testOrderFlowNegativeInvoiceNumber"/>
+          <include name="testOrderFlowNegativeInventoryDetailsAfterInvoiceNumber"/>
+          <include name="testOrderFlowNegativeDeliver"/>
+          <include name="testOrderFlowNegativeInventoryDetailsBeforeCreateOrder"/>
+          <include name="testOrderFlowNegativeInventoryDetailsAfterMarkPacked"/>
+          <include name="testOrderFlowNegativeInventoryDetailsAfterCompleteQC"/>
+          <include name="testOrderFlowNegativeCompleteQC"/>
+          <include name="testOrderFlowNegativeBatchAssign"/>
+          <include name="testOrderFlowNegativeInventorySettlement"/>
+          <include name="testOrderFlowNegativeInventoryDetailsAfterRejectItemQC"/>
+          <include name="testOrderFlowNegativeInventoryDetailsAfterAcceptItemQCReturn"/>
+          <include name="testOrderFlowNegativeInventoryDetailsAfterCreateOrder"/>
+          <include name="testOrderFlowNegativeInventoryDetailsAfterInventorySettlement"/>
+        </methods>
+      </class> <!-- orderFlowNegative.TestsOrderFlowNegative -->
       <class name="orderUpdateDispatch.TestsOrderUpdateDispatch">
         <methods>
           <include name="testOrderUpdateDispatchInventoryDetailsAfterBatchAssign"/>
