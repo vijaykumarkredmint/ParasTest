@@ -26,8 +26,10 @@ public class ExtentReportManager implements ITestListener {
         System.out.println("Starting report generation...");
         String timeStamp = new SimpleDateFormat("yyyy-MM-dd - HH:mm:ss").format(new Date());
         repName = "Test-report-" + timeStamp + ".html";
-        String projectPath = System.getProperty("user.dir");
-        sparkReporter = new ExtentSparkReporter(projectPath + "/reports/" + repName);
+//        String projectPath = System.getProperty("user.dir");
+//        sparkReporter = new ExtentSparkReporter(projectPath + "/reports/" + repName);
+        String projectPath = "/Users/admin/UATParas/ParasUAT/ParasUATProject/reports/";
+        sparkReporter = new ExtentSparkReporter(projectPath + repName);
 
         sparkReporter.config().setDocumentTitle("ParasUATProject");
         sparkReporter.config().setReportName("Test-report");
