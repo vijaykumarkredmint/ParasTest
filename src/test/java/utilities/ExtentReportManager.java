@@ -25,7 +25,7 @@ public class ExtentReportManager implements ITestListener {
     private String repName;
 
     // List of recipient email addresses
-    private List<String> recipients = List.of("vijaykumarmeerut1@gmail.com", "vk1151257@gmail.com");
+    private List<String> recipients = List.of("shivam.jindal@kredmint.com","vijay.kumar@kredmint.com","vijaykumarmeerut1@gmail.com", "vk1151257@gmail.com");
 
     public void onStart(ITestContext testContext) {
         // Initialize the report setup
@@ -112,8 +112,10 @@ public class ExtentReportManager implements ITestListener {
     private void sendReportByEmail(String reportFilePath) {
         // Gmail SMTP configuration
         String host = "smtp.gmail.com"; 
-        String from = "vijaykumarmeerut1@gmail.com"; // Sender's email address
-        String password = "dkwm oulr ybmg uoyb"; // Replace with your App password if 2FA is enabled (or the Gmail password if not)
+//        String from = "vijaykumarmeerut1@gmail.com"; // Sender's email address
+//        String password = "dkwm oulr ybmg uoyb"; // Replace with your App password if 2FA is enabled (or the Gmail password if not)
+        String from = "vijay.kumar@kredmint.com"; // Sender's email address
+        String password = "qvmo tbgw cqgz fayr"; // Replace with your App password if 2FA is enabled (or the Gmail password if not)
 
         // Set up the mail properties
         Properties properties = new Properties();

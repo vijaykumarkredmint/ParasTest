@@ -2,157 +2,157 @@
 <testng-results ignored="0" total="75" passed="44" failed="3" skipped="28">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-06T17:54:29 IST" name="Suite" finished-at="2025-01-06T17:54:41 IST" duration-ms="12129">
+  <suite started-at="2025-01-06T19:51:40 IST" name="Suite" finished-at="2025-01-06T19:52:00 IST" duration-ms="19624">
     <groups>
       <group name="OrderUpdateDispatch">
-        <method signature="TestsOrderUpdateDispatch.testOrderUpdateDispatchInventoryDetailsBeforeCreateOrder()[pri:1, instance:orderUpdateDispatch.TestsOrderUpdateDispatch@35d019a3]" name="testOrderUpdateDispatchInventoryDetailsBeforeCreateOrder" class="orderUpdateDispatch.TestsOrderUpdateDispatch"/>
-        <method signature="TestsOrderUpdateDispatch.testOrderUpdateDispatchCreateOrder()[pri:0, instance:orderUpdateDispatch.TestsOrderUpdateDispatch@35d019a3]" name="testOrderUpdateDispatchCreateOrder" class="orderUpdateDispatch.TestsOrderUpdateDispatch"/>
-        <method signature="TestsOrderUpdateDispatch.testOrderUpdateDispatchInventoryDetailsAfterCreateOrder()[pri:0, instance:orderUpdateDispatch.TestsOrderUpdateDispatch@35d019a3]" name="testOrderUpdateDispatchInventoryDetailsAfterCreateOrder" class="orderUpdateDispatch.TestsOrderUpdateDispatch"/>
-        <method signature="TestsOrderUpdateDispatch.testOrderUpdateDispatchBatchAssign()[pri:0, instance:orderUpdateDispatch.TestsOrderUpdateDispatch@35d019a3]" name="testOrderUpdateDispatchBatchAssign" class="orderUpdateDispatch.TestsOrderUpdateDispatch"/>
-        <method signature="TestsOrderUpdateDispatch.testOrderUpdateDispatchInventoryDetailsAfterBatchAssign()[pri:0, instance:orderUpdateDispatch.TestsOrderUpdateDispatch@35d019a3]" name="testOrderUpdateDispatchInventoryDetailsAfterBatchAssign" class="orderUpdateDispatch.TestsOrderUpdateDispatch"/>
-        <method signature="TestsOrderUpdateDispatch.testOrderUpdateDispatchMarkPacked()[pri:0, instance:orderUpdateDispatch.TestsOrderUpdateDispatch@35d019a3]" name="testOrderUpdateDispatchMarkPacked" class="orderUpdateDispatch.TestsOrderUpdateDispatch"/>
-        <method signature="TestsOrderUpdateDispatch.testOrderUpdateDispatchInventoryDetailsAfterMarkPacked()[pri:0, instance:orderUpdateDispatch.TestsOrderUpdateDispatch@35d019a3]" name="testOrderUpdateDispatchInventoryDetailsAfterMarkPacked" class="orderUpdateDispatch.TestsOrderUpdateDispatch"/>
-        <method signature="TestsOrderUpdateDispatch.testOrderUpdateDispatchCreateShipment()[pri:0, instance:orderUpdateDispatch.TestsOrderUpdateDispatch@35d019a3]" name="testOrderUpdateDispatchCreateShipment" class="orderUpdateDispatch.TestsOrderUpdateDispatch"/>
-        <method signature="TestsOrderUpdateDispatch.testOrderUpdateDispatchInventoryDetailsAfterCreateShipment()[pri:0, instance:orderUpdateDispatch.TestsOrderUpdateDispatch@35d019a3]" name="testOrderUpdateDispatchInventoryDetailsAfterCreateShipment" class="orderUpdateDispatch.TestsOrderUpdateDispatch"/>
-        <method signature="TestsOrderUpdateDispatch.testOrderUpdateDispatchDispatch()[pri:0, instance:orderUpdateDispatch.TestsOrderUpdateDispatch@35d019a3]" name="testOrderUpdateDispatchDispatch" class="orderUpdateDispatch.TestsOrderUpdateDispatch"/>
-        <method signature="TestsOrderUpdateDispatch.testOrderUpdateDispatchInventoryDetailsAfterDispatch()[pri:0, instance:orderUpdateDispatch.TestsOrderUpdateDispatch@35d019a3]" name="testOrderUpdateDispatchInventoryDetailsAfterDispatch" class="orderUpdateDispatch.TestsOrderUpdateDispatch"/>
-        <method signature="TestsOrderUpdateDispatch.testOrderUpdateDispatchUpdateOrder()[pri:0, instance:orderUpdateDispatch.TestsOrderUpdateDispatch@35d019a3]" name="testOrderUpdateDispatchUpdateOrder" class="orderUpdateDispatch.TestsOrderUpdateDispatch"/>
-        <method signature="TestsOrderUpdateDispatch.testOrderUpdateDispatchInventoryDetailsAfterUpdateOrder()[pri:0, instance:orderUpdateDispatch.TestsOrderUpdateDispatch@35d019a3]" name="testOrderUpdateDispatchInventoryDetailsAfterUpdateOrder" class="orderUpdateDispatch.TestsOrderUpdateDispatch"/>
+        <method signature="TestsOrderUpdateDispatch.testOrderUpdateDispatchInventoryDetailsBeforeCreateOrder()[pri:1, instance:orderUpdateDispatch.TestsOrderUpdateDispatch@48f2bd5b]" name="testOrderUpdateDispatchInventoryDetailsBeforeCreateOrder" class="orderUpdateDispatch.TestsOrderUpdateDispatch"/>
+        <method signature="TestsOrderUpdateDispatch.testOrderUpdateDispatchCreateOrder()[pri:0, instance:orderUpdateDispatch.TestsOrderUpdateDispatch@48f2bd5b]" name="testOrderUpdateDispatchCreateOrder" class="orderUpdateDispatch.TestsOrderUpdateDispatch"/>
+        <method signature="TestsOrderUpdateDispatch.testOrderUpdateDispatchInventoryDetailsAfterCreateOrder()[pri:0, instance:orderUpdateDispatch.TestsOrderUpdateDispatch@48f2bd5b]" name="testOrderUpdateDispatchInventoryDetailsAfterCreateOrder" class="orderUpdateDispatch.TestsOrderUpdateDispatch"/>
+        <method signature="TestsOrderUpdateDispatch.testOrderUpdateDispatchBatchAssign()[pri:0, instance:orderUpdateDispatch.TestsOrderUpdateDispatch@48f2bd5b]" name="testOrderUpdateDispatchBatchAssign" class="orderUpdateDispatch.TestsOrderUpdateDispatch"/>
+        <method signature="TestsOrderUpdateDispatch.testOrderUpdateDispatchInventoryDetailsAfterBatchAssign()[pri:0, instance:orderUpdateDispatch.TestsOrderUpdateDispatch@48f2bd5b]" name="testOrderUpdateDispatchInventoryDetailsAfterBatchAssign" class="orderUpdateDispatch.TestsOrderUpdateDispatch"/>
+        <method signature="TestsOrderUpdateDispatch.testOrderUpdateDispatchMarkPacked()[pri:0, instance:orderUpdateDispatch.TestsOrderUpdateDispatch@48f2bd5b]" name="testOrderUpdateDispatchMarkPacked" class="orderUpdateDispatch.TestsOrderUpdateDispatch"/>
+        <method signature="TestsOrderUpdateDispatch.testOrderUpdateDispatchInventoryDetailsAfterMarkPacked()[pri:0, instance:orderUpdateDispatch.TestsOrderUpdateDispatch@48f2bd5b]" name="testOrderUpdateDispatchInventoryDetailsAfterMarkPacked" class="orderUpdateDispatch.TestsOrderUpdateDispatch"/>
+        <method signature="TestsOrderUpdateDispatch.testOrderUpdateDispatchCreateShipment()[pri:0, instance:orderUpdateDispatch.TestsOrderUpdateDispatch@48f2bd5b]" name="testOrderUpdateDispatchCreateShipment" class="orderUpdateDispatch.TestsOrderUpdateDispatch"/>
+        <method signature="TestsOrderUpdateDispatch.testOrderUpdateDispatchInventoryDetailsAfterCreateShipment()[pri:0, instance:orderUpdateDispatch.TestsOrderUpdateDispatch@48f2bd5b]" name="testOrderUpdateDispatchInventoryDetailsAfterCreateShipment" class="orderUpdateDispatch.TestsOrderUpdateDispatch"/>
+        <method signature="TestsOrderUpdateDispatch.testOrderUpdateDispatchDispatch()[pri:0, instance:orderUpdateDispatch.TestsOrderUpdateDispatch@48f2bd5b]" name="testOrderUpdateDispatchDispatch" class="orderUpdateDispatch.TestsOrderUpdateDispatch"/>
+        <method signature="TestsOrderUpdateDispatch.testOrderUpdateDispatchInventoryDetailsAfterDispatch()[pri:0, instance:orderUpdateDispatch.TestsOrderUpdateDispatch@48f2bd5b]" name="testOrderUpdateDispatchInventoryDetailsAfterDispatch" class="orderUpdateDispatch.TestsOrderUpdateDispatch"/>
+        <method signature="TestsOrderUpdateDispatch.testOrderUpdateDispatchUpdateOrder()[pri:0, instance:orderUpdateDispatch.TestsOrderUpdateDispatch@48f2bd5b]" name="testOrderUpdateDispatchUpdateOrder" class="orderUpdateDispatch.TestsOrderUpdateDispatch"/>
+        <method signature="TestsOrderUpdateDispatch.testOrderUpdateDispatchInventoryDetailsAfterUpdateOrder()[pri:0, instance:orderUpdateDispatch.TestsOrderUpdateDispatch@48f2bd5b]" name="testOrderUpdateDispatchInventoryDetailsAfterUpdateOrder" class="orderUpdateDispatch.TestsOrderUpdateDispatch"/>
       </group> <!-- OrderUpdateDispatch -->
       <group name="OrderCancelCreateOrder">
-        <method signature="TestsOrderCancelCreateOrder.testOrderCancelCreateOrderInventoryDetailsBeforeCreateOrder()[pri:1, instance:orderCancelCreateOrder.TestsOrderCancelCreateOrder@55b699ef]" name="testOrderCancelCreateOrderInventoryDetailsBeforeCreateOrder" class="orderCancelCreateOrder.TestsOrderCancelCreateOrder"/>
-        <method signature="TestsOrderCancelCreateOrder.testOrderCancelCreateOrderCreateOrder()[pri:0, instance:orderCancelCreateOrder.TestsOrderCancelCreateOrder@55b699ef]" name="testOrderCancelCreateOrderCreateOrder" class="orderCancelCreateOrder.TestsOrderCancelCreateOrder"/>
-        <method signature="TestsOrderCancelCreateOrder.testOrderCancelCreateOrderInventoryDetailsAfterCreateOrder()[pri:0, instance:orderCancelCreateOrder.TestsOrderCancelCreateOrder@55b699ef]" name="testOrderCancelCreateOrderInventoryDetailsAfterCreateOrder" class="orderCancelCreateOrder.TestsOrderCancelCreateOrder"/>
-        <method signature="TestsOrderCancelCreateOrder.testOrderCancelCreateOrderCancelOrder()[pri:0, instance:orderCancelCreateOrder.TestsOrderCancelCreateOrder@55b699ef]" name="testOrderCancelCreateOrderCancelOrder" class="orderCancelCreateOrder.TestsOrderCancelCreateOrder"/>
-        <method signature="TestsOrderCancelCreateOrder.testOrderCancelCreateOrderInventoryDetailsAfterCancelOrder()[pri:0, instance:orderCancelCreateOrder.TestsOrderCancelCreateOrder@55b699ef]" name="testOrderCancelCreateOrderInventoryDetailsAfterCancelOrder" class="orderCancelCreateOrder.TestsOrderCancelCreateOrder"/>
+        <method signature="TestsOrderCancelCreateOrder.testOrderCancelCreateOrderInventoryDetailsBeforeCreateOrder()[pri:1, instance:orderCancelCreateOrder.TestsOrderCancelCreateOrder@692f203f]" name="testOrderCancelCreateOrderInventoryDetailsBeforeCreateOrder" class="orderCancelCreateOrder.TestsOrderCancelCreateOrder"/>
+        <method signature="TestsOrderCancelCreateOrder.testOrderCancelCreateOrderCreateOrder()[pri:0, instance:orderCancelCreateOrder.TestsOrderCancelCreateOrder@692f203f]" name="testOrderCancelCreateOrderCreateOrder" class="orderCancelCreateOrder.TestsOrderCancelCreateOrder"/>
+        <method signature="TestsOrderCancelCreateOrder.testOrderCancelCreateOrderInventoryDetailsAfterCreateOrder()[pri:0, instance:orderCancelCreateOrder.TestsOrderCancelCreateOrder@692f203f]" name="testOrderCancelCreateOrderInventoryDetailsAfterCreateOrder" class="orderCancelCreateOrder.TestsOrderCancelCreateOrder"/>
+        <method signature="TestsOrderCancelCreateOrder.testOrderCancelCreateOrderCancelOrder()[pri:0, instance:orderCancelCreateOrder.TestsOrderCancelCreateOrder@692f203f]" name="testOrderCancelCreateOrderCancelOrder" class="orderCancelCreateOrder.TestsOrderCancelCreateOrder"/>
+        <method signature="TestsOrderCancelCreateOrder.testOrderCancelCreateOrderInventoryDetailsAfterCancelOrder()[pri:0, instance:orderCancelCreateOrder.TestsOrderCancelCreateOrder@692f203f]" name="testOrderCancelCreateOrderInventoryDetailsAfterCancelOrder" class="orderCancelCreateOrder.TestsOrderCancelCreateOrder"/>
       </group> <!-- OrderCancelCreateOrder -->
       <group name="OrderFlowPositive">
-        <method signature="TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsBeforeCreateOrder()[pri:1, instance:orderFlowPositive.TestsOrderFlowPositive@351d00c0]" name="testOrderFlowPositiveInventoryDetailsBeforeCreateOrder" class="orderFlowPositive.TestsOrderFlowPositive"/>
-        <method signature="TestsOrderFlowPositive.testOrderFlowPositivecreateOrder()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@351d00c0]" name="testOrderFlowPositivecreateOrder" class="orderFlowPositive.TestsOrderFlowPositive"/>
-        <method signature="TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterCreateOrder()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@351d00c0]" name="testOrderFlowPositiveInventoryDetailsAfterCreateOrder" class="orderFlowPositive.TestsOrderFlowPositive"/>
-        <method signature="TestsOrderFlowPositive.testOrderFlowPositiveBatchAssign()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@351d00c0]" name="testOrderFlowPositiveBatchAssign" class="orderFlowPositive.TestsOrderFlowPositive"/>
-        <method signature="TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterBatchAssign()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@351d00c0]" name="testOrderFlowPositiveInventoryDetailsAfterBatchAssign" class="orderFlowPositive.TestsOrderFlowPositive"/>
-        <method signature="TestsOrderFlowPositive.testOrderFlowPositiveMarkPacked()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@351d00c0]" name="testOrderFlowPositiveMarkPacked" class="orderFlowPositive.TestsOrderFlowPositive"/>
-        <method signature="TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterMarkPacked()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@351d00c0]" name="testOrderFlowPositiveInventoryDetailsAfterMarkPacked" class="orderFlowPositive.TestsOrderFlowPositive"/>
-        <method signature="TestsOrderFlowPositive.testOrderFlowPositiveCreateShipment()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@351d00c0]" name="testOrderFlowPositiveCreateShipment" class="orderFlowPositive.TestsOrderFlowPositive"/>
-        <method signature="TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterCreateShipment()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@351d00c0]" name="testOrderFlowPositiveInventoryDetailsAfterCreateShipment" class="orderFlowPositive.TestsOrderFlowPositive"/>
-        <method signature="TestsOrderFlowPositive.testOrderFlowPositiveDispatch()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@351d00c0]" name="testOrderFlowPositiveDispatch" class="orderFlowPositive.TestsOrderFlowPositive"/>
-        <method signature="TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterDispatch()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@351d00c0]" name="testOrderFlowPositiveInventoryDetailsAfterDispatch" class="orderFlowPositive.TestsOrderFlowPositive"/>
-        <method signature="TestsOrderFlowPositive.testOrderFlowPositiveInvoiceNumber()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@351d00c0]" name="testOrderFlowPositiveInvoiceNumber" class="orderFlowPositive.TestsOrderFlowPositive"/>
-        <method signature="TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterInvoiceNumber()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@351d00c0]" name="testOrderFlowPositiveInventoryDetailsAfterInvoiceNumber" class="orderFlowPositive.TestsOrderFlowPositive"/>
-        <method signature="TestsOrderFlowPositive.testOrderFlowPositiveDeliver()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@351d00c0]" name="testOrderFlowPositiveDeliver" class="orderFlowPositive.TestsOrderFlowPositive"/>
-        <method signature="TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterDeliver()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@351d00c0]" name="testOrderFlowPositiveInventoryDetailsAfterDeliver" class="orderFlowPositive.TestsOrderFlowPositive"/>
-        <method signature="TestsOrderFlowPositive.testOrderFlowPositiveActionCompleteQC()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@351d00c0]" name="testOrderFlowPositiveActionCompleteQC" class="orderFlowPositive.TestsOrderFlowPositive"/>
-        <method signature="TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterActionCompleteQC()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@351d00c0]" name="testOrderFlowPositiveInventoryDetailsAfterActionCompleteQC" class="orderFlowPositive.TestsOrderFlowPositive"/>
-        <method signature="TestsOrderFlowPositive.testOrderFlowPositiveAcceptItemQC()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@351d00c0]" name="testOrderFlowPositiveAcceptItemQC" class="orderFlowPositive.TestsOrderFlowPositive"/>
-        <method signature="TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterAcceptItemQC()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@351d00c0]" name="testOrderFlowPositiveInventoryDetailsAfterAcceptItemQC" class="orderFlowPositive.TestsOrderFlowPositive"/>
-        <method signature="TestsOrderFlowPositive.testOrderFlowPositiveCompleteQC()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@351d00c0]" name="testOrderFlowPositiveCompleteQC" class="orderFlowPositive.TestsOrderFlowPositive"/>
-        <method signature="TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterCompleteQC()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@351d00c0]" name="testOrderFlowPositiveInventoryDetailsAfterCompleteQC" class="orderFlowPositive.TestsOrderFlowPositive"/>
-        <method signature="TestsOrderFlowPositive.testOrderFlowPositiveInventorySettlement()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@351d00c0]" name="testOrderFlowPositiveInventorySettlement" class="orderFlowPositive.TestsOrderFlowPositive"/>
-        <method signature="TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterInventorySettlement()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@351d00c0]" name="testOrderFlowPositiveInventoryDetailsAfterInventorySettlement" class="orderFlowPositive.TestsOrderFlowPositive"/>
+        <method signature="TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsBeforeCreateOrder()[pri:1, instance:orderFlowPositive.TestsOrderFlowPositive@368f2016]" name="testOrderFlowPositiveInventoryDetailsBeforeCreateOrder" class="orderFlowPositive.TestsOrderFlowPositive"/>
+        <method signature="TestsOrderFlowPositive.testOrderFlowPositivecreateOrder()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@368f2016]" name="testOrderFlowPositivecreateOrder" class="orderFlowPositive.TestsOrderFlowPositive"/>
+        <method signature="TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterCreateOrder()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@368f2016]" name="testOrderFlowPositiveInventoryDetailsAfterCreateOrder" class="orderFlowPositive.TestsOrderFlowPositive"/>
+        <method signature="TestsOrderFlowPositive.testOrderFlowPositiveBatchAssign()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@368f2016]" name="testOrderFlowPositiveBatchAssign" class="orderFlowPositive.TestsOrderFlowPositive"/>
+        <method signature="TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterBatchAssign()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@368f2016]" name="testOrderFlowPositiveInventoryDetailsAfterBatchAssign" class="orderFlowPositive.TestsOrderFlowPositive"/>
+        <method signature="TestsOrderFlowPositive.testOrderFlowPositiveMarkPacked()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@368f2016]" name="testOrderFlowPositiveMarkPacked" class="orderFlowPositive.TestsOrderFlowPositive"/>
+        <method signature="TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterMarkPacked()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@368f2016]" name="testOrderFlowPositiveInventoryDetailsAfterMarkPacked" class="orderFlowPositive.TestsOrderFlowPositive"/>
+        <method signature="TestsOrderFlowPositive.testOrderFlowPositiveCreateShipment()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@368f2016]" name="testOrderFlowPositiveCreateShipment" class="orderFlowPositive.TestsOrderFlowPositive"/>
+        <method signature="TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterCreateShipment()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@368f2016]" name="testOrderFlowPositiveInventoryDetailsAfterCreateShipment" class="orderFlowPositive.TestsOrderFlowPositive"/>
+        <method signature="TestsOrderFlowPositive.testOrderFlowPositiveDispatch()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@368f2016]" name="testOrderFlowPositiveDispatch" class="orderFlowPositive.TestsOrderFlowPositive"/>
+        <method signature="TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterDispatch()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@368f2016]" name="testOrderFlowPositiveInventoryDetailsAfterDispatch" class="orderFlowPositive.TestsOrderFlowPositive"/>
+        <method signature="TestsOrderFlowPositive.testOrderFlowPositiveInvoiceNumber()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@368f2016]" name="testOrderFlowPositiveInvoiceNumber" class="orderFlowPositive.TestsOrderFlowPositive"/>
+        <method signature="TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterInvoiceNumber()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@368f2016]" name="testOrderFlowPositiveInventoryDetailsAfterInvoiceNumber" class="orderFlowPositive.TestsOrderFlowPositive"/>
+        <method signature="TestsOrderFlowPositive.testOrderFlowPositiveDeliver()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@368f2016]" name="testOrderFlowPositiveDeliver" class="orderFlowPositive.TestsOrderFlowPositive"/>
+        <method signature="TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterDeliver()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@368f2016]" name="testOrderFlowPositiveInventoryDetailsAfterDeliver" class="orderFlowPositive.TestsOrderFlowPositive"/>
+        <method signature="TestsOrderFlowPositive.testOrderFlowPositiveActionCompleteQC()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@368f2016]" name="testOrderFlowPositiveActionCompleteQC" class="orderFlowPositive.TestsOrderFlowPositive"/>
+        <method signature="TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterActionCompleteQC()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@368f2016]" name="testOrderFlowPositiveInventoryDetailsAfterActionCompleteQC" class="orderFlowPositive.TestsOrderFlowPositive"/>
+        <method signature="TestsOrderFlowPositive.testOrderFlowPositiveAcceptItemQC()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@368f2016]" name="testOrderFlowPositiveAcceptItemQC" class="orderFlowPositive.TestsOrderFlowPositive"/>
+        <method signature="TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterAcceptItemQC()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@368f2016]" name="testOrderFlowPositiveInventoryDetailsAfterAcceptItemQC" class="orderFlowPositive.TestsOrderFlowPositive"/>
+        <method signature="TestsOrderFlowPositive.testOrderFlowPositiveCompleteQC()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@368f2016]" name="testOrderFlowPositiveCompleteQC" class="orderFlowPositive.TestsOrderFlowPositive"/>
+        <method signature="TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterCompleteQC()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@368f2016]" name="testOrderFlowPositiveInventoryDetailsAfterCompleteQC" class="orderFlowPositive.TestsOrderFlowPositive"/>
+        <method signature="TestsOrderFlowPositive.testOrderFlowPositiveInventorySettlement()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@368f2016]" name="testOrderFlowPositiveInventorySettlement" class="orderFlowPositive.TestsOrderFlowPositive"/>
+        <method signature="TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterInventorySettlement()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@368f2016]" name="testOrderFlowPositiveInventoryDetailsAfterInventorySettlement" class="orderFlowPositive.TestsOrderFlowPositive"/>
       </group> <!-- OrderFlowPositive -->
       <group name="OrderFlowNegative">
-        <method signature="TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsBeforeCreateOrder()[pri:1, instance:orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]" name="testOrderFlowNegativeInventoryDetailsBeforeCreateOrder" class="orderFlowNegative.TestsOrderFlowNegative"/>
-        <method signature="TestsOrderFlowNegative.testOrderFlowNegativecreateOrder()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]" name="testOrderFlowNegativecreateOrder" class="orderFlowNegative.TestsOrderFlowNegative"/>
-        <method signature="TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterCreateOrder()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]" name="testOrderFlowNegativeInventoryDetailsAfterCreateOrder" class="orderFlowNegative.TestsOrderFlowNegative"/>
-        <method signature="TestsOrderFlowNegative.testOrderFlowNegativeBatchAssign()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]" name="testOrderFlowNegativeBatchAssign" class="orderFlowNegative.TestsOrderFlowNegative"/>
-        <method signature="TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterBatchAssign()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]" name="testOrderFlowNegativeInventoryDetailsAfterBatchAssign" class="orderFlowNegative.TestsOrderFlowNegative"/>
-        <method signature="TestsOrderFlowNegative.testOrderFlowNegativeMarkPacked()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]" name="testOrderFlowNegativeMarkPacked" class="orderFlowNegative.TestsOrderFlowNegative"/>
-        <method signature="TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterMarkPacked()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]" name="testOrderFlowNegativeInventoryDetailsAfterMarkPacked" class="orderFlowNegative.TestsOrderFlowNegative"/>
-        <method signature="TestsOrderFlowNegative.testOrderFlowNegativeCreateShipment()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]" name="testOrderFlowNegativeCreateShipment" class="orderFlowNegative.TestsOrderFlowNegative"/>
-        <method signature="TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterCreateShipment()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]" name="testOrderFlowNegativeInventoryDetailsAfterCreateShipment" class="orderFlowNegative.TestsOrderFlowNegative"/>
-        <method signature="TestsOrderFlowNegative.testOrderFlowNegativeDispatch()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]" name="testOrderFlowNegativeDispatch" class="orderFlowNegative.TestsOrderFlowNegative"/>
-        <method signature="TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterDispatch()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]" name="testOrderFlowNegativeInventoryDetailsAfterDispatch" class="orderFlowNegative.TestsOrderFlowNegative"/>
-        <method signature="TestsOrderFlowNegative.testOrderFlowNegativeInvoiceNumber()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]" name="testOrderFlowNegativeInvoiceNumber" class="orderFlowNegative.TestsOrderFlowNegative"/>
-        <method signature="TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterInvoiceNumber()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]" name="testOrderFlowNegativeInventoryDetailsAfterInvoiceNumber" class="orderFlowNegative.TestsOrderFlowNegative"/>
-        <method signature="TestsOrderFlowNegative.testOrderFlowNegativeDeliver()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]" name="testOrderFlowNegativeDeliver" class="orderFlowNegative.TestsOrderFlowNegative"/>
-        <method signature="TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterDeliver()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]" name="testOrderFlowNegativeInventoryDetailsAfterDeliver" class="orderFlowNegative.TestsOrderFlowNegative"/>
-        <method signature="TestsOrderFlowNegative.testOrderFlowNegativeActionCompleteQC()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]" name="testOrderFlowNegativeActionCompleteQC" class="orderFlowNegative.TestsOrderFlowNegative"/>
-        <method signature="TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterActionCompleteQC()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]" name="testOrderFlowNegativeInventoryDetailsAfterActionCompleteQC" class="orderFlowNegative.TestsOrderFlowNegative"/>
-        <method signature="TestsOrderFlowNegative.testOrderFlowNegativeRejectItemQC()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]" name="testOrderFlowNegativeRejectItemQC" class="orderFlowNegative.TestsOrderFlowNegative"/>
-        <method signature="TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterRejectItemQC()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]" name="testOrderFlowNegativeInventoryDetailsAfterRejectItemQC" class="orderFlowNegative.TestsOrderFlowNegative"/>
-        <method signature="TestsOrderFlowNegative.testOrderFlowNegativeCompleteQC()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]" name="testOrderFlowNegativeCompleteQC" class="orderFlowNegative.TestsOrderFlowNegative"/>
-        <method signature="TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterCompleteQC()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]" name="testOrderFlowNegativeInventoryDetailsAfterCompleteQC" class="orderFlowNegative.TestsOrderFlowNegative"/>
-        <method signature="TestsOrderFlowNegative.testOrderFlowNegativeInventorySettlement()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]" name="testOrderFlowNegativeInventorySettlement" class="orderFlowNegative.TestsOrderFlowNegative"/>
-        <method signature="TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterInventorySettlement()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]" name="testOrderFlowNegativeInventoryDetailsAfterInventorySettlement" class="orderFlowNegative.TestsOrderFlowNegative"/>
-        <method signature="TestsOrderFlowNegative.testOrderFlowNegativeOrderIdReturn()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]" name="testOrderFlowNegativeOrderIdReturn" class="orderFlowNegative.TestsOrderFlowNegative"/>
-        <method signature="TestsOrderFlowNegative.testOrderFlowNegativeInventoryAfterDetailsOrderIdReturn()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]" name="testOrderFlowNegativeInventoryAfterDetailsOrderIdReturn" class="orderFlowNegative.TestsOrderFlowNegative"/>
-        <method signature="TestsOrderFlowNegative.testOrderFlowNegativeActionCompleteQCReturn()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]" name="testOrderFlowNegativeActionCompleteQCReturn" class="orderFlowNegative.TestsOrderFlowNegative"/>
-        <method signature="TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterActionCompleteQCReturn()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]" name="testOrderFlowNegativeInventoryDetailsAfterActionCompleteQCReturn" class="orderFlowNegative.TestsOrderFlowNegative"/>
-        <method signature="TestsOrderFlowNegative.testOrderFlowNegativeAcceptItemQCReturn()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]" name="testOrderFlowNegativeAcceptItemQCReturn" class="orderFlowNegative.TestsOrderFlowNegative"/>
-        <method signature="TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterAcceptItemQCReturn()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]" name="testOrderFlowNegativeInventoryDetailsAfterAcceptItemQCReturn" class="orderFlowNegative.TestsOrderFlowNegative"/>
-        <method signature="TestsOrderFlowNegative.testOrderFlowNegativeCompleteQCReturn()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]" name="testOrderFlowNegativeCompleteQCReturn" class="orderFlowNegative.TestsOrderFlowNegative"/>
-        <method signature="TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterCompleteQCReturn()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]" name="testOrderFlowNegativeInventoryDetailsAfterCompleteQCReturn" class="orderFlowNegative.TestsOrderFlowNegative"/>
-        <method signature="TestsOrderFlowNegative.testOrderFlowNegativeInventorySettlementReturn()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]" name="testOrderFlowNegativeInventorySettlementReturn" class="orderFlowNegative.TestsOrderFlowNegative"/>
-        <method signature="TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterInventorySettlementReturn()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]" name="testOrderFlowNegativeInventoryDetailsAfterInventorySettlementReturn" class="orderFlowNegative.TestsOrderFlowNegative"/>
+        <method signature="TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsBeforeCreateOrder()[pri:1, instance:orderFlowNegative.TestsOrderFlowNegative@4c583ecf]" name="testOrderFlowNegativeInventoryDetailsBeforeCreateOrder" class="orderFlowNegative.TestsOrderFlowNegative"/>
+        <method signature="TestsOrderFlowNegative.testOrderFlowNegativecreateOrder()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@4c583ecf]" name="testOrderFlowNegativecreateOrder" class="orderFlowNegative.TestsOrderFlowNegative"/>
+        <method signature="TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterCreateOrder()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@4c583ecf]" name="testOrderFlowNegativeInventoryDetailsAfterCreateOrder" class="orderFlowNegative.TestsOrderFlowNegative"/>
+        <method signature="TestsOrderFlowNegative.testOrderFlowNegativeBatchAssign()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@4c583ecf]" name="testOrderFlowNegativeBatchAssign" class="orderFlowNegative.TestsOrderFlowNegative"/>
+        <method signature="TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterBatchAssign()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@4c583ecf]" name="testOrderFlowNegativeInventoryDetailsAfterBatchAssign" class="orderFlowNegative.TestsOrderFlowNegative"/>
+        <method signature="TestsOrderFlowNegative.testOrderFlowNegativeMarkPacked()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@4c583ecf]" name="testOrderFlowNegativeMarkPacked" class="orderFlowNegative.TestsOrderFlowNegative"/>
+        <method signature="TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterMarkPacked()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@4c583ecf]" name="testOrderFlowNegativeInventoryDetailsAfterMarkPacked" class="orderFlowNegative.TestsOrderFlowNegative"/>
+        <method signature="TestsOrderFlowNegative.testOrderFlowNegativeCreateShipment()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@4c583ecf]" name="testOrderFlowNegativeCreateShipment" class="orderFlowNegative.TestsOrderFlowNegative"/>
+        <method signature="TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterCreateShipment()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@4c583ecf]" name="testOrderFlowNegativeInventoryDetailsAfterCreateShipment" class="orderFlowNegative.TestsOrderFlowNegative"/>
+        <method signature="TestsOrderFlowNegative.testOrderFlowNegativeDispatch()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@4c583ecf]" name="testOrderFlowNegativeDispatch" class="orderFlowNegative.TestsOrderFlowNegative"/>
+        <method signature="TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterDispatch()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@4c583ecf]" name="testOrderFlowNegativeInventoryDetailsAfterDispatch" class="orderFlowNegative.TestsOrderFlowNegative"/>
+        <method signature="TestsOrderFlowNegative.testOrderFlowNegativeInvoiceNumber()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@4c583ecf]" name="testOrderFlowNegativeInvoiceNumber" class="orderFlowNegative.TestsOrderFlowNegative"/>
+        <method signature="TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterInvoiceNumber()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@4c583ecf]" name="testOrderFlowNegativeInventoryDetailsAfterInvoiceNumber" class="orderFlowNegative.TestsOrderFlowNegative"/>
+        <method signature="TestsOrderFlowNegative.testOrderFlowNegativeDeliver()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@4c583ecf]" name="testOrderFlowNegativeDeliver" class="orderFlowNegative.TestsOrderFlowNegative"/>
+        <method signature="TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterDeliver()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@4c583ecf]" name="testOrderFlowNegativeInventoryDetailsAfterDeliver" class="orderFlowNegative.TestsOrderFlowNegative"/>
+        <method signature="TestsOrderFlowNegative.testOrderFlowNegativeActionCompleteQC()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@4c583ecf]" name="testOrderFlowNegativeActionCompleteQC" class="orderFlowNegative.TestsOrderFlowNegative"/>
+        <method signature="TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterActionCompleteQC()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@4c583ecf]" name="testOrderFlowNegativeInventoryDetailsAfterActionCompleteQC" class="orderFlowNegative.TestsOrderFlowNegative"/>
+        <method signature="TestsOrderFlowNegative.testOrderFlowNegativeRejectItemQC()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@4c583ecf]" name="testOrderFlowNegativeRejectItemQC" class="orderFlowNegative.TestsOrderFlowNegative"/>
+        <method signature="TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterRejectItemQC()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@4c583ecf]" name="testOrderFlowNegativeInventoryDetailsAfterRejectItemQC" class="orderFlowNegative.TestsOrderFlowNegative"/>
+        <method signature="TestsOrderFlowNegative.testOrderFlowNegativeCompleteQC()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@4c583ecf]" name="testOrderFlowNegativeCompleteQC" class="orderFlowNegative.TestsOrderFlowNegative"/>
+        <method signature="TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterCompleteQC()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@4c583ecf]" name="testOrderFlowNegativeInventoryDetailsAfterCompleteQC" class="orderFlowNegative.TestsOrderFlowNegative"/>
+        <method signature="TestsOrderFlowNegative.testOrderFlowNegativeInventorySettlement()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@4c583ecf]" name="testOrderFlowNegativeInventorySettlement" class="orderFlowNegative.TestsOrderFlowNegative"/>
+        <method signature="TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterInventorySettlement()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@4c583ecf]" name="testOrderFlowNegativeInventoryDetailsAfterInventorySettlement" class="orderFlowNegative.TestsOrderFlowNegative"/>
+        <method signature="TestsOrderFlowNegative.testOrderFlowNegativeOrderIdReturn()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@4c583ecf]" name="testOrderFlowNegativeOrderIdReturn" class="orderFlowNegative.TestsOrderFlowNegative"/>
+        <method signature="TestsOrderFlowNegative.testOrderFlowNegativeInventoryAfterDetailsOrderIdReturn()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@4c583ecf]" name="testOrderFlowNegativeInventoryAfterDetailsOrderIdReturn" class="orderFlowNegative.TestsOrderFlowNegative"/>
+        <method signature="TestsOrderFlowNegative.testOrderFlowNegativeActionCompleteQCReturn()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@4c583ecf]" name="testOrderFlowNegativeActionCompleteQCReturn" class="orderFlowNegative.TestsOrderFlowNegative"/>
+        <method signature="TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterActionCompleteQCReturn()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@4c583ecf]" name="testOrderFlowNegativeInventoryDetailsAfterActionCompleteQCReturn" class="orderFlowNegative.TestsOrderFlowNegative"/>
+        <method signature="TestsOrderFlowNegative.testOrderFlowNegativeAcceptItemQCReturn()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@4c583ecf]" name="testOrderFlowNegativeAcceptItemQCReturn" class="orderFlowNegative.TestsOrderFlowNegative"/>
+        <method signature="TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterAcceptItemQCReturn()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@4c583ecf]" name="testOrderFlowNegativeInventoryDetailsAfterAcceptItemQCReturn" class="orderFlowNegative.TestsOrderFlowNegative"/>
+        <method signature="TestsOrderFlowNegative.testOrderFlowNegativeCompleteQCReturn()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@4c583ecf]" name="testOrderFlowNegativeCompleteQCReturn" class="orderFlowNegative.TestsOrderFlowNegative"/>
+        <method signature="TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterCompleteQCReturn()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@4c583ecf]" name="testOrderFlowNegativeInventoryDetailsAfterCompleteQCReturn" class="orderFlowNegative.TestsOrderFlowNegative"/>
+        <method signature="TestsOrderFlowNegative.testOrderFlowNegativeInventorySettlementReturn()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@4c583ecf]" name="testOrderFlowNegativeInventorySettlementReturn" class="orderFlowNegative.TestsOrderFlowNegative"/>
+        <method signature="TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterInventorySettlementReturn()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@4c583ecf]" name="testOrderFlowNegativeInventoryDetailsAfterInventorySettlementReturn" class="orderFlowNegative.TestsOrderFlowNegative"/>
       </group> <!-- OrderFlowNegative -->
       <group name="BearerTokenGeneration">
-        <method signature="TestsBearerTokenGenerate.testOrderFlowGenerateToken()[pri:1, instance:bearerTokenGenerate.TestsBearerTokenGenerate@1283bb96]" name="testOrderFlowGenerateToken" class="bearerTokenGenerate.TestsBearerTokenGenerate"/>
+        <method signature="TestsBearerTokenGenerate.testOrderFlowGenerateToken()[pri:1, instance:bearerTokenGenerate.TestsBearerTokenGenerate@2a4fb17b]" name="testOrderFlowGenerateToken" class="bearerTokenGenerate.TestsBearerTokenGenerate"/>
       </group> <!-- BearerTokenGeneration -->
     </groups>
-    <test started-at="2025-01-06T17:54:29 IST" name="Test" finished-at="2025-01-06T17:54:41 IST" duration-ms="12129">
+    <test started-at="2025-01-06T19:51:40 IST" name="Test" finished-at="2025-01-06T19:52:00 IST" duration-ms="19624">
       <class name="orderUpdateDispatch.TestsOrderUpdateDispatch">
-        <test-method signature="testOrderUpdateDispatchInventoryDetailsBeforeCreateOrder()[pri:1, instance:orderUpdateDispatch.TestsOrderUpdateDispatch@35d019a3]" started-at="2025-01-06T17:54:39 IST" name="testOrderUpdateDispatchInventoryDetailsBeforeCreateOrder" finished-at="2025-01-06T17:54:39 IST" duration-ms="155" status="PASS">
+        <test-method signature="testOrderUpdateDispatchInventoryDetailsBeforeCreateOrder()[pri:1, instance:orderUpdateDispatch.TestsOrderUpdateDispatch@48f2bd5b]" started-at="2025-01-06T19:51:56 IST" name="testOrderUpdateDispatchInventoryDetailsBeforeCreateOrder" finished-at="2025-01-06T19:51:56 IST" duration-ms="269" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrderUpdateDispatchInventoryDetailsBeforeCreateOrder -->
-        <test-method signature="testOrderUpdateDispatchCreateOrder()[pri:0, instance:orderUpdateDispatch.TestsOrderUpdateDispatch@35d019a3]" started-at="2025-01-06T17:54:39 IST" name="testOrderUpdateDispatchCreateOrder" finished-at="2025-01-06T17:54:39 IST" depends-on-methods="orderUpdateDispatch.TestsOrderUpdateDispatch.testOrderUpdateDispatchInventoryDetailsBeforeCreateOrder" duration-ms="217" status="PASS">
+        <test-method signature="testOrderUpdateDispatchCreateOrder()[pri:0, instance:orderUpdateDispatch.TestsOrderUpdateDispatch@48f2bd5b]" started-at="2025-01-06T19:51:56 IST" name="testOrderUpdateDispatchCreateOrder" finished-at="2025-01-06T19:51:56 IST" depends-on-methods="orderUpdateDispatch.TestsOrderUpdateDispatch.testOrderUpdateDispatchInventoryDetailsBeforeCreateOrder" duration-ms="352" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrderUpdateDispatchCreateOrder -->
-        <test-method signature="testOrderUpdateDispatchInventoryDetailsAfterCreateOrder()[pri:0, instance:orderUpdateDispatch.TestsOrderUpdateDispatch@35d019a3]" started-at="2025-01-06T17:54:39 IST" name="testOrderUpdateDispatchInventoryDetailsAfterCreateOrder" finished-at="2025-01-06T17:54:39 IST" depends-on-methods="orderUpdateDispatch.TestsOrderUpdateDispatch.testOrderUpdateDispatchCreateOrder" duration-ms="199" status="PASS">
+        <test-method signature="testOrderUpdateDispatchInventoryDetailsAfterCreateOrder()[pri:0, instance:orderUpdateDispatch.TestsOrderUpdateDispatch@48f2bd5b]" started-at="2025-01-06T19:51:56 IST" name="testOrderUpdateDispatchInventoryDetailsAfterCreateOrder" finished-at="2025-01-06T19:51:57 IST" depends-on-methods="orderUpdateDispatch.TestsOrderUpdateDispatch.testOrderUpdateDispatchCreateOrder" duration-ms="304" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrderUpdateDispatchInventoryDetailsAfterCreateOrder -->
-        <test-method signature="testOrderUpdateDispatchBatchAssign()[pri:0, instance:orderUpdateDispatch.TestsOrderUpdateDispatch@35d019a3]" started-at="2025-01-06T17:54:39 IST" name="testOrderUpdateDispatchBatchAssign" finished-at="2025-01-06T17:54:39 IST" depends-on-methods="orderUpdateDispatch.TestsOrderUpdateDispatch.testOrderUpdateDispatchInventoryDetailsAfterCreateOrder" duration-ms="146" status="PASS">
+        <test-method signature="testOrderUpdateDispatchBatchAssign()[pri:0, instance:orderUpdateDispatch.TestsOrderUpdateDispatch@48f2bd5b]" started-at="2025-01-06T19:51:57 IST" name="testOrderUpdateDispatchBatchAssign" finished-at="2025-01-06T19:51:57 IST" depends-on-methods="orderUpdateDispatch.TestsOrderUpdateDispatch.testOrderUpdateDispatchInventoryDetailsAfterCreateOrder" duration-ms="288" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrderUpdateDispatchBatchAssign -->
-        <test-method signature="testOrderUpdateDispatchInventoryDetailsAfterBatchAssign()[pri:0, instance:orderUpdateDispatch.TestsOrderUpdateDispatch@35d019a3]" started-at="2025-01-06T17:54:39 IST" name="testOrderUpdateDispatchInventoryDetailsAfterBatchAssign" finished-at="2025-01-06T17:54:40 IST" depends-on-methods="orderUpdateDispatch.TestsOrderUpdateDispatch.testOrderUpdateDispatchBatchAssign" duration-ms="158" status="PASS">
+        <test-method signature="testOrderUpdateDispatchInventoryDetailsAfterBatchAssign()[pri:0, instance:orderUpdateDispatch.TestsOrderUpdateDispatch@48f2bd5b]" started-at="2025-01-06T19:51:57 IST" name="testOrderUpdateDispatchInventoryDetailsAfterBatchAssign" finished-at="2025-01-06T19:51:57 IST" depends-on-methods="orderUpdateDispatch.TestsOrderUpdateDispatch.testOrderUpdateDispatchBatchAssign" duration-ms="328" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrderUpdateDispatchInventoryDetailsAfterBatchAssign -->
-        <test-method signature="testOrderUpdateDispatchMarkPacked()[pri:0, instance:orderUpdateDispatch.TestsOrderUpdateDispatch@35d019a3]" started-at="2025-01-06T17:54:40 IST" name="testOrderUpdateDispatchMarkPacked" finished-at="2025-01-06T17:54:40 IST" depends-on-methods="orderUpdateDispatch.TestsOrderUpdateDispatch.testOrderUpdateDispatchInventoryDetailsAfterBatchAssign" duration-ms="135" status="PASS">
+        <test-method signature="testOrderUpdateDispatchMarkPacked()[pri:0, instance:orderUpdateDispatch.TestsOrderUpdateDispatch@48f2bd5b]" started-at="2025-01-06T19:51:57 IST" name="testOrderUpdateDispatchMarkPacked" finished-at="2025-01-06T19:51:58 IST" depends-on-methods="orderUpdateDispatch.TestsOrderUpdateDispatch.testOrderUpdateDispatchInventoryDetailsAfterBatchAssign" duration-ms="285" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrderUpdateDispatchMarkPacked -->
-        <test-method signature="testOrderUpdateDispatchInventoryDetailsAfterMarkPacked()[pri:0, instance:orderUpdateDispatch.TestsOrderUpdateDispatch@35d019a3]" started-at="2025-01-06T17:54:40 IST" name="testOrderUpdateDispatchInventoryDetailsAfterMarkPacked" finished-at="2025-01-06T17:54:40 IST" depends-on-methods="orderUpdateDispatch.TestsOrderUpdateDispatch.testOrderUpdateDispatchMarkPacked" duration-ms="166" status="PASS">
+        <test-method signature="testOrderUpdateDispatchInventoryDetailsAfterMarkPacked()[pri:0, instance:orderUpdateDispatch.TestsOrderUpdateDispatch@48f2bd5b]" started-at="2025-01-06T19:51:58 IST" name="testOrderUpdateDispatchInventoryDetailsAfterMarkPacked" finished-at="2025-01-06T19:51:58 IST" depends-on-methods="orderUpdateDispatch.TestsOrderUpdateDispatch.testOrderUpdateDispatchMarkPacked" duration-ms="298" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrderUpdateDispatchInventoryDetailsAfterMarkPacked -->
-        <test-method signature="testOrderUpdateDispatchCreateShipment()[pri:0, instance:orderUpdateDispatch.TestsOrderUpdateDispatch@35d019a3]" started-at="2025-01-06T17:54:40 IST" name="testOrderUpdateDispatchCreateShipment" finished-at="2025-01-06T17:54:40 IST" depends-on-methods="orderUpdateDispatch.TestsOrderUpdateDispatch.testOrderUpdateDispatchInventoryDetailsAfterMarkPacked" duration-ms="162" status="PASS">
+        <test-method signature="testOrderUpdateDispatchCreateShipment()[pri:0, instance:orderUpdateDispatch.TestsOrderUpdateDispatch@48f2bd5b]" started-at="2025-01-06T19:51:58 IST" name="testOrderUpdateDispatchCreateShipment" finished-at="2025-01-06T19:51:58 IST" depends-on-methods="orderUpdateDispatch.TestsOrderUpdateDispatch.testOrderUpdateDispatchInventoryDetailsAfterMarkPacked" duration-ms="247" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrderUpdateDispatchCreateShipment -->
-        <test-method signature="testOrderUpdateDispatchInventoryDetailsAfterCreateShipment()[pri:0, instance:orderUpdateDispatch.TestsOrderUpdateDispatch@35d019a3]" started-at="2025-01-06T17:54:40 IST" name="testOrderUpdateDispatchInventoryDetailsAfterCreateShipment" finished-at="2025-01-06T17:54:40 IST" depends-on-methods="orderUpdateDispatch.TestsOrderUpdateDispatch.testOrderUpdateDispatchCreateShipment" duration-ms="196" status="PASS">
+        <test-method signature="testOrderUpdateDispatchInventoryDetailsAfterCreateShipment()[pri:0, instance:orderUpdateDispatch.TestsOrderUpdateDispatch@48f2bd5b]" started-at="2025-01-06T19:51:58 IST" name="testOrderUpdateDispatchInventoryDetailsAfterCreateShipment" finished-at="2025-01-06T19:51:59 IST" depends-on-methods="orderUpdateDispatch.TestsOrderUpdateDispatch.testOrderUpdateDispatchCreateShipment" duration-ms="307" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrderUpdateDispatchInventoryDetailsAfterCreateShipment -->
-        <test-method signature="testOrderUpdateDispatchDispatch()[pri:0, instance:orderUpdateDispatch.TestsOrderUpdateDispatch@35d019a3]" started-at="2025-01-06T17:54:40 IST" name="testOrderUpdateDispatchDispatch" finished-at="2025-01-06T17:54:40 IST" depends-on-methods="orderUpdateDispatch.TestsOrderUpdateDispatch.testOrderUpdateDispatchInventoryDetailsAfterCreateShipment" duration-ms="139" status="PASS">
+        <test-method signature="testOrderUpdateDispatchDispatch()[pri:0, instance:orderUpdateDispatch.TestsOrderUpdateDispatch@48f2bd5b]" started-at="2025-01-06T19:51:59 IST" name="testOrderUpdateDispatchDispatch" finished-at="2025-01-06T19:51:59 IST" depends-on-methods="orderUpdateDispatch.TestsOrderUpdateDispatch.testOrderUpdateDispatchInventoryDetailsAfterCreateShipment" duration-ms="479" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrderUpdateDispatchDispatch -->
-        <test-method signature="testOrderUpdateDispatchInventoryDetailsAfterDispatch()[pri:0, instance:orderUpdateDispatch.TestsOrderUpdateDispatch@35d019a3]" started-at="2025-01-06T17:54:40 IST" name="testOrderUpdateDispatchInventoryDetailsAfterDispatch" finished-at="2025-01-06T17:54:40 IST" depends-on-methods="orderUpdateDispatch.TestsOrderUpdateDispatch.testOrderUpdateDispatchDispatch" duration-ms="159" status="PASS">
+        <test-method signature="testOrderUpdateDispatchInventoryDetailsAfterDispatch()[pri:0, instance:orderUpdateDispatch.TestsOrderUpdateDispatch@48f2bd5b]" started-at="2025-01-06T19:51:59 IST" name="testOrderUpdateDispatchInventoryDetailsAfterDispatch" finished-at="2025-01-06T19:51:59 IST" depends-on-methods="orderUpdateDispatch.TestsOrderUpdateDispatch.testOrderUpdateDispatchDispatch" duration-ms="386" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrderUpdateDispatchInventoryDetailsAfterDispatch -->
-        <test-method signature="testOrderUpdateDispatchUpdateOrder()[pri:0, instance:orderUpdateDispatch.TestsOrderUpdateDispatch@35d019a3]" started-at="2025-01-06T17:54:40 IST" name="testOrderUpdateDispatchUpdateOrder" finished-at="2025-01-06T17:54:41 IST" depends-on-methods="orderUpdateDispatch.TestsOrderUpdateDispatch.testOrderUpdateDispatchInventoryDetailsAfterDispatch" duration-ms="162" status="PASS">
+        <test-method signature="testOrderUpdateDispatchUpdateOrder()[pri:0, instance:orderUpdateDispatch.TestsOrderUpdateDispatch@48f2bd5b]" started-at="2025-01-06T19:51:59 IST" name="testOrderUpdateDispatchUpdateOrder" finished-at="2025-01-06T19:52:00 IST" depends-on-methods="orderUpdateDispatch.TestsOrderUpdateDispatch.testOrderUpdateDispatchInventoryDetailsAfterDispatch" duration-ms="317" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrderUpdateDispatchUpdateOrder -->
-        <test-method signature="testOrderUpdateDispatchInventoryDetailsAfterUpdateOrder()[pri:0, instance:orderUpdateDispatch.TestsOrderUpdateDispatch@35d019a3]" started-at="2025-01-06T17:54:41 IST" name="testOrderUpdateDispatchInventoryDetailsAfterUpdateOrder" finished-at="2025-01-06T17:54:41 IST" depends-on-methods="orderUpdateDispatch.TestsOrderUpdateDispatch.testOrderUpdateDispatchUpdateOrder" duration-ms="177" status="FAIL">
+        <test-method signature="testOrderUpdateDispatchInventoryDetailsAfterUpdateOrder()[pri:0, instance:orderUpdateDispatch.TestsOrderUpdateDispatch@48f2bd5b]" started-at="2025-01-06T19:52:00 IST" name="testOrderUpdateDispatchInventoryDetailsAfterUpdateOrder" finished-at="2025-01-06T19:52:00 IST" depends-on-methods="orderUpdateDispatch.TestsOrderUpdateDispatch.testOrderUpdateDispatchUpdateOrder" duration-ms="318" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[The following asserts failed:
-Pending Stock value Before Create Order is: 102, New Ordered Quantity is: 7, Expected Pending Stock value (Pending Stock Value Before Updating Order + New Ordered Quantity) After Update Order is: 109, But Actual Pending Stock value After Update Order is: 107. Incorrect,
-Expected Intransient Stock value (Intransient Stock value After Update Order = Intransient Stock value Before Create Order) After Update Order is: 62 But Actual Intransient Stock value After Update Order is: 64. Incorrect,
-Expected Available Stock value (Available Stock value After Update Order = Available Stock value Before Create Order) After Update Order is: 99932 But Actual Available Stock value After Update Order is: 99930. Incorrect]]>
+Pending Stock value Before Create Order is: 122, New Ordered Quantity is: 7, Expected Pending Stock value (Pending Stock Value Before Updating Order + New Ordered Quantity) After Update Order is: 129, But Actual Pending Stock value After Update Order is: 127. Incorrect,
+Expected Intransient Stock value (Intransient Stock value After Update Order = Intransient Stock value Before Create Order) After Update Order is: 70 But Actual Intransient Stock value After Update Order is: 72. Incorrect,
+Expected Available Stock value (Available Stock value After Update Order = Available Stock value Before Create Order) After Update Order is: 99924 But Actual Available Stock value After Update Order is: 99922. Incorrect]]>
             </message>
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: The following asserts failed:
-Pending Stock value Before Create Order is: 102, New Ordered Quantity is: 7, Expected Pending Stock value (Pending Stock Value Before Updating Order + New Ordered Quantity) After Update Order is: 109, But Actual Pending Stock value After Update Order is: 107. Incorrect,
-Expected Intransient Stock value (Intransient Stock value After Update Order = Intransient Stock value Before Create Order) After Update Order is: 62 But Actual Intransient Stock value After Update Order is: 64. Incorrect,
-Expected Available Stock value (Available Stock value After Update Order = Available Stock value Before Create Order) After Update Order is: 99932 But Actual Available Stock value After Update Order is: 99930. Incorrect
+Pending Stock value Before Create Order is: 122, New Ordered Quantity is: 7, Expected Pending Stock value (Pending Stock Value Before Updating Order + New Ordered Quantity) After Update Order is: 129, But Actual Pending Stock value After Update Order is: 127. Incorrect,
+Expected Intransient Stock value (Intransient Stock value After Update Order = Intransient Stock value Before Create Order) After Update Order is: 70 But Actual Intransient Stock value After Update Order is: 72. Incorrect,
+Expected Available Stock value (Available Stock value After Update Order = Available Stock value Before Create Order) After Update Order is: 99924 But Actual Available Stock value After Update Order is: 99922. Incorrect
 at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
 at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
 at orderUpdateDispatch.TestsOrderUpdateDispatch.testOrderUpdateDispatchInventoryDetailsAfterUpdateOrder(TestsOrderUpdateDispatch.java:543)
@@ -196,59 +196,59 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
         </test-method> <!-- testOrderUpdateDispatchInventoryDetailsAfterUpdateOrder -->
       </class> <!-- orderUpdateDispatch.TestsOrderUpdateDispatch -->
       <class name="orderFlowNegative.TestsOrderFlowNegative">
-        <test-method signature="testOrderFlowNegativeInventoryDetailsBeforeCreateOrder()[pri:1, instance:orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]" started-at="2025-01-06T17:54:35 IST" name="testOrderFlowNegativeInventoryDetailsBeforeCreateOrder" finished-at="2025-01-06T17:54:36 IST" duration-ms="220" status="PASS">
+        <test-method signature="testOrderFlowNegativeInventoryDetailsBeforeCreateOrder()[pri:1, instance:orderFlowNegative.TestsOrderFlowNegative@4c583ecf]" started-at="2025-01-06T19:51:50 IST" name="testOrderFlowNegativeInventoryDetailsBeforeCreateOrder" finished-at="2025-01-06T19:51:50 IST" duration-ms="307" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrderFlowNegativeInventoryDetailsBeforeCreateOrder -->
-        <test-method signature="testOrderFlowNegativecreateOrder()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]" started-at="2025-01-06T17:54:36 IST" name="testOrderFlowNegativecreateOrder" finished-at="2025-01-06T17:54:36 IST" depends-on-methods="orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsBeforeCreateOrder" duration-ms="166" status="PASS">
+        <test-method signature="testOrderFlowNegativecreateOrder()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@4c583ecf]" started-at="2025-01-06T19:51:50 IST" name="testOrderFlowNegativecreateOrder" finished-at="2025-01-06T19:51:50 IST" depends-on-methods="orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsBeforeCreateOrder" duration-ms="271" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrderFlowNegativecreateOrder -->
-        <test-method signature="testOrderFlowNegativeInventoryDetailsAfterCreateOrder()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]" started-at="2025-01-06T17:54:36 IST" name="testOrderFlowNegativeInventoryDetailsAfterCreateOrder" finished-at="2025-01-06T17:54:36 IST" depends-on-methods="orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativecreateOrder" duration-ms="176" status="PASS">
+        <test-method signature="testOrderFlowNegativeInventoryDetailsAfterCreateOrder()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@4c583ecf]" started-at="2025-01-06T19:51:50 IST" name="testOrderFlowNegativeInventoryDetailsAfterCreateOrder" finished-at="2025-01-06T19:51:51 IST" depends-on-methods="orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativecreateOrder" duration-ms="315" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrderFlowNegativeInventoryDetailsAfterCreateOrder -->
-        <test-method signature="testOrderFlowNegativeBatchAssign()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]" started-at="2025-01-06T17:54:36 IST" name="testOrderFlowNegativeBatchAssign" finished-at="2025-01-06T17:54:36 IST" depends-on-methods="orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterCreateOrder" duration-ms="153" status="PASS">
+        <test-method signature="testOrderFlowNegativeBatchAssign()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@4c583ecf]" started-at="2025-01-06T19:51:51 IST" name="testOrderFlowNegativeBatchAssign" finished-at="2025-01-06T19:51:51 IST" depends-on-methods="orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterCreateOrder" duration-ms="274" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrderFlowNegativeBatchAssign -->
-        <test-method signature="testOrderFlowNegativeInventoryDetailsAfterBatchAssign()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]" started-at="2025-01-06T17:54:36 IST" name="testOrderFlowNegativeInventoryDetailsAfterBatchAssign" finished-at="2025-01-06T17:54:36 IST" depends-on-methods="orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeBatchAssign" duration-ms="197" status="PASS">
+        <test-method signature="testOrderFlowNegativeInventoryDetailsAfterBatchAssign()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@4c583ecf]" started-at="2025-01-06T19:51:51 IST" name="testOrderFlowNegativeInventoryDetailsAfterBatchAssign" finished-at="2025-01-06T19:51:52 IST" depends-on-methods="orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeBatchAssign" duration-ms="896" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrderFlowNegativeInventoryDetailsAfterBatchAssign -->
-        <test-method signature="testOrderFlowNegativeMarkPacked()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]" started-at="2025-01-06T17:54:36 IST" name="testOrderFlowNegativeMarkPacked" finished-at="2025-01-06T17:54:36 IST" depends-on-methods="orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterBatchAssign" duration-ms="156" status="PASS">
+        <test-method signature="testOrderFlowNegativeMarkPacked()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@4c583ecf]" started-at="2025-01-06T19:51:52 IST" name="testOrderFlowNegativeMarkPacked" finished-at="2025-01-06T19:51:52 IST" depends-on-methods="orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterBatchAssign" duration-ms="275" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrderFlowNegativeMarkPacked -->
-        <test-method signature="testOrderFlowNegativeInventoryDetailsAfterMarkPacked()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]" started-at="2025-01-06T17:54:36 IST" name="testOrderFlowNegativeInventoryDetailsAfterMarkPacked" finished-at="2025-01-06T17:54:37 IST" depends-on-methods="orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeMarkPacked" duration-ms="209" status="PASS">
+        <test-method signature="testOrderFlowNegativeInventoryDetailsAfterMarkPacked()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@4c583ecf]" started-at="2025-01-06T19:51:52 IST" name="testOrderFlowNegativeInventoryDetailsAfterMarkPacked" finished-at="2025-01-06T19:51:52 IST" depends-on-methods="orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeMarkPacked" duration-ms="313" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrderFlowNegativeInventoryDetailsAfterMarkPacked -->
-        <test-method signature="testOrderFlowNegativeCreateShipment()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]" started-at="2025-01-06T17:54:37 IST" name="testOrderFlowNegativeCreateShipment" finished-at="2025-01-06T17:54:37 IST" depends-on-methods="orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterMarkPacked" duration-ms="163" status="PASS">
+        <test-method signature="testOrderFlowNegativeCreateShipment()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@4c583ecf]" started-at="2025-01-06T19:51:52 IST" name="testOrderFlowNegativeCreateShipment" finished-at="2025-01-06T19:51:53 IST" depends-on-methods="orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterMarkPacked" duration-ms="255" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrderFlowNegativeCreateShipment -->
-        <test-method signature="testOrderFlowNegativeInventoryDetailsAfterCreateShipment()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]" started-at="2025-01-06T17:54:37 IST" name="testOrderFlowNegativeInventoryDetailsAfterCreateShipment" finished-at="2025-01-06T17:54:37 IST" depends-on-methods="orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeCreateShipment" duration-ms="199" status="PASS">
+        <test-method signature="testOrderFlowNegativeInventoryDetailsAfterCreateShipment()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@4c583ecf]" started-at="2025-01-06T19:51:53 IST" name="testOrderFlowNegativeInventoryDetailsAfterCreateShipment" finished-at="2025-01-06T19:51:53 IST" depends-on-methods="orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeCreateShipment" duration-ms="278" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrderFlowNegativeInventoryDetailsAfterCreateShipment -->
-        <test-method signature="testOrderFlowNegativeDispatch()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]" started-at="2025-01-06T17:54:37 IST" name="testOrderFlowNegativeDispatch" finished-at="2025-01-06T17:54:37 IST" depends-on-methods="orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterCreateShipment" duration-ms="172" status="PASS">
+        <test-method signature="testOrderFlowNegativeDispatch()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@4c583ecf]" started-at="2025-01-06T19:51:53 IST" name="testOrderFlowNegativeDispatch" finished-at="2025-01-06T19:51:53 IST" depends-on-methods="orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterCreateShipment" duration-ms="241" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrderFlowNegativeDispatch -->
-        <test-method signature="testOrderFlowNegativeInventoryDetailsAfterDispatch()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]" started-at="2025-01-06T17:54:37 IST" name="testOrderFlowNegativeInventoryDetailsAfterDispatch" finished-at="2025-01-06T17:54:37 IST" depends-on-methods="orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeDispatch" duration-ms="186" status="PASS">
+        <test-method signature="testOrderFlowNegativeInventoryDetailsAfterDispatch()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@4c583ecf]" started-at="2025-01-06T19:51:53 IST" name="testOrderFlowNegativeInventoryDetailsAfterDispatch" finished-at="2025-01-06T19:51:53 IST" depends-on-methods="orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeDispatch" duration-ms="310" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrderFlowNegativeInventoryDetailsAfterDispatch -->
-        <test-method signature="testOrderFlowNegativeInvoiceNumber()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]" started-at="2025-01-06T17:54:37 IST" name="testOrderFlowNegativeInvoiceNumber" finished-at="2025-01-06T17:54:37 IST" depends-on-methods="orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterDispatch" duration-ms="140" status="PASS">
+        <test-method signature="testOrderFlowNegativeInvoiceNumber()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@4c583ecf]" started-at="2025-01-06T19:51:53 IST" name="testOrderFlowNegativeInvoiceNumber" finished-at="2025-01-06T19:51:54 IST" depends-on-methods="orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterDispatch" duration-ms="292" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrderFlowNegativeInvoiceNumber -->
-        <test-method signature="testOrderFlowNegativeInventoryDetailsAfterInvoiceNumber()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]" started-at="2025-01-06T17:54:37 IST" name="testOrderFlowNegativeInventoryDetailsAfterInvoiceNumber" finished-at="2025-01-06T17:54:38 IST" depends-on-methods="orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInvoiceNumber" duration-ms="192" status="PASS">
+        <test-method signature="testOrderFlowNegativeInventoryDetailsAfterInvoiceNumber()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@4c583ecf]" started-at="2025-01-06T19:51:54 IST" name="testOrderFlowNegativeInventoryDetailsAfterInvoiceNumber" finished-at="2025-01-06T19:51:54 IST" depends-on-methods="orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInvoiceNumber" duration-ms="316" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrderFlowNegativeInventoryDetailsAfterInvoiceNumber -->
-        <test-method signature="testOrderFlowNegativeDeliver()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]" started-at="2025-01-06T17:54:38 IST" name="testOrderFlowNegativeDeliver" finished-at="2025-01-06T17:54:38 IST" depends-on-methods="orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterInvoiceNumber" duration-ms="118" status="FAIL">
+        <test-method signature="testOrderFlowNegativeDeliver()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@4c583ecf]" started-at="2025-01-06T19:51:54 IST" name="testOrderFlowNegativeDeliver" finished-at="2025-01-06T19:51:54 IST" depends-on-methods="orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterInvoiceNumber" duration-ms="228" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Test failed due to unexpected status code: 400]]>
@@ -296,15 +296,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrderFlowNegativeDeliver -->
-        <test-method signature="testOrderFlowNegativeInventoryDetailsAfterDeliver()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]" started-at="2025-01-06T17:54:38 IST" name="testOrderFlowNegativeInventoryDetailsAfterDeliver" finished-at="2025-01-06T17:54:38 IST" depends-on-methods="orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeDeliver" duration-ms="0" status="SKIP">
+        <test-method signature="testOrderFlowNegativeInventoryDetailsAfterDeliver()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@4c583ecf]" started-at="2025-01-06T19:51:54 IST" name="testOrderFlowNegativeInventoryDetailsAfterDeliver" finished-at="2025-01-06T19:51:54 IST" depends-on-methods="orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeDeliver" duration-ms="0" status="SKIP">
           <exception class="java.lang.Throwable">
             <message>
-              <![CDATA[Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterDeliver() on instance orderFlowNegative.TestsOrderFlowNegative@2a3b5b47 depends on not successfully finished methods 
-[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeDeliver() on instance orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]]]>
+              <![CDATA[Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterDeliver() on instance orderFlowNegative.TestsOrderFlowNegative@4c583ecf depends on not successfully finished methods 
+[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeDeliver() on instance orderFlowNegative.TestsOrderFlowNegative@4c583ecf]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterDeliver() on instance orderFlowNegative.TestsOrderFlowNegative@2a3b5b47 depends on not successfully finished methods 
-[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeDeliver() on instance orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]
+              <![CDATA[java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterDeliver() on instance orderFlowNegative.TestsOrderFlowNegative@4c583ecf depends on not successfully finished methods 
+[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeDeliver() on instance orderFlowNegative.TestsOrderFlowNegative@4c583ecf]
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
@@ -334,15 +334,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrderFlowNegativeInventoryDetailsAfterDeliver -->
-        <test-method signature="testOrderFlowNegativeActionCompleteQC()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]" started-at="2025-01-06T17:54:38 IST" name="testOrderFlowNegativeActionCompleteQC" finished-at="2025-01-06T17:54:38 IST" depends-on-methods="orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterDeliver" duration-ms="0" status="SKIP">
+        <test-method signature="testOrderFlowNegativeActionCompleteQC()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@4c583ecf]" started-at="2025-01-06T19:51:54 IST" name="testOrderFlowNegativeActionCompleteQC" finished-at="2025-01-06T19:51:54 IST" depends-on-methods="orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterDeliver" duration-ms="0" status="SKIP">
           <exception class="java.lang.Throwable">
             <message>
-              <![CDATA[Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeActionCompleteQC() on instance orderFlowNegative.TestsOrderFlowNegative@2a3b5b47 depends on not successfully finished methods 
-[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterDeliver() on instance orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]]]>
+              <![CDATA[Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeActionCompleteQC() on instance orderFlowNegative.TestsOrderFlowNegative@4c583ecf depends on not successfully finished methods 
+[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterDeliver() on instance orderFlowNegative.TestsOrderFlowNegative@4c583ecf]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeActionCompleteQC() on instance orderFlowNegative.TestsOrderFlowNegative@2a3b5b47 depends on not successfully finished methods 
-[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterDeliver() on instance orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]
+              <![CDATA[java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeActionCompleteQC() on instance orderFlowNegative.TestsOrderFlowNegative@4c583ecf depends on not successfully finished methods 
+[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterDeliver() on instance orderFlowNegative.TestsOrderFlowNegative@4c583ecf]
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
@@ -372,15 +372,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrderFlowNegativeActionCompleteQC -->
-        <test-method signature="testOrderFlowNegativeInventoryDetailsAfterActionCompleteQC()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]" started-at="2025-01-06T17:54:38 IST" name="testOrderFlowNegativeInventoryDetailsAfterActionCompleteQC" finished-at="2025-01-06T17:54:38 IST" depends-on-methods="orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeActionCompleteQC" duration-ms="0" status="SKIP">
+        <test-method signature="testOrderFlowNegativeInventoryDetailsAfterActionCompleteQC()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@4c583ecf]" started-at="2025-01-06T19:51:54 IST" name="testOrderFlowNegativeInventoryDetailsAfterActionCompleteQC" finished-at="2025-01-06T19:51:54 IST" depends-on-methods="orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeActionCompleteQC" duration-ms="0" status="SKIP">
           <exception class="java.lang.Throwable">
             <message>
-              <![CDATA[Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterActionCompleteQC() on instance orderFlowNegative.TestsOrderFlowNegative@2a3b5b47 depends on not successfully finished methods 
-[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeActionCompleteQC() on instance orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]]]>
+              <![CDATA[Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterActionCompleteQC() on instance orderFlowNegative.TestsOrderFlowNegative@4c583ecf depends on not successfully finished methods 
+[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeActionCompleteQC() on instance orderFlowNegative.TestsOrderFlowNegative@4c583ecf]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterActionCompleteQC() on instance orderFlowNegative.TestsOrderFlowNegative@2a3b5b47 depends on not successfully finished methods 
-[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeActionCompleteQC() on instance orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]
+              <![CDATA[java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterActionCompleteQC() on instance orderFlowNegative.TestsOrderFlowNegative@4c583ecf depends on not successfully finished methods 
+[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeActionCompleteQC() on instance orderFlowNegative.TestsOrderFlowNegative@4c583ecf]
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
@@ -410,15 +410,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrderFlowNegativeInventoryDetailsAfterActionCompleteQC -->
-        <test-method signature="testOrderFlowNegativeRejectItemQC()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]" started-at="2025-01-06T17:54:38 IST" name="testOrderFlowNegativeRejectItemQC" finished-at="2025-01-06T17:54:38 IST" depends-on-methods="orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterActionCompleteQC" duration-ms="0" status="SKIP">
+        <test-method signature="testOrderFlowNegativeRejectItemQC()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@4c583ecf]" started-at="2025-01-06T19:51:54 IST" name="testOrderFlowNegativeRejectItemQC" finished-at="2025-01-06T19:51:54 IST" depends-on-methods="orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterActionCompleteQC" duration-ms="0" status="SKIP">
           <exception class="java.lang.Throwable">
             <message>
-              <![CDATA[Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeRejectItemQC() on instance orderFlowNegative.TestsOrderFlowNegative@2a3b5b47 depends on not successfully finished methods 
-[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterActionCompleteQC() on instance orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]]]>
+              <![CDATA[Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeRejectItemQC() on instance orderFlowNegative.TestsOrderFlowNegative@4c583ecf depends on not successfully finished methods 
+[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterActionCompleteQC() on instance orderFlowNegative.TestsOrderFlowNegative@4c583ecf]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeRejectItemQC() on instance orderFlowNegative.TestsOrderFlowNegative@2a3b5b47 depends on not successfully finished methods 
-[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterActionCompleteQC() on instance orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]
+              <![CDATA[java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeRejectItemQC() on instance orderFlowNegative.TestsOrderFlowNegative@4c583ecf depends on not successfully finished methods 
+[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterActionCompleteQC() on instance orderFlowNegative.TestsOrderFlowNegative@4c583ecf]
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
@@ -448,15 +448,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrderFlowNegativeRejectItemQC -->
-        <test-method signature="testOrderFlowNegativeInventoryDetailsAfterRejectItemQC()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]" started-at="2025-01-06T17:54:38 IST" name="testOrderFlowNegativeInventoryDetailsAfterRejectItemQC" finished-at="2025-01-06T17:54:38 IST" depends-on-methods="orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeRejectItemQC" duration-ms="0" status="SKIP">
+        <test-method signature="testOrderFlowNegativeInventoryDetailsAfterRejectItemQC()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@4c583ecf]" started-at="2025-01-06T19:51:54 IST" name="testOrderFlowNegativeInventoryDetailsAfterRejectItemQC" finished-at="2025-01-06T19:51:54 IST" depends-on-methods="orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeRejectItemQC" duration-ms="0" status="SKIP">
           <exception class="java.lang.Throwable">
             <message>
-              <![CDATA[Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterRejectItemQC() on instance orderFlowNegative.TestsOrderFlowNegative@2a3b5b47 depends on not successfully finished methods 
-[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeRejectItemQC() on instance orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]]]>
+              <![CDATA[Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterRejectItemQC() on instance orderFlowNegative.TestsOrderFlowNegative@4c583ecf depends on not successfully finished methods 
+[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeRejectItemQC() on instance orderFlowNegative.TestsOrderFlowNegative@4c583ecf]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterRejectItemQC() on instance orderFlowNegative.TestsOrderFlowNegative@2a3b5b47 depends on not successfully finished methods 
-[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeRejectItemQC() on instance orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]
+              <![CDATA[java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterRejectItemQC() on instance orderFlowNegative.TestsOrderFlowNegative@4c583ecf depends on not successfully finished methods 
+[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeRejectItemQC() on instance orderFlowNegative.TestsOrderFlowNegative@4c583ecf]
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
@@ -486,15 +486,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrderFlowNegativeInventoryDetailsAfterRejectItemQC -->
-        <test-method signature="testOrderFlowNegativeCompleteQC()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]" started-at="2025-01-06T17:54:38 IST" name="testOrderFlowNegativeCompleteQC" finished-at="2025-01-06T17:54:38 IST" depends-on-methods="orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterRejectItemQC" duration-ms="0" status="SKIP">
+        <test-method signature="testOrderFlowNegativeCompleteQC()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@4c583ecf]" started-at="2025-01-06T19:51:54 IST" name="testOrderFlowNegativeCompleteQC" finished-at="2025-01-06T19:51:54 IST" depends-on-methods="orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterRejectItemQC" duration-ms="0" status="SKIP">
           <exception class="java.lang.Throwable">
             <message>
-              <![CDATA[Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeCompleteQC() on instance orderFlowNegative.TestsOrderFlowNegative@2a3b5b47 depends on not successfully finished methods 
-[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterRejectItemQC() on instance orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]]]>
+              <![CDATA[Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeCompleteQC() on instance orderFlowNegative.TestsOrderFlowNegative@4c583ecf depends on not successfully finished methods 
+[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterRejectItemQC() on instance orderFlowNegative.TestsOrderFlowNegative@4c583ecf]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeCompleteQC() on instance orderFlowNegative.TestsOrderFlowNegative@2a3b5b47 depends on not successfully finished methods 
-[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterRejectItemQC() on instance orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]
+              <![CDATA[java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeCompleteQC() on instance orderFlowNegative.TestsOrderFlowNegative@4c583ecf depends on not successfully finished methods 
+[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterRejectItemQC() on instance orderFlowNegative.TestsOrderFlowNegative@4c583ecf]
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
@@ -524,15 +524,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrderFlowNegativeCompleteQC -->
-        <test-method signature="testOrderFlowNegativeInventoryDetailsAfterCompleteQC()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]" started-at="2025-01-06T17:54:38 IST" name="testOrderFlowNegativeInventoryDetailsAfterCompleteQC" finished-at="2025-01-06T17:54:38 IST" depends-on-methods="orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeCompleteQC" duration-ms="0" status="SKIP">
+        <test-method signature="testOrderFlowNegativeInventoryDetailsAfterCompleteQC()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@4c583ecf]" started-at="2025-01-06T19:51:54 IST" name="testOrderFlowNegativeInventoryDetailsAfterCompleteQC" finished-at="2025-01-06T19:51:54 IST" depends-on-methods="orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeCompleteQC" duration-ms="0" status="SKIP">
           <exception class="java.lang.Throwable">
             <message>
-              <![CDATA[Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterCompleteQC() on instance orderFlowNegative.TestsOrderFlowNegative@2a3b5b47 depends on not successfully finished methods 
-[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeCompleteQC() on instance orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]]]>
+              <![CDATA[Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterCompleteQC() on instance orderFlowNegative.TestsOrderFlowNegative@4c583ecf depends on not successfully finished methods 
+[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeCompleteQC() on instance orderFlowNegative.TestsOrderFlowNegative@4c583ecf]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterCompleteQC() on instance orderFlowNegative.TestsOrderFlowNegative@2a3b5b47 depends on not successfully finished methods 
-[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeCompleteQC() on instance orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]
+              <![CDATA[java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterCompleteQC() on instance orderFlowNegative.TestsOrderFlowNegative@4c583ecf depends on not successfully finished methods 
+[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeCompleteQC() on instance orderFlowNegative.TestsOrderFlowNegative@4c583ecf]
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
@@ -562,15 +562,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrderFlowNegativeInventoryDetailsAfterCompleteQC -->
-        <test-method signature="testOrderFlowNegativeInventorySettlement()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]" started-at="2025-01-06T17:54:38 IST" name="testOrderFlowNegativeInventorySettlement" finished-at="2025-01-06T17:54:38 IST" depends-on-methods="orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterCompleteQC" duration-ms="0" status="SKIP">
+        <test-method signature="testOrderFlowNegativeInventorySettlement()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@4c583ecf]" started-at="2025-01-06T19:51:54 IST" name="testOrderFlowNegativeInventorySettlement" finished-at="2025-01-06T19:51:54 IST" depends-on-methods="orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterCompleteQC" duration-ms="0" status="SKIP">
           <exception class="java.lang.Throwable">
             <message>
-              <![CDATA[Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventorySettlement() on instance orderFlowNegative.TestsOrderFlowNegative@2a3b5b47 depends on not successfully finished methods 
-[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterCompleteQC() on instance orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]]]>
+              <![CDATA[Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventorySettlement() on instance orderFlowNegative.TestsOrderFlowNegative@4c583ecf depends on not successfully finished methods 
+[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterCompleteQC() on instance orderFlowNegative.TestsOrderFlowNegative@4c583ecf]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventorySettlement() on instance orderFlowNegative.TestsOrderFlowNegative@2a3b5b47 depends on not successfully finished methods 
-[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterCompleteQC() on instance orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]
+              <![CDATA[java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventorySettlement() on instance orderFlowNegative.TestsOrderFlowNegative@4c583ecf depends on not successfully finished methods 
+[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterCompleteQC() on instance orderFlowNegative.TestsOrderFlowNegative@4c583ecf]
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
@@ -600,15 +600,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrderFlowNegativeInventorySettlement -->
-        <test-method signature="testOrderFlowNegativeInventoryDetailsAfterInventorySettlement()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]" started-at="2025-01-06T17:54:38 IST" name="testOrderFlowNegativeInventoryDetailsAfterInventorySettlement" finished-at="2025-01-06T17:54:38 IST" depends-on-methods="orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventorySettlement" duration-ms="0" status="SKIP">
+        <test-method signature="testOrderFlowNegativeInventoryDetailsAfterInventorySettlement()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@4c583ecf]" started-at="2025-01-06T19:51:54 IST" name="testOrderFlowNegativeInventoryDetailsAfterInventorySettlement" finished-at="2025-01-06T19:51:54 IST" depends-on-methods="orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventorySettlement" duration-ms="0" status="SKIP">
           <exception class="java.lang.Throwable">
             <message>
-              <![CDATA[Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterInventorySettlement() on instance orderFlowNegative.TestsOrderFlowNegative@2a3b5b47 depends on not successfully finished methods 
-[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventorySettlement() on instance orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]]]>
+              <![CDATA[Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterInventorySettlement() on instance orderFlowNegative.TestsOrderFlowNegative@4c583ecf depends on not successfully finished methods 
+[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventorySettlement() on instance orderFlowNegative.TestsOrderFlowNegative@4c583ecf]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterInventorySettlement() on instance orderFlowNegative.TestsOrderFlowNegative@2a3b5b47 depends on not successfully finished methods 
-[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventorySettlement() on instance orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]
+              <![CDATA[java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterInventorySettlement() on instance orderFlowNegative.TestsOrderFlowNegative@4c583ecf depends on not successfully finished methods 
+[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventorySettlement() on instance orderFlowNegative.TestsOrderFlowNegative@4c583ecf]
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
@@ -638,15 +638,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrderFlowNegativeInventoryDetailsAfterInventorySettlement -->
-        <test-method signature="testOrderFlowNegativeOrderIdReturn()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]" started-at="2025-01-06T17:54:38 IST" name="testOrderFlowNegativeOrderIdReturn" finished-at="2025-01-06T17:54:38 IST" depends-on-methods="orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterInventorySettlement" duration-ms="0" status="SKIP">
+        <test-method signature="testOrderFlowNegativeOrderIdReturn()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@4c583ecf]" started-at="2025-01-06T19:51:54 IST" name="testOrderFlowNegativeOrderIdReturn" finished-at="2025-01-06T19:51:54 IST" depends-on-methods="orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterInventorySettlement" duration-ms="0" status="SKIP">
           <exception class="java.lang.Throwable">
             <message>
-              <![CDATA[Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeOrderIdReturn() on instance orderFlowNegative.TestsOrderFlowNegative@2a3b5b47 depends on not successfully finished methods 
-[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterInventorySettlement() on instance orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]]]>
+              <![CDATA[Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeOrderIdReturn() on instance orderFlowNegative.TestsOrderFlowNegative@4c583ecf depends on not successfully finished methods 
+[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterInventorySettlement() on instance orderFlowNegative.TestsOrderFlowNegative@4c583ecf]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeOrderIdReturn() on instance orderFlowNegative.TestsOrderFlowNegative@2a3b5b47 depends on not successfully finished methods 
-[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterInventorySettlement() on instance orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]
+              <![CDATA[java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeOrderIdReturn() on instance orderFlowNegative.TestsOrderFlowNegative@4c583ecf depends on not successfully finished methods 
+[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterInventorySettlement() on instance orderFlowNegative.TestsOrderFlowNegative@4c583ecf]
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
@@ -676,15 +676,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrderFlowNegativeOrderIdReturn -->
-        <test-method signature="testOrderFlowNegativeInventoryAfterDetailsOrderIdReturn()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]" started-at="2025-01-06T17:54:38 IST" name="testOrderFlowNegativeInventoryAfterDetailsOrderIdReturn" finished-at="2025-01-06T17:54:38 IST" depends-on-methods="orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeOrderIdReturn" duration-ms="0" status="SKIP">
+        <test-method signature="testOrderFlowNegativeInventoryAfterDetailsOrderIdReturn()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@4c583ecf]" started-at="2025-01-06T19:51:54 IST" name="testOrderFlowNegativeInventoryAfterDetailsOrderIdReturn" finished-at="2025-01-06T19:51:54 IST" depends-on-methods="orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeOrderIdReturn" duration-ms="0" status="SKIP">
           <exception class="java.lang.Throwable">
             <message>
-              <![CDATA[Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryAfterDetailsOrderIdReturn() on instance orderFlowNegative.TestsOrderFlowNegative@2a3b5b47 depends on not successfully finished methods 
-[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeOrderIdReturn() on instance orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]]]>
+              <![CDATA[Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryAfterDetailsOrderIdReturn() on instance orderFlowNegative.TestsOrderFlowNegative@4c583ecf depends on not successfully finished methods 
+[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeOrderIdReturn() on instance orderFlowNegative.TestsOrderFlowNegative@4c583ecf]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryAfterDetailsOrderIdReturn() on instance orderFlowNegative.TestsOrderFlowNegative@2a3b5b47 depends on not successfully finished methods 
-[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeOrderIdReturn() on instance orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]
+              <![CDATA[java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryAfterDetailsOrderIdReturn() on instance orderFlowNegative.TestsOrderFlowNegative@4c583ecf depends on not successfully finished methods 
+[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeOrderIdReturn() on instance orderFlowNegative.TestsOrderFlowNegative@4c583ecf]
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
@@ -714,15 +714,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrderFlowNegativeInventoryAfterDetailsOrderIdReturn -->
-        <test-method signature="testOrderFlowNegativeActionCompleteQCReturn()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]" started-at="2025-01-06T17:54:38 IST" name="testOrderFlowNegativeActionCompleteQCReturn" finished-at="2025-01-06T17:54:38 IST" depends-on-methods="orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryAfterDetailsOrderIdReturn" duration-ms="0" status="SKIP">
+        <test-method signature="testOrderFlowNegativeActionCompleteQCReturn()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@4c583ecf]" started-at="2025-01-06T19:51:54 IST" name="testOrderFlowNegativeActionCompleteQCReturn" finished-at="2025-01-06T19:51:54 IST" depends-on-methods="orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryAfterDetailsOrderIdReturn" duration-ms="0" status="SKIP">
           <exception class="java.lang.Throwable">
             <message>
-              <![CDATA[Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeActionCompleteQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@2a3b5b47 depends on not successfully finished methods 
-[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryAfterDetailsOrderIdReturn() on instance orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]]]>
+              <![CDATA[Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeActionCompleteQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@4c583ecf depends on not successfully finished methods 
+[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryAfterDetailsOrderIdReturn() on instance orderFlowNegative.TestsOrderFlowNegative@4c583ecf]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeActionCompleteQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@2a3b5b47 depends on not successfully finished methods 
-[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryAfterDetailsOrderIdReturn() on instance orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]
+              <![CDATA[java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeActionCompleteQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@4c583ecf depends on not successfully finished methods 
+[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryAfterDetailsOrderIdReturn() on instance orderFlowNegative.TestsOrderFlowNegative@4c583ecf]
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
@@ -752,15 +752,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrderFlowNegativeActionCompleteQCReturn -->
-        <test-method signature="testOrderFlowNegativeInventoryDetailsAfterActionCompleteQCReturn()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]" started-at="2025-01-06T17:54:38 IST" name="testOrderFlowNegativeInventoryDetailsAfterActionCompleteQCReturn" finished-at="2025-01-06T17:54:38 IST" depends-on-methods="orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeActionCompleteQCReturn" duration-ms="0" status="SKIP">
+        <test-method signature="testOrderFlowNegativeInventoryDetailsAfterActionCompleteQCReturn()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@4c583ecf]" started-at="2025-01-06T19:51:54 IST" name="testOrderFlowNegativeInventoryDetailsAfterActionCompleteQCReturn" finished-at="2025-01-06T19:51:54 IST" depends-on-methods="orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeActionCompleteQCReturn" duration-ms="0" status="SKIP">
           <exception class="java.lang.Throwable">
             <message>
-              <![CDATA[Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterActionCompleteQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@2a3b5b47 depends on not successfully finished methods 
-[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeActionCompleteQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]]]>
+              <![CDATA[Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterActionCompleteQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@4c583ecf depends on not successfully finished methods 
+[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeActionCompleteQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@4c583ecf]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterActionCompleteQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@2a3b5b47 depends on not successfully finished methods 
-[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeActionCompleteQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]
+              <![CDATA[java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterActionCompleteQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@4c583ecf depends on not successfully finished methods 
+[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeActionCompleteQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@4c583ecf]
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
@@ -790,15 +790,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrderFlowNegativeInventoryDetailsAfterActionCompleteQCReturn -->
-        <test-method signature="testOrderFlowNegativeAcceptItemQCReturn()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]" started-at="2025-01-06T17:54:38 IST" name="testOrderFlowNegativeAcceptItemQCReturn" finished-at="2025-01-06T17:54:38 IST" depends-on-methods="orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterActionCompleteQCReturn" duration-ms="0" status="SKIP">
+        <test-method signature="testOrderFlowNegativeAcceptItemQCReturn()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@4c583ecf]" started-at="2025-01-06T19:51:54 IST" name="testOrderFlowNegativeAcceptItemQCReturn" finished-at="2025-01-06T19:51:54 IST" depends-on-methods="orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterActionCompleteQCReturn" duration-ms="0" status="SKIP">
           <exception class="java.lang.Throwable">
             <message>
-              <![CDATA[Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeAcceptItemQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@2a3b5b47 depends on not successfully finished methods 
-[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterActionCompleteQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]]]>
+              <![CDATA[Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeAcceptItemQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@4c583ecf depends on not successfully finished methods 
+[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterActionCompleteQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@4c583ecf]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeAcceptItemQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@2a3b5b47 depends on not successfully finished methods 
-[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterActionCompleteQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]
+              <![CDATA[java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeAcceptItemQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@4c583ecf depends on not successfully finished methods 
+[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterActionCompleteQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@4c583ecf]
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
@@ -828,15 +828,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrderFlowNegativeAcceptItemQCReturn -->
-        <test-method signature="testOrderFlowNegativeInventoryDetailsAfterAcceptItemQCReturn()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]" started-at="2025-01-06T17:54:38 IST" name="testOrderFlowNegativeInventoryDetailsAfterAcceptItemQCReturn" finished-at="2025-01-06T17:54:38 IST" depends-on-methods="orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeAcceptItemQCReturn" duration-ms="0" status="SKIP">
+        <test-method signature="testOrderFlowNegativeInventoryDetailsAfterAcceptItemQCReturn()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@4c583ecf]" started-at="2025-01-06T19:51:54 IST" name="testOrderFlowNegativeInventoryDetailsAfterAcceptItemQCReturn" finished-at="2025-01-06T19:51:54 IST" depends-on-methods="orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeAcceptItemQCReturn" duration-ms="0" status="SKIP">
           <exception class="java.lang.Throwable">
             <message>
-              <![CDATA[Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterAcceptItemQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@2a3b5b47 depends on not successfully finished methods 
-[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeAcceptItemQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]]]>
+              <![CDATA[Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterAcceptItemQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@4c583ecf depends on not successfully finished methods 
+[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeAcceptItemQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@4c583ecf]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterAcceptItemQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@2a3b5b47 depends on not successfully finished methods 
-[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeAcceptItemQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]
+              <![CDATA[java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterAcceptItemQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@4c583ecf depends on not successfully finished methods 
+[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeAcceptItemQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@4c583ecf]
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
@@ -866,15 +866,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrderFlowNegativeInventoryDetailsAfterAcceptItemQCReturn -->
-        <test-method signature="testOrderFlowNegativeCompleteQCReturn()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]" started-at="2025-01-06T17:54:38 IST" name="testOrderFlowNegativeCompleteQCReturn" finished-at="2025-01-06T17:54:38 IST" depends-on-methods="orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterAcceptItemQCReturn" duration-ms="0" status="SKIP">
+        <test-method signature="testOrderFlowNegativeCompleteQCReturn()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@4c583ecf]" started-at="2025-01-06T19:51:54 IST" name="testOrderFlowNegativeCompleteQCReturn" finished-at="2025-01-06T19:51:54 IST" depends-on-methods="orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterAcceptItemQCReturn" duration-ms="0" status="SKIP">
           <exception class="java.lang.Throwable">
             <message>
-              <![CDATA[Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeCompleteQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@2a3b5b47 depends on not successfully finished methods 
-[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterAcceptItemQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]]]>
+              <![CDATA[Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeCompleteQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@4c583ecf depends on not successfully finished methods 
+[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterAcceptItemQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@4c583ecf]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeCompleteQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@2a3b5b47 depends on not successfully finished methods 
-[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterAcceptItemQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]
+              <![CDATA[java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeCompleteQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@4c583ecf depends on not successfully finished methods 
+[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterAcceptItemQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@4c583ecf]
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
@@ -904,15 +904,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrderFlowNegativeCompleteQCReturn -->
-        <test-method signature="testOrderFlowNegativeInventoryDetailsAfterCompleteQCReturn()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]" started-at="2025-01-06T17:54:38 IST" name="testOrderFlowNegativeInventoryDetailsAfterCompleteQCReturn" finished-at="2025-01-06T17:54:38 IST" depends-on-methods="orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeCompleteQCReturn" duration-ms="0" status="SKIP">
+        <test-method signature="testOrderFlowNegativeInventoryDetailsAfterCompleteQCReturn()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@4c583ecf]" started-at="2025-01-06T19:51:54 IST" name="testOrderFlowNegativeInventoryDetailsAfterCompleteQCReturn" finished-at="2025-01-06T19:51:54 IST" depends-on-methods="orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeCompleteQCReturn" duration-ms="0" status="SKIP">
           <exception class="java.lang.Throwable">
             <message>
-              <![CDATA[Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterCompleteQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@2a3b5b47 depends on not successfully finished methods 
-[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeCompleteQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]]]>
+              <![CDATA[Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterCompleteQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@4c583ecf depends on not successfully finished methods 
+[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeCompleteQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@4c583ecf]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterCompleteQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@2a3b5b47 depends on not successfully finished methods 
-[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeCompleteQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]
+              <![CDATA[java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterCompleteQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@4c583ecf depends on not successfully finished methods 
+[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeCompleteQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@4c583ecf]
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
@@ -942,15 +942,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrderFlowNegativeInventoryDetailsAfterCompleteQCReturn -->
-        <test-method signature="testOrderFlowNegativeInventorySettlementReturn()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]" started-at="2025-01-06T17:54:38 IST" name="testOrderFlowNegativeInventorySettlementReturn" finished-at="2025-01-06T17:54:38 IST" depends-on-methods="orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterCompleteQCReturn" duration-ms="0" status="SKIP">
+        <test-method signature="testOrderFlowNegativeInventorySettlementReturn()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@4c583ecf]" started-at="2025-01-06T19:51:54 IST" name="testOrderFlowNegativeInventorySettlementReturn" finished-at="2025-01-06T19:51:54 IST" depends-on-methods="orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterCompleteQCReturn" duration-ms="0" status="SKIP">
           <exception class="java.lang.Throwable">
             <message>
-              <![CDATA[Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventorySettlementReturn() on instance orderFlowNegative.TestsOrderFlowNegative@2a3b5b47 depends on not successfully finished methods 
-[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterCompleteQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]]]>
+              <![CDATA[Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventorySettlementReturn() on instance orderFlowNegative.TestsOrderFlowNegative@4c583ecf depends on not successfully finished methods 
+[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterCompleteQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@4c583ecf]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventorySettlementReturn() on instance orderFlowNegative.TestsOrderFlowNegative@2a3b5b47 depends on not successfully finished methods 
-[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterCompleteQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]
+              <![CDATA[java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventorySettlementReturn() on instance orderFlowNegative.TestsOrderFlowNegative@4c583ecf depends on not successfully finished methods 
+[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterCompleteQCReturn() on instance orderFlowNegative.TestsOrderFlowNegative@4c583ecf]
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
@@ -980,15 +980,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrderFlowNegativeInventorySettlementReturn -->
-        <test-method signature="testOrderFlowNegativeInventoryDetailsAfterInventorySettlementReturn()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]" started-at="2025-01-06T17:54:38 IST" name="testOrderFlowNegativeInventoryDetailsAfterInventorySettlementReturn" finished-at="2025-01-06T17:54:38 IST" depends-on-methods="orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventorySettlementReturn" duration-ms="0" status="SKIP">
+        <test-method signature="testOrderFlowNegativeInventoryDetailsAfterInventorySettlementReturn()[pri:0, instance:orderFlowNegative.TestsOrderFlowNegative@4c583ecf]" started-at="2025-01-06T19:51:54 IST" name="testOrderFlowNegativeInventoryDetailsAfterInventorySettlementReturn" finished-at="2025-01-06T19:51:54 IST" depends-on-methods="orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventorySettlementReturn" duration-ms="0" status="SKIP">
           <exception class="java.lang.Throwable">
             <message>
-              <![CDATA[Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterInventorySettlementReturn() on instance orderFlowNegative.TestsOrderFlowNegative@2a3b5b47 depends on not successfully finished methods 
-[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventorySettlementReturn() on instance orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]]]>
+              <![CDATA[Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterInventorySettlementReturn() on instance orderFlowNegative.TestsOrderFlowNegative@4c583ecf depends on not successfully finished methods 
+[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventorySettlementReturn() on instance orderFlowNegative.TestsOrderFlowNegative@4c583ecf]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterInventorySettlementReturn() on instance orderFlowNegative.TestsOrderFlowNegative@2a3b5b47 depends on not successfully finished methods 
-[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventorySettlementReturn() on instance orderFlowNegative.TestsOrderFlowNegative@2a3b5b47]
+              <![CDATA[java.lang.Throwable: Method orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventoryDetailsAfterInventorySettlementReturn() on instance orderFlowNegative.TestsOrderFlowNegative@4c583ecf depends on not successfully finished methods 
+[orderFlowNegative.TestsOrderFlowNegative.testOrderFlowNegativeInventorySettlementReturn() on instance orderFlowNegative.TestsOrderFlowNegative@4c583ecf]
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
@@ -1020,87 +1020,87 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
         </test-method> <!-- testOrderFlowNegativeInventoryDetailsAfterInventorySettlementReturn -->
       </class> <!-- orderFlowNegative.TestsOrderFlowNegative -->
       <class name="orderCancelCreateOrder.TestsOrderCancelCreateOrder">
-        <test-method signature="testOrderCancelCreateOrderInventoryDetailsBeforeCreateOrder()[pri:1, instance:orderCancelCreateOrder.TestsOrderCancelCreateOrder@55b699ef]" started-at="2025-01-06T17:54:38 IST" name="testOrderCancelCreateOrderInventoryDetailsBeforeCreateOrder" finished-at="2025-01-06T17:54:38 IST" duration-ms="172" status="PASS">
+        <test-method signature="testOrderCancelCreateOrderInventoryDetailsBeforeCreateOrder()[pri:1, instance:orderCancelCreateOrder.TestsOrderCancelCreateOrder@692f203f]" started-at="2025-01-06T19:51:54 IST" name="testOrderCancelCreateOrderInventoryDetailsBeforeCreateOrder" finished-at="2025-01-06T19:51:55 IST" duration-ms="278" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrderCancelCreateOrderInventoryDetailsBeforeCreateOrder -->
-        <test-method signature="testOrderCancelCreateOrderCreateOrder()[pri:0, instance:orderCancelCreateOrder.TestsOrderCancelCreateOrder@55b699ef]" started-at="2025-01-06T17:54:38 IST" name="testOrderCancelCreateOrderCreateOrder" finished-at="2025-01-06T17:54:38 IST" depends-on-methods="orderCancelCreateOrder.TestsOrderCancelCreateOrder.testOrderCancelCreateOrderInventoryDetailsBeforeCreateOrder" duration-ms="168" status="PASS">
+        <test-method signature="testOrderCancelCreateOrderCreateOrder()[pri:0, instance:orderCancelCreateOrder.TestsOrderCancelCreateOrder@692f203f]" started-at="2025-01-06T19:51:55 IST" name="testOrderCancelCreateOrderCreateOrder" finished-at="2025-01-06T19:51:55 IST" depends-on-methods="orderCancelCreateOrder.TestsOrderCancelCreateOrder.testOrderCancelCreateOrderInventoryDetailsBeforeCreateOrder" duration-ms="318" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrderCancelCreateOrderCreateOrder -->
-        <test-method signature="testOrderCancelCreateOrderInventoryDetailsAfterCreateOrder()[pri:0, instance:orderCancelCreateOrder.TestsOrderCancelCreateOrder@55b699ef]" started-at="2025-01-06T17:54:38 IST" name="testOrderCancelCreateOrderInventoryDetailsAfterCreateOrder" finished-at="2025-01-06T17:54:38 IST" depends-on-methods="orderCancelCreateOrder.TestsOrderCancelCreateOrder.testOrderCancelCreateOrderCreateOrder" duration-ms="174" status="PASS">
+        <test-method signature="testOrderCancelCreateOrderInventoryDetailsAfterCreateOrder()[pri:0, instance:orderCancelCreateOrder.TestsOrderCancelCreateOrder@692f203f]" started-at="2025-01-06T19:51:55 IST" name="testOrderCancelCreateOrderInventoryDetailsAfterCreateOrder" finished-at="2025-01-06T19:51:55 IST" depends-on-methods="orderCancelCreateOrder.TestsOrderCancelCreateOrder.testOrderCancelCreateOrderCreateOrder" duration-ms="303" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrderCancelCreateOrderInventoryDetailsAfterCreateOrder -->
-        <test-method signature="testOrderCancelCreateOrderCancelOrder()[pri:0, instance:orderCancelCreateOrder.TestsOrderCancelCreateOrder@55b699ef]" started-at="2025-01-06T17:54:38 IST" name="testOrderCancelCreateOrderCancelOrder" finished-at="2025-01-06T17:54:38 IST" depends-on-methods="orderCancelCreateOrder.TestsOrderCancelCreateOrder.testOrderCancelCreateOrderInventoryDetailsAfterCreateOrder" duration-ms="156" status="PASS">
+        <test-method signature="testOrderCancelCreateOrderCancelOrder()[pri:0, instance:orderCancelCreateOrder.TestsOrderCancelCreateOrder@692f203f]" started-at="2025-01-06T19:51:55 IST" name="testOrderCancelCreateOrderCancelOrder" finished-at="2025-01-06T19:51:55 IST" depends-on-methods="orderCancelCreateOrder.TestsOrderCancelCreateOrder.testOrderCancelCreateOrderInventoryDetailsAfterCreateOrder" duration-ms="275" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrderCancelCreateOrderCancelOrder -->
-        <test-method signature="testOrderCancelCreateOrderInventoryDetailsAfterCancelOrder()[pri:0, instance:orderCancelCreateOrder.TestsOrderCancelCreateOrder@55b699ef]" started-at="2025-01-06T17:54:38 IST" name="testOrderCancelCreateOrderInventoryDetailsAfterCancelOrder" finished-at="2025-01-06T17:54:39 IST" depends-on-methods="orderCancelCreateOrder.TestsOrderCancelCreateOrder.testOrderCancelCreateOrderCancelOrder" duration-ms="171" status="PASS">
+        <test-method signature="testOrderCancelCreateOrderInventoryDetailsAfterCancelOrder()[pri:0, instance:orderCancelCreateOrder.TestsOrderCancelCreateOrder@692f203f]" started-at="2025-01-06T19:51:55 IST" name="testOrderCancelCreateOrderInventoryDetailsAfterCancelOrder" finished-at="2025-01-06T19:51:56 IST" depends-on-methods="orderCancelCreateOrder.TestsOrderCancelCreateOrder.testOrderCancelCreateOrderCancelOrder" duration-ms="316" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrderCancelCreateOrderInventoryDetailsAfterCancelOrder -->
       </class> <!-- orderCancelCreateOrder.TestsOrderCancelCreateOrder -->
       <class name="bearerTokenGenerate.TestsBearerTokenGenerate">
-        <test-method signature="testOrderFlowGenerateToken()[pri:1, instance:bearerTokenGenerate.TestsBearerTokenGenerate@1283bb96]" started-at="2025-01-06T17:54:29 IST" name="testOrderFlowGenerateToken" finished-at="2025-01-06T17:54:32 IST" duration-ms="2787" status="PASS">
+        <test-method signature="testOrderFlowGenerateToken()[pri:1, instance:bearerTokenGenerate.TestsBearerTokenGenerate@2a4fb17b]" started-at="2025-01-06T19:51:41 IST" name="testOrderFlowGenerateToken" finished-at="2025-01-06T19:51:44 IST" duration-ms="2902" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrderFlowGenerateToken -->
       </class> <!-- bearerTokenGenerate.TestsBearerTokenGenerate -->
       <class name="orderFlowPositive.TestsOrderFlowPositive">
-        <test-method signature="testOrderFlowPositiveInventoryDetailsBeforeCreateOrder()[pri:1, instance:orderFlowPositive.TestsOrderFlowPositive@351d00c0]" started-at="2025-01-06T17:54:32 IST" name="testOrderFlowPositiveInventoryDetailsBeforeCreateOrder" finished-at="2025-01-06T17:54:32 IST" duration-ms="413" status="PASS">
+        <test-method signature="testOrderFlowPositiveInventoryDetailsBeforeCreateOrder()[pri:1, instance:orderFlowPositive.TestsOrderFlowPositive@368f2016]" started-at="2025-01-06T19:51:44 IST" name="testOrderFlowPositiveInventoryDetailsBeforeCreateOrder" finished-at="2025-01-06T19:51:44 IST" duration-ms="816" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrderFlowPositiveInventoryDetailsBeforeCreateOrder -->
-        <test-method signature="testOrderFlowPositivecreateOrder()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@351d00c0]" started-at="2025-01-06T17:54:32 IST" name="testOrderFlowPositivecreateOrder" finished-at="2025-01-06T17:54:33 IST" depends-on-methods="orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsBeforeCreateOrder" duration-ms="331" status="PASS">
+        <test-method signature="testOrderFlowPositivecreateOrder()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@368f2016]" started-at="2025-01-06T19:51:44 IST" name="testOrderFlowPositivecreateOrder" finished-at="2025-01-06T19:51:45 IST" depends-on-methods="orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsBeforeCreateOrder" duration-ms="768" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrderFlowPositivecreateOrder -->
-        <test-method signature="testOrderFlowPositiveInventoryDetailsAfterCreateOrder()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@351d00c0]" started-at="2025-01-06T17:54:33 IST" name="testOrderFlowPositiveInventoryDetailsAfterCreateOrder" finished-at="2025-01-06T17:54:33 IST" depends-on-methods="orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositivecreateOrder" duration-ms="307" status="PASS">
+        <test-method signature="testOrderFlowPositiveInventoryDetailsAfterCreateOrder()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@368f2016]" started-at="2025-01-06T19:51:45 IST" name="testOrderFlowPositiveInventoryDetailsAfterCreateOrder" finished-at="2025-01-06T19:51:46 IST" depends-on-methods="orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositivecreateOrder" duration-ms="721" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrderFlowPositiveInventoryDetailsAfterCreateOrder -->
-        <test-method signature="testOrderFlowPositiveBatchAssign()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@351d00c0]" started-at="2025-01-06T17:54:33 IST" name="testOrderFlowPositiveBatchAssign" finished-at="2025-01-06T17:54:33 IST" depends-on-methods="orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterCreateOrder" duration-ms="193" status="PASS">
+        <test-method signature="testOrderFlowPositiveBatchAssign()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@368f2016]" started-at="2025-01-06T19:51:46 IST" name="testOrderFlowPositiveBatchAssign" finished-at="2025-01-06T19:51:46 IST" depends-on-methods="orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterCreateOrder" duration-ms="363" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrderFlowPositiveBatchAssign -->
-        <test-method signature="testOrderFlowPositiveInventoryDetailsAfterBatchAssign()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@351d00c0]" started-at="2025-01-06T17:54:33 IST" name="testOrderFlowPositiveInventoryDetailsAfterBatchAssign" finished-at="2025-01-06T17:54:33 IST" depends-on-methods="orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveBatchAssign" duration-ms="239" status="PASS">
+        <test-method signature="testOrderFlowPositiveInventoryDetailsAfterBatchAssign()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@368f2016]" started-at="2025-01-06T19:51:46 IST" name="testOrderFlowPositiveInventoryDetailsAfterBatchAssign" finished-at="2025-01-06T19:51:47 IST" depends-on-methods="orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveBatchAssign" duration-ms="329" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrderFlowPositiveInventoryDetailsAfterBatchAssign -->
-        <test-method signature="testOrderFlowPositiveMarkPacked()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@351d00c0]" started-at="2025-01-06T17:54:33 IST" name="testOrderFlowPositiveMarkPacked" finished-at="2025-01-06T17:54:34 IST" depends-on-methods="orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterBatchAssign" duration-ms="173" status="PASS">
+        <test-method signature="testOrderFlowPositiveMarkPacked()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@368f2016]" started-at="2025-01-06T19:51:47 IST" name="testOrderFlowPositiveMarkPacked" finished-at="2025-01-06T19:51:47 IST" depends-on-methods="orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterBatchAssign" duration-ms="254" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrderFlowPositiveMarkPacked -->
-        <test-method signature="testOrderFlowPositiveInventoryDetailsAfterMarkPacked()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@351d00c0]" started-at="2025-01-06T17:54:34 IST" name="testOrderFlowPositiveInventoryDetailsAfterMarkPacked" finished-at="2025-01-06T17:54:34 IST" depends-on-methods="orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveMarkPacked" duration-ms="235" status="PASS">
+        <test-method signature="testOrderFlowPositiveInventoryDetailsAfterMarkPacked()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@368f2016]" started-at="2025-01-06T19:51:47 IST" name="testOrderFlowPositiveInventoryDetailsAfterMarkPacked" finished-at="2025-01-06T19:51:47 IST" depends-on-methods="orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveMarkPacked" duration-ms="345" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrderFlowPositiveInventoryDetailsAfterMarkPacked -->
-        <test-method signature="testOrderFlowPositiveCreateShipment()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@351d00c0]" started-at="2025-01-06T17:54:34 IST" name="testOrderFlowPositiveCreateShipment" finished-at="2025-01-06T17:54:34 IST" depends-on-methods="orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterMarkPacked" duration-ms="441" status="PASS">
+        <test-method signature="testOrderFlowPositiveCreateShipment()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@368f2016]" started-at="2025-01-06T19:51:47 IST" name="testOrderFlowPositiveCreateShipment" finished-at="2025-01-06T19:51:48 IST" depends-on-methods="orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterMarkPacked" duration-ms="596" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrderFlowPositiveCreateShipment -->
-        <test-method signature="testOrderFlowPositiveInventoryDetailsAfterCreateShipment()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@351d00c0]" started-at="2025-01-06T17:54:34 IST" name="testOrderFlowPositiveInventoryDetailsAfterCreateShipment" finished-at="2025-01-06T17:54:34 IST" depends-on-methods="orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveCreateShipment" duration-ms="208" status="PASS">
+        <test-method signature="testOrderFlowPositiveInventoryDetailsAfterCreateShipment()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@368f2016]" started-at="2025-01-06T19:51:48 IST" name="testOrderFlowPositiveInventoryDetailsAfterCreateShipment" finished-at="2025-01-06T19:51:48 IST" depends-on-methods="orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveCreateShipment" duration-ms="283" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrderFlowPositiveInventoryDetailsAfterCreateShipment -->
-        <test-method signature="testOrderFlowPositiveDispatch()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@351d00c0]" started-at="2025-01-06T17:54:34 IST" name="testOrderFlowPositiveDispatch" finished-at="2025-01-06T17:54:35 IST" depends-on-methods="orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterCreateShipment" duration-ms="168" status="PASS">
+        <test-method signature="testOrderFlowPositiveDispatch()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@368f2016]" started-at="2025-01-06T19:51:48 IST" name="testOrderFlowPositiveDispatch" finished-at="2025-01-06T19:51:48 IST" depends-on-methods="orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterCreateShipment" duration-ms="291" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrderFlowPositiveDispatch -->
-        <test-method signature="testOrderFlowPositiveInventoryDetailsAfterDispatch()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@351d00c0]" started-at="2025-01-06T17:54:35 IST" name="testOrderFlowPositiveInventoryDetailsAfterDispatch" finished-at="2025-01-06T17:54:35 IST" depends-on-methods="orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveDispatch" duration-ms="216" status="PASS">
+        <test-method signature="testOrderFlowPositiveInventoryDetailsAfterDispatch()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@368f2016]" started-at="2025-01-06T19:51:48 IST" name="testOrderFlowPositiveInventoryDetailsAfterDispatch" finished-at="2025-01-06T19:51:49 IST" depends-on-methods="orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveDispatch" duration-ms="319" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrderFlowPositiveInventoryDetailsAfterDispatch -->
-        <test-method signature="testOrderFlowPositiveInvoiceNumber()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@351d00c0]" started-at="2025-01-06T17:54:35 IST" name="testOrderFlowPositiveInvoiceNumber" finished-at="2025-01-06T17:54:35 IST" depends-on-methods="orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterDispatch" duration-ms="149" status="PASS">
+        <test-method signature="testOrderFlowPositiveInvoiceNumber()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@368f2016]" started-at="2025-01-06T19:51:49 IST" name="testOrderFlowPositiveInvoiceNumber" finished-at="2025-01-06T19:51:49 IST" depends-on-methods="orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterDispatch" duration-ms="338" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrderFlowPositiveInvoiceNumber -->
-        <test-method signature="testOrderFlowPositiveInventoryDetailsAfterInvoiceNumber()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@351d00c0]" started-at="2025-01-06T17:54:35 IST" name="testOrderFlowPositiveInventoryDetailsAfterInvoiceNumber" finished-at="2025-01-06T17:54:35 IST" depends-on-methods="orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInvoiceNumber" duration-ms="223" status="PASS">
+        <test-method signature="testOrderFlowPositiveInventoryDetailsAfterInvoiceNumber()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@368f2016]" started-at="2025-01-06T19:51:49 IST" name="testOrderFlowPositiveInventoryDetailsAfterInvoiceNumber" finished-at="2025-01-06T19:51:49 IST" depends-on-methods="orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInvoiceNumber" duration-ms="322" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrderFlowPositiveInventoryDetailsAfterInvoiceNumber -->
-        <test-method signature="testOrderFlowPositiveDeliver()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@351d00c0]" started-at="2025-01-06T17:54:35 IST" name="testOrderFlowPositiveDeliver" finished-at="2025-01-06T17:54:35 IST" depends-on-methods="orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterInvoiceNumber" duration-ms="107" status="FAIL">
+        <test-method signature="testOrderFlowPositiveDeliver()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@368f2016]" started-at="2025-01-06T19:51:49 IST" name="testOrderFlowPositiveDeliver" finished-at="2025-01-06T19:51:50 IST" depends-on-methods="orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterInvoiceNumber" duration-ms="240" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Test failed due to unexpected status code: 400]]>
@@ -1148,15 +1148,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrderFlowPositiveDeliver -->
-        <test-method signature="testOrderFlowPositiveInventoryDetailsAfterDeliver()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@351d00c0]" started-at="2025-01-06T17:54:35 IST" name="testOrderFlowPositiveInventoryDetailsAfterDeliver" finished-at="2025-01-06T17:54:35 IST" depends-on-methods="orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveDeliver" duration-ms="0" status="SKIP">
+        <test-method signature="testOrderFlowPositiveInventoryDetailsAfterDeliver()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@368f2016]" started-at="2025-01-06T19:51:50 IST" name="testOrderFlowPositiveInventoryDetailsAfterDeliver" finished-at="2025-01-06T19:51:50 IST" depends-on-methods="orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveDeliver" duration-ms="0" status="SKIP">
           <exception class="java.lang.Throwable">
             <message>
-              <![CDATA[Method orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterDeliver() on instance orderFlowPositive.TestsOrderFlowPositive@351d00c0 depends on not successfully finished methods 
-[orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveDeliver() on instance orderFlowPositive.TestsOrderFlowPositive@351d00c0]]]>
+              <![CDATA[Method orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterDeliver() on instance orderFlowPositive.TestsOrderFlowPositive@368f2016 depends on not successfully finished methods 
+[orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveDeliver() on instance orderFlowPositive.TestsOrderFlowPositive@368f2016]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterDeliver() on instance orderFlowPositive.TestsOrderFlowPositive@351d00c0 depends on not successfully finished methods 
-[orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveDeliver() on instance orderFlowPositive.TestsOrderFlowPositive@351d00c0]
+              <![CDATA[java.lang.Throwable: Method orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterDeliver() on instance orderFlowPositive.TestsOrderFlowPositive@368f2016 depends on not successfully finished methods 
+[orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveDeliver() on instance orderFlowPositive.TestsOrderFlowPositive@368f2016]
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
@@ -1186,15 +1186,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrderFlowPositiveInventoryDetailsAfterDeliver -->
-        <test-method signature="testOrderFlowPositiveActionCompleteQC()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@351d00c0]" started-at="2025-01-06T17:54:35 IST" name="testOrderFlowPositiveActionCompleteQC" finished-at="2025-01-06T17:54:35 IST" depends-on-methods="orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterDeliver" duration-ms="0" status="SKIP">
+        <test-method signature="testOrderFlowPositiveActionCompleteQC()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@368f2016]" started-at="2025-01-06T19:51:50 IST" name="testOrderFlowPositiveActionCompleteQC" finished-at="2025-01-06T19:51:50 IST" depends-on-methods="orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterDeliver" duration-ms="0" status="SKIP">
           <exception class="java.lang.Throwable">
             <message>
-              <![CDATA[Method orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveActionCompleteQC() on instance orderFlowPositive.TestsOrderFlowPositive@351d00c0 depends on not successfully finished methods 
-[orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterDeliver() on instance orderFlowPositive.TestsOrderFlowPositive@351d00c0]]]>
+              <![CDATA[Method orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveActionCompleteQC() on instance orderFlowPositive.TestsOrderFlowPositive@368f2016 depends on not successfully finished methods 
+[orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterDeliver() on instance orderFlowPositive.TestsOrderFlowPositive@368f2016]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveActionCompleteQC() on instance orderFlowPositive.TestsOrderFlowPositive@351d00c0 depends on not successfully finished methods 
-[orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterDeliver() on instance orderFlowPositive.TestsOrderFlowPositive@351d00c0]
+              <![CDATA[java.lang.Throwable: Method orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveActionCompleteQC() on instance orderFlowPositive.TestsOrderFlowPositive@368f2016 depends on not successfully finished methods 
+[orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterDeliver() on instance orderFlowPositive.TestsOrderFlowPositive@368f2016]
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
@@ -1224,15 +1224,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrderFlowPositiveActionCompleteQC -->
-        <test-method signature="testOrderFlowPositiveInventoryDetailsAfterActionCompleteQC()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@351d00c0]" started-at="2025-01-06T17:54:35 IST" name="testOrderFlowPositiveInventoryDetailsAfterActionCompleteQC" finished-at="2025-01-06T17:54:35 IST" depends-on-methods="orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveActionCompleteQC" duration-ms="0" status="SKIP">
+        <test-method signature="testOrderFlowPositiveInventoryDetailsAfterActionCompleteQC()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@368f2016]" started-at="2025-01-06T19:51:50 IST" name="testOrderFlowPositiveInventoryDetailsAfterActionCompleteQC" finished-at="2025-01-06T19:51:50 IST" depends-on-methods="orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveActionCompleteQC" duration-ms="0" status="SKIP">
           <exception class="java.lang.Throwable">
             <message>
-              <![CDATA[Method orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterActionCompleteQC() on instance orderFlowPositive.TestsOrderFlowPositive@351d00c0 depends on not successfully finished methods 
-[orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveActionCompleteQC() on instance orderFlowPositive.TestsOrderFlowPositive@351d00c0]]]>
+              <![CDATA[Method orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterActionCompleteQC() on instance orderFlowPositive.TestsOrderFlowPositive@368f2016 depends on not successfully finished methods 
+[orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveActionCompleteQC() on instance orderFlowPositive.TestsOrderFlowPositive@368f2016]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterActionCompleteQC() on instance orderFlowPositive.TestsOrderFlowPositive@351d00c0 depends on not successfully finished methods 
-[orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveActionCompleteQC() on instance orderFlowPositive.TestsOrderFlowPositive@351d00c0]
+              <![CDATA[java.lang.Throwable: Method orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterActionCompleteQC() on instance orderFlowPositive.TestsOrderFlowPositive@368f2016 depends on not successfully finished methods 
+[orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveActionCompleteQC() on instance orderFlowPositive.TestsOrderFlowPositive@368f2016]
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
@@ -1262,15 +1262,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrderFlowPositiveInventoryDetailsAfterActionCompleteQC -->
-        <test-method signature="testOrderFlowPositiveAcceptItemQC()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@351d00c0]" started-at="2025-01-06T17:54:35 IST" name="testOrderFlowPositiveAcceptItemQC" finished-at="2025-01-06T17:54:35 IST" depends-on-methods="orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterActionCompleteQC" duration-ms="1" status="SKIP">
+        <test-method signature="testOrderFlowPositiveAcceptItemQC()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@368f2016]" started-at="2025-01-06T19:51:50 IST" name="testOrderFlowPositiveAcceptItemQC" finished-at="2025-01-06T19:51:50 IST" depends-on-methods="orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterActionCompleteQC" duration-ms="0" status="SKIP">
           <exception class="java.lang.Throwable">
             <message>
-              <![CDATA[Method orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveAcceptItemQC() on instance orderFlowPositive.TestsOrderFlowPositive@351d00c0 depends on not successfully finished methods 
-[orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterActionCompleteQC() on instance orderFlowPositive.TestsOrderFlowPositive@351d00c0]]]>
+              <![CDATA[Method orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveAcceptItemQC() on instance orderFlowPositive.TestsOrderFlowPositive@368f2016 depends on not successfully finished methods 
+[orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterActionCompleteQC() on instance orderFlowPositive.TestsOrderFlowPositive@368f2016]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveAcceptItemQC() on instance orderFlowPositive.TestsOrderFlowPositive@351d00c0 depends on not successfully finished methods 
-[orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterActionCompleteQC() on instance orderFlowPositive.TestsOrderFlowPositive@351d00c0]
+              <![CDATA[java.lang.Throwable: Method orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveAcceptItemQC() on instance orderFlowPositive.TestsOrderFlowPositive@368f2016 depends on not successfully finished methods 
+[orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterActionCompleteQC() on instance orderFlowPositive.TestsOrderFlowPositive@368f2016]
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
@@ -1300,15 +1300,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrderFlowPositiveAcceptItemQC -->
-        <test-method signature="testOrderFlowPositiveInventoryDetailsAfterAcceptItemQC()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@351d00c0]" started-at="2025-01-06T17:54:35 IST" name="testOrderFlowPositiveInventoryDetailsAfterAcceptItemQC" finished-at="2025-01-06T17:54:35 IST" depends-on-methods="orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveAcceptItemQC" duration-ms="0" status="SKIP">
+        <test-method signature="testOrderFlowPositiveInventoryDetailsAfterAcceptItemQC()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@368f2016]" started-at="2025-01-06T19:51:50 IST" name="testOrderFlowPositiveInventoryDetailsAfterAcceptItemQC" finished-at="2025-01-06T19:51:50 IST" depends-on-methods="orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveAcceptItemQC" duration-ms="0" status="SKIP">
           <exception class="java.lang.Throwable">
             <message>
-              <![CDATA[Method orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterAcceptItemQC() on instance orderFlowPositive.TestsOrderFlowPositive@351d00c0 depends on not successfully finished methods 
-[orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveAcceptItemQC() on instance orderFlowPositive.TestsOrderFlowPositive@351d00c0]]]>
+              <![CDATA[Method orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterAcceptItemQC() on instance orderFlowPositive.TestsOrderFlowPositive@368f2016 depends on not successfully finished methods 
+[orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveAcceptItemQC() on instance orderFlowPositive.TestsOrderFlowPositive@368f2016]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterAcceptItemQC() on instance orderFlowPositive.TestsOrderFlowPositive@351d00c0 depends on not successfully finished methods 
-[orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveAcceptItemQC() on instance orderFlowPositive.TestsOrderFlowPositive@351d00c0]
+              <![CDATA[java.lang.Throwable: Method orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterAcceptItemQC() on instance orderFlowPositive.TestsOrderFlowPositive@368f2016 depends on not successfully finished methods 
+[orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveAcceptItemQC() on instance orderFlowPositive.TestsOrderFlowPositive@368f2016]
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
@@ -1338,15 +1338,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrderFlowPositiveInventoryDetailsAfterAcceptItemQC -->
-        <test-method signature="testOrderFlowPositiveCompleteQC()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@351d00c0]" started-at="2025-01-06T17:54:35 IST" name="testOrderFlowPositiveCompleteQC" finished-at="2025-01-06T17:54:35 IST" depends-on-methods="orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterAcceptItemQC" duration-ms="0" status="SKIP">
+        <test-method signature="testOrderFlowPositiveCompleteQC()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@368f2016]" started-at="2025-01-06T19:51:50 IST" name="testOrderFlowPositiveCompleteQC" finished-at="2025-01-06T19:51:50 IST" depends-on-methods="orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterAcceptItemQC" duration-ms="0" status="SKIP">
           <exception class="java.lang.Throwable">
             <message>
-              <![CDATA[Method orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveCompleteQC() on instance orderFlowPositive.TestsOrderFlowPositive@351d00c0 depends on not successfully finished methods 
-[orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterAcceptItemQC() on instance orderFlowPositive.TestsOrderFlowPositive@351d00c0]]]>
+              <![CDATA[Method orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveCompleteQC() on instance orderFlowPositive.TestsOrderFlowPositive@368f2016 depends on not successfully finished methods 
+[orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterAcceptItemQC() on instance orderFlowPositive.TestsOrderFlowPositive@368f2016]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveCompleteQC() on instance orderFlowPositive.TestsOrderFlowPositive@351d00c0 depends on not successfully finished methods 
-[orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterAcceptItemQC() on instance orderFlowPositive.TestsOrderFlowPositive@351d00c0]
+              <![CDATA[java.lang.Throwable: Method orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveCompleteQC() on instance orderFlowPositive.TestsOrderFlowPositive@368f2016 depends on not successfully finished methods 
+[orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterAcceptItemQC() on instance orderFlowPositive.TestsOrderFlowPositive@368f2016]
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
@@ -1376,15 +1376,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrderFlowPositiveCompleteQC -->
-        <test-method signature="testOrderFlowPositiveInventoryDetailsAfterCompleteQC()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@351d00c0]" started-at="2025-01-06T17:54:35 IST" name="testOrderFlowPositiveInventoryDetailsAfterCompleteQC" finished-at="2025-01-06T17:54:35 IST" depends-on-methods="orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveCompleteQC" duration-ms="0" status="SKIP">
+        <test-method signature="testOrderFlowPositiveInventoryDetailsAfterCompleteQC()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@368f2016]" started-at="2025-01-06T19:51:50 IST" name="testOrderFlowPositiveInventoryDetailsAfterCompleteQC" finished-at="2025-01-06T19:51:50 IST" depends-on-methods="orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveCompleteQC" duration-ms="0" status="SKIP">
           <exception class="java.lang.Throwable">
             <message>
-              <![CDATA[Method orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterCompleteQC() on instance orderFlowPositive.TestsOrderFlowPositive@351d00c0 depends on not successfully finished methods 
-[orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveCompleteQC() on instance orderFlowPositive.TestsOrderFlowPositive@351d00c0]]]>
+              <![CDATA[Method orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterCompleteQC() on instance orderFlowPositive.TestsOrderFlowPositive@368f2016 depends on not successfully finished methods 
+[orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveCompleteQC() on instance orderFlowPositive.TestsOrderFlowPositive@368f2016]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterCompleteQC() on instance orderFlowPositive.TestsOrderFlowPositive@351d00c0 depends on not successfully finished methods 
-[orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveCompleteQC() on instance orderFlowPositive.TestsOrderFlowPositive@351d00c0]
+              <![CDATA[java.lang.Throwable: Method orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterCompleteQC() on instance orderFlowPositive.TestsOrderFlowPositive@368f2016 depends on not successfully finished methods 
+[orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveCompleteQC() on instance orderFlowPositive.TestsOrderFlowPositive@368f2016]
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
@@ -1414,15 +1414,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrderFlowPositiveInventoryDetailsAfterCompleteQC -->
-        <test-method signature="testOrderFlowPositiveInventorySettlement()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@351d00c0]" started-at="2025-01-06T17:54:35 IST" name="testOrderFlowPositiveInventorySettlement" finished-at="2025-01-06T17:54:35 IST" depends-on-methods="orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterCompleteQC" duration-ms="0" status="SKIP">
+        <test-method signature="testOrderFlowPositiveInventorySettlement()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@368f2016]" started-at="2025-01-06T19:51:50 IST" name="testOrderFlowPositiveInventorySettlement" finished-at="2025-01-06T19:51:50 IST" depends-on-methods="orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterCompleteQC" duration-ms="0" status="SKIP">
           <exception class="java.lang.Throwable">
             <message>
-              <![CDATA[Method orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventorySettlement() on instance orderFlowPositive.TestsOrderFlowPositive@351d00c0 depends on not successfully finished methods 
-[orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterCompleteQC() on instance orderFlowPositive.TestsOrderFlowPositive@351d00c0]]]>
+              <![CDATA[Method orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventorySettlement() on instance orderFlowPositive.TestsOrderFlowPositive@368f2016 depends on not successfully finished methods 
+[orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterCompleteQC() on instance orderFlowPositive.TestsOrderFlowPositive@368f2016]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventorySettlement() on instance orderFlowPositive.TestsOrderFlowPositive@351d00c0 depends on not successfully finished methods 
-[orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterCompleteQC() on instance orderFlowPositive.TestsOrderFlowPositive@351d00c0]
+              <![CDATA[java.lang.Throwable: Method orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventorySettlement() on instance orderFlowPositive.TestsOrderFlowPositive@368f2016 depends on not successfully finished methods 
+[orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterCompleteQC() on instance orderFlowPositive.TestsOrderFlowPositive@368f2016]
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
@@ -1452,15 +1452,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrderFlowPositiveInventorySettlement -->
-        <test-method signature="testOrderFlowPositiveInventoryDetailsAfterInventorySettlement()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@351d00c0]" started-at="2025-01-06T17:54:35 IST" name="testOrderFlowPositiveInventoryDetailsAfterInventorySettlement" finished-at="2025-01-06T17:54:35 IST" depends-on-methods="orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventorySettlement" duration-ms="0" status="SKIP">
+        <test-method signature="testOrderFlowPositiveInventoryDetailsAfterInventorySettlement()[pri:0, instance:orderFlowPositive.TestsOrderFlowPositive@368f2016]" started-at="2025-01-06T19:51:50 IST" name="testOrderFlowPositiveInventoryDetailsAfterInventorySettlement" finished-at="2025-01-06T19:51:50 IST" depends-on-methods="orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventorySettlement" duration-ms="0" status="SKIP">
           <exception class="java.lang.Throwable">
             <message>
-              <![CDATA[Method orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterInventorySettlement() on instance orderFlowPositive.TestsOrderFlowPositive@351d00c0 depends on not successfully finished methods 
-[orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventorySettlement() on instance orderFlowPositive.TestsOrderFlowPositive@351d00c0]]]>
+              <![CDATA[Method orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterInventorySettlement() on instance orderFlowPositive.TestsOrderFlowPositive@368f2016 depends on not successfully finished methods 
+[orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventorySettlement() on instance orderFlowPositive.TestsOrderFlowPositive@368f2016]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterInventorySettlement() on instance orderFlowPositive.TestsOrderFlowPositive@351d00c0 depends on not successfully finished methods 
-[orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventorySettlement() on instance orderFlowPositive.TestsOrderFlowPositive@351d00c0]
+              <![CDATA[java.lang.Throwable: Method orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventoryDetailsAfterInventorySettlement() on instance orderFlowPositive.TestsOrderFlowPositive@368f2016 depends on not successfully finished methods 
+[orderFlowPositive.TestsOrderFlowPositive.testOrderFlowPositiveInventorySettlement() on instance orderFlowPositive.TestsOrderFlowPositive@368f2016]
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
