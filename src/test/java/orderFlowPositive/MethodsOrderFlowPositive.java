@@ -78,6 +78,15 @@ public class MethodsOrderFlowPositive {
 	public static long varIntransientStockAfterDispatch;
 	public static long varAvailableStockAfterDispatch;
 	
+//	InventoryDetailsAfterMarkShipped
+	public static long varPendingStockAfterMarkShipped;
+	public static long varTotalDemandAfterMarkShipped;
+	public static long varUsedQuantityAfterMarkShipped;
+	public static long varAvailableQuantityAfterMarkShipped;
+	public static long varStockAfterMarkShipped;
+	public static long varIntransientStockAfterMarkShipped;
+	public static long varAvailableStockAfterMarkShipped;
+	
 //	InvoiceNumber
 	public static String varInvoiceNumber="IN"+varOrderId;
 	
@@ -338,7 +347,39 @@ public class MethodsOrderFlowPositive {
 		varUsedQuantityAfterDispatch=responseOrderFlowPositiveInventoryDetailsAfterDispatch.jsonPath().getLong("payload.batchDetailsList[0].usedQty");
 		return responseOrderFlowPositiveInventoryDetailsAfterDispatch;
 	}
+
 	
+	
+	public static Response methodOrderFlowPositiveMarkShipped() {
+	    Response responseOrderFlowPositiveMarkShipped = given()
+	    			.baseUri(AllCommonVariables.baseUriOms)
+	            	.header("Authorization", VarBearerTokenGenerate.varBearerTokenValue)
+	            	.header("Content-Type", AllCommonVariables.varContentTypeHeader)
+	            .when()
+	            	.patch("order/"+varOrderId+"/shipped?status=SHIPPED");
+	    return responseOrderFlowPositiveMarkShipped;
+	}
+	
+	
+	
+	public static Response methodOrderFlowPositiveInventoryDetailsAfterMarkShipped() {
+		Response responseOrderFlowPositiveInventoryDetailsAfterMarkShipped =
+				given()
+					.baseUri(AllCommonVariables.baseUriOms)
+            		.header("Authorization", VarBearerTokenGenerate.varBearerTokenValue)
+	            	.header("Content-Type", AllCommonVariables.varContentTypeHeader)
+	            .when()
+		            .get("inventory?sku=SKUGH12&locationId=FT1");
+		varPendingStockAfterMarkShipped = responseOrderFlowPositiveInventoryDetailsAfterMarkShipped.jsonPath().getLong("payload.packTypePendingStock.PCS");
+		varTotalDemandAfterMarkShipped = responseOrderFlowPositiveInventoryDetailsAfterMarkShipped.jsonPath().getLong("payload.packTypeInflight.PCS");
+		varStockAfterMarkShipped=responseOrderFlowPositiveInventoryDetailsAfterMarkShipped.jsonPath().getLong("payload.packTypeStock.PCS");
+		varIntransientStockAfterMarkShipped=responseOrderFlowPositiveInventoryDetailsAfterMarkShipped.jsonPath().getLong("payload.packTypeTransient.PCS");
+		varAvailableStockAfterMarkShipped=responseOrderFlowPositiveInventoryDetailsAfterMarkShipped.jsonPath().getLong("payload.packTypeAvailable.PCS");
+		varAvailableQuantityAfterMarkShipped=responseOrderFlowPositiveInventoryDetailsAfterMarkShipped.jsonPath().getLong("payload.batchDetailsList[0].availableQuantity");
+		varUsedQuantityAfterMarkShipped=responseOrderFlowPositiveInventoryDetailsAfterMarkShipped.jsonPath().getLong("payload.batchDetailsList[0].usedQty");
+		return responseOrderFlowPositiveInventoryDetailsAfterMarkShipped;
+	}
+
 	
 	
 	public static Response methodOrderFlowPositiveInvoiceNumber() {
@@ -347,7 +388,7 @@ public class MethodsOrderFlowPositive {
 	            	.header("Authorization", VarBearerTokenGenerate.varBearerTokenValue)
 	            	.header("Content-Type", AllCommonVariables.varContentTypeHeader)
 	            .when()
-	            	.patch("https://oms-uat.kredmint.in/oms/order/"+varOrderId+"/invoice?invoice="+varInvoiceNumber);
+	            	.patch("order/"+varOrderId+"/invoice?invoice="+varInvoiceNumber);
 	    return responseOrderFlowPositiveInvoiceNumber;
 	}
 

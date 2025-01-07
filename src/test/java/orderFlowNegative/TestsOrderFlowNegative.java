@@ -1,5 +1,6 @@
 package orderFlowNegative;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
@@ -8,6 +9,7 @@ import com.aventstack.extentreports.Status;
 
 import allCommonData.TestHelper;
 import io.restassured.response.Response;
+import orderFlowPositive.MethodsOrderFlowPositive;
 import utilities.ExtentReportManager;
 
 public class TestsOrderFlowNegative {
@@ -456,87 +458,152 @@ public class TestsOrderFlowNegative {
 		}
 	}
 	
-	
+
 	
 	@Test(dependsOnMethods = "testOrderFlowNegativeInventoryDetailsAfterDispatch", groups = {"OrderFlowNegative"})
-	public void testOrderFlowNegativeInvoiceNumber(){
-		SoftAssert softAssert = new SoftAssert();
-		
+	public void testOrderFlowNegativeMarkShipped() {
+	    ExtentTest test = ExtentReportManager.getTest();
+	    Response response = MethodsOrderFlowNegative.methodOrderFlowNegativeMarkShipped();
+	    
+	    TestHelper.logDetails(test, response);
+	    TestHelper.validateStatusCode(test, response, 200);
+	    TestHelper.validateStatus(test, response, "SHIPPED");
+	    TestHelper.validateId(test, response);
+	}
+	
+	
+
+	@Test(dependsOnMethods = "testOrderFlowNegativeMarkShipped", groups = {"OrderFlowNegative"})
+	public void testOrderFlowNegativeInventoryDetailsAfterMarkShipped() {
+	    SoftAssert softAssert = new SoftAssert();
+	    
+	    ExtentTest test = ExtentReportManager.getTest();
+	    Response response = MethodsOrderFlowNegative.methodOrderFlowNegativeInventoryDetailsAfterMarkShipped();
+	    
+	    TestHelper.logDetails(test, response);
+	    TestHelper.validateStatusCode(test, response, 200);
+	    
+	    if (MethodsOrderFlowNegative.varPendingStockAfterMarkShipped == MethodsOrderFlowNegative.varPendingStockAfterDispatch) {
+	        test.log(Status.PASS, "Expected Pending Stock value (Pending Stock value After Mark Shipped = Pending Stock value After Dispatch) After Mark Shipped is: " + MethodsOrderFlowNegative.varPendingStockAfterDispatch + " And Actual Pending Stock value After Dispatch is: " + MethodsOrderFlowNegative.varPendingStockAfterMarkShipped + ". Correct");
+	    } else {
+	        test.log(Status.FAIL, "Expected Pending Stock value (Pending Stock value After Mark Shipped = Pending Stock value After Dispatch) After Mark Shipped is: " + MethodsOrderFlowNegative.varPendingStockAfterDispatch + " But Actual Pending Stock value After Mark Shipped is: " + MethodsOrderFlowNegative.varPendingStockAfterMarkShipped + ". InCorrect");
+	        softAssert.fail("Expected Pending Stock value (Pending Stock value After Mark Shipped = Pending Stock value After Dispatch) After Mark Shipped is: " + MethodsOrderFlowNegative.varPendingStockAfterDispatch + " But Actual Pending Stock value After Mark Shipped is: " + MethodsOrderFlowNegative.varPendingStockAfterMarkShipped + ". InCorrect");
+	    }
+
+	    if (MethodsOrderFlowNegative.varIntransientStockAfterMarkShipped == MethodsOrderFlowNegative.varIntransientStockAfterDispatch) {
+	        test.log(Status.PASS, "Expected Intransient Stock value (Intransient Stock value After Mark Shipped = Intransient Stock value After Dispatch) After Mark Shipped is: " + MethodsOrderFlowNegative.varIntransientStockAfterDispatch + " And Actual Intransient Stock value After Dispatch is: " + MethodsOrderFlowNegative.varIntransientStockAfterMarkShipped + ". Correct");
+	    } else {
+	        test.log(Status.FAIL, "Expected Intransient Stock value (Intransient Stock value After Mark Shipped = Intransient Stock value After Dispatch) After Mark Shipped is: " + MethodsOrderFlowNegative.varIntransientStockAfterDispatch + " But Actual Intransient Stock value After Mark Shipped is: " + MethodsOrderFlowNegative.varIntransientStockAfterMarkShipped + ". InCorrect");
+	        softAssert.fail("Expected Intransient Stock value (Intransient Stock value After Mark Shipped = Intransient Stock value After Dispatch) After Mark Shipped is: " + MethodsOrderFlowNegative.varIntransientStockAfterDispatch + " But Actual Intransient Stock value After Mark Shipped is: " + MethodsOrderFlowNegative.varIntransientStockAfterMarkShipped + ". InCorrect");
+	    }
+
+	    if (MethodsOrderFlowNegative.varAvailableStockAfterMarkShipped == MethodsOrderFlowNegative.varAvailableStockAfterDispatch) {
+	        test.log(Status.PASS, "Expected Available Stock value (Available Stock value After Mark Shipped = Available Stock value After Dispatch) After Mark Shipped is: " + MethodsOrderFlowNegative.varAvailableStockAfterDispatch + " And Actual Available Stock value After Dispatch is: " + MethodsOrderFlowNegative.varAvailableStockAfterMarkShipped + ". Correct");
+	    } else {
+	        test.log(Status.FAIL, "Expected Available Stock value (Available Stock value After Mark Shipped = Available Stock value After Dispatch) After Mark Shipped is: " + MethodsOrderFlowNegative.varAvailableStockAfterDispatch + " But Actual Available Stock value After Mark Shipped is: " + MethodsOrderFlowNegative.varAvailableStockAfterMarkShipped + ". InCorrect");
+	        softAssert.fail("Expected Available Stock value (Available Stock value After Mark Shipped = Available Stock value After Dispatch) After Mark Shipped is: " + MethodsOrderFlowNegative.varAvailableStockAfterDispatch + " But Actual Available Stock value After Mark Shipped is: " + MethodsOrderFlowNegative.varAvailableStockAfterMarkShipped + ". InCorrect");
+	    }
+
+	    if (MethodsOrderFlowNegative.varUsedQuantityAfterMarkShipped == MethodsOrderFlowNegative.varUsedQuantityAfterDispatch) {
+	        test.log(Status.PASS, "Expected Used Quantity value (Used Quantity value After Mark Shipped = Used Quantity value After Dispatch) After Mark Shipped is: " + MethodsOrderFlowNegative.varUsedQuantityAfterDispatch + " And Actual Used Quantity value After Dispatch is: " + MethodsOrderFlowNegative.varUsedQuantityAfterMarkShipped + ". Correct");
+	    } else {
+	        test.log(Status.FAIL, "Expected Used Quantity value (Used Quantity value After Mark Shipped = Used Quantity value After Dispatch) After Mark Shipped is: " + MethodsOrderFlowNegative.varUsedQuantityAfterDispatch + " But Actual Used Quantity value After Mark Shipped is: " + MethodsOrderFlowNegative.varUsedQuantityAfterMarkShipped + ". InCorrect");
+	        softAssert.fail("Expected Used Quantity value (Used Quantity value After Mark Shipped = Used Quantity value After Dispatch) After Mark Shipped is: " + MethodsOrderFlowNegative.varUsedQuantityAfterDispatch + " But Actual Used Quantity value After Mark Shipped is: " + MethodsOrderFlowNegative.varUsedQuantityAfterMarkShipped + ". InCorrect");
+	    }
+
+	    if (MethodsOrderFlowNegative.varAvailableQuantityAfterMarkShipped == MethodsOrderFlowNegative.varAvailableQuantityAfterDispatch) {
+	        test.log(Status.PASS, "Expected Available Quantity value (Available Quantity value After Mark Shipped = Available Quantity value After Dispatch) After Mark Shipped is: " + MethodsOrderFlowNegative.varAvailableQuantityAfterDispatch + " And Actual Available Quantity value After Dispatch is: " + MethodsOrderFlowNegative.varAvailableQuantityAfterMarkShipped + ". Correct");
+	    } else {
+	        test.log(Status.FAIL, "Expected Available Quantity value (Available Quantity value After Mark Shipped = Available Quantity value After Dispatch) After Mark Shipped is: " + MethodsOrderFlowNegative.varAvailableQuantityAfterDispatch + " But Actual Available Quantity value After Mark Shipped is: " + MethodsOrderFlowNegative.varAvailableQuantityAfterMarkShipped + ". InCorrect");
+	        softAssert.fail("Expected Available Quantity value (Available Quantity value After Mark Shipped = Available Quantity value After Dispatch) After Mark Shipped is: " + MethodsOrderFlowNegative.varAvailableQuantityAfterDispatch + " But Actual Available Quantity value After Mark Shipped is: " + MethodsOrderFlowNegative.varAvailableQuantityAfterMarkShipped + ". InCorrect");
+	    }
+
+	    if (MethodsOrderFlowNegative.varTotalDemandAfterMarkShipped == MethodsOrderFlowNegative.varTotalDemandAfterDispatch) {
+	        test.log(Status.PASS, "Expected Total Demand value (Total Demand value After Mark Shipped = Total Demand value After Dispatch) After Mark Shipped is: " + MethodsOrderFlowNegative.varTotalDemandAfterDispatch + " And Actual Total Demand value After Dispatch is: " + MethodsOrderFlowNegative.varTotalDemandAfterMarkShipped + ". Correct");
+	    } else {
+	        test.log(Status.FAIL, "Expected Total Demand value (Total Demand value After Mark Shipped = Total Demand value After Dispatch) After Mark Shipped is: " + MethodsOrderFlowNegative.varTotalDemandAfterDispatch + " But Actual Total Demand value After Mark Shipped is: " + MethodsOrderFlowNegative.varTotalDemandAfterMarkShipped + ". InCorrect");
+	        softAssert.fail("Expected Total Demand value (Total Demand value After Mark Shipped = Total Demand value After Dispatch) After Mark Shipped is: " + MethodsOrderFlowNegative.varTotalDemandAfterDispatch + " But Actual Total Demand value After Mark Shipped is: " + MethodsOrderFlowNegative.varTotalDemandAfterMarkShipped + ". InCorrect");
+	    }
+
+	    if (MethodsOrderFlowNegative.varStockAfterMarkShipped == MethodsOrderFlowNegative.varStockAfterDispatch) {
+	        test.log(Status.PASS, "Expected Stock value (Stock value After Mark Shipped = Stock value After Dispatch) After Mark Shipped is: " + MethodsOrderFlowNegative.varStockAfterDispatch + " And Actual Stock value After Dispatch is: " + MethodsOrderFlowNegative.varStockAfterMarkShipped + ". Correct");
+	    } else {
+	        test.log(Status.FAIL, "Expected Stock value (Stock value After Mark Shipped = Stock value After Dispatch) After Mark Shipped is: " + MethodsOrderFlowNegative.varStockAfterDispatch + " But Actual Stock value After Mark Shipped is: " + MethodsOrderFlowNegative.varStockAfterMarkShipped + ". InCorrect");
+	        softAssert.fail("Expected Stock value (Stock value After Mark Shipped = Stock value After Dispatch) After Mark Shipped is: " + MethodsOrderFlowNegative.varStockAfterDispatch + " But Actual Stock value After Mark Shipped is: " + MethodsOrderFlowNegative.varStockAfterMarkShipped + ". InCorrect");
+	    }
+
+	    softAssert.assertAll();
+	}
+	
+	
+
+	@Test(dependsOnMethods = "testOrderFlowNegativeInventoryDetailsAfterMarkShipped", groups = {"OrderFlowNegative"})
+	public void testOrderFlowNegativeInvoiceNumber() {
 	    ExtentTest test = ExtentReportManager.getTest();
 	    Response response = MethodsOrderFlowNegative.methodOrderFlowNegativeInvoiceNumber();
 	    
 	    TestHelper.logDetails(test, response);
 	    TestHelper.validateStatusCode(test, response, 200);
-	    TestHelper.validateStatus(test, response, "Dispatched");
+	    TestHelper.validateStatus(test, response, "SHIPPED");
 	    TestHelper.validateId(test, response);
 	    
 	    String invoiceNumber = response.jsonPath().getString("payload.extInvoiceId");
 	    if (invoiceNumber == null) {
 	        test.log(Status.FAIL, "Invoice Number should not be Null but found Null");
-	        softAssert.fail("Test failed due to Invoice Number being: Null");
+	        Assert.fail("Test failed due to Invoice Number is: Null");
 	    } else {
 	        test.log(Status.PASS, "Passed because Invoice Number is not: Null");
 	    }
 	}
 
+	
+	
 	@Test(dependsOnMethods = "testOrderFlowNegativeInvoiceNumber", groups = {"OrderFlowNegative"})
-	public void testOrderFlowNegativeInventoryDetailsAfterInvoiceNumber(){
-		SoftAssert softAssert = new SoftAssert();
-		
+	public void testOrderFlowNegativeInventoryDetailsAfterInvoiceNumber() {
+	    SoftAssert softAssert = new SoftAssert();
+	    
 	    ExtentTest test = ExtentReportManager.getTest();
 	    Response response = MethodsOrderFlowNegative.methodOrderFlowNegativeInventoryDetailsAfterInvoiceNumber();
 	    
 	    TestHelper.logDetails(test, response);
 	    TestHelper.validateStatusCode(test, response, 200);
 	    
-	    if(MethodsOrderFlowNegative.varUsedQuantityAfterInvoiceNumber == MethodsOrderFlowNegative.varUsedQuantityAfterDispatch){ 
-	        test.log(Status.PASS, "Expected Used Quantity value (Used Quantity value After Invoice Number = Used Quantity value After Dispatch) After Invoice Number is: " + MethodsOrderFlowNegative.varUsedQuantityAfterDispatch + " And Actual Used Quantity value After Dispatch is: " + MethodsOrderFlowNegative.varUsedQuantityAfterInvoiceNumber + ". Correct"); 
+	    if (MethodsOrderFlowNegative.varUsedQuantityAfterInvoiceNumber == MethodsOrderFlowNegative.varUsedQuantityAfterMarkShipped) { 
+	        test.log(Status.PASS, "Expected Used Quantity value (Used Quantity value After Invoice Number = Used Quantity value After Mark Shipped) After Invoice Number is: " + MethodsOrderFlowNegative.varUsedQuantityAfterMarkShipped + " And Actual Used Quantity value After Mark Shipped is: " + MethodsOrderFlowNegative.varUsedQuantityAfterInvoiceNumber + ". Correct"); 
 	    } else { 
-	        test.log(Status.FAIL, "Expected Used Quantity value (Used Quantity value After Invoice Number = Used Quantity value After Dispatch) After Invoice Number is: " + MethodsOrderFlowNegative.varUsedQuantityAfterDispatch + " But Actual Used Quantity value After Dispatch is: " + MethodsOrderFlowNegative.varUsedQuantityAfterInvoiceNumber + ". Incorrect"); 
-	        softAssert.fail("Expected Used Quantity value (Used Quantity value After Invoice Number = Used Quantity value After Dispatch) After Invoice Number is: " + MethodsOrderFlowNegative.varUsedQuantityAfterDispatch + " But Actual Used Quantity value After Dispatch is: " + MethodsOrderFlowNegative.varUsedQuantityAfterInvoiceNumber + ". Incorrect"); 
-	    }
+	        test.log(Status.FAIL, "Expected Used Quantity value (Used Quantity value After Invoice Number = Used Quantity value After Mark Shipped) After Invoice Number is: " + MethodsOrderFlowNegative.varUsedQuantityAfterMarkShipped + " But Actual Used Quantity value After Mark Shipped is: " + MethodsOrderFlowNegative.varUsedQuantityAfterInvoiceNumber + ". InCorrect"); 
+	        softAssert.fail("Expected Used Quantity value (Used Quantity value After Invoice Number = Used Quantity value After Mark Shipped) After Invoice Number is: " + MethodsOrderFlowNegative.varUsedQuantityAfterMarkShipped + " But Actual Used Quantity value After Mark Shipped is: " + MethodsOrderFlowNegative.varUsedQuantityAfterInvoiceNumber + ". InCorrect"); 
+	    } 
 
-	    if(MethodsOrderFlowNegative.varAvailableQuantityAfterInvoiceNumber == MethodsOrderFlowNegative.varAvailableQuantityAfterDispatch){ 
-	        test.log(Status.PASS, "Expected Available Quantity value (Available Quantity value After Invoice Number = Available Quantity value After Dispatch) After Invoice Number is: " + MethodsOrderFlowNegative.varAvailableQuantityAfterDispatch + " And Actual Available Quantity value After Dispatch is: " + MethodsOrderFlowNegative.varAvailableQuantityAfterInvoiceNumber + ". Correct"); 
+	    if (MethodsOrderFlowNegative.varAvailableQuantityAfterInvoiceNumber == MethodsOrderFlowNegative.varAvailableQuantityAfterMarkShipped) { 
+	        test.log(Status.PASS, "Expected Available Quantity value (Available Quantity value After Invoice Number = Available Quantity value After Mark Shipped) After Invoice Number is: " + MethodsOrderFlowNegative.varAvailableQuantityAfterMarkShipped + " And Actual Available Quantity value After Mark Shipped is: " + MethodsOrderFlowNegative.varAvailableQuantityAfterInvoiceNumber + ". Correct"); 
 	    } else { 
-	        test.log(Status.FAIL, "Expected Available Quantity value (Available Quantity value After Invoice Number = Available Quantity value After Dispatch) After Invoice Number is: " + MethodsOrderFlowNegative.varAvailableQuantityAfterDispatch + " But Actual Available Quantity value After Dispatch is: " + MethodsOrderFlowNegative.varAvailableQuantityAfterInvoiceNumber + ". Incorrect"); 
-	        softAssert.fail("Expected Available Quantity value (Available Quantity value After Invoice Number = Available Quantity value After Dispatch) After Invoice Number is: " + MethodsOrderFlowNegative.varAvailableQuantityAfterDispatch + " But Actual Available Quantity value After Dispatch is: " + MethodsOrderFlowNegative.varAvailableQuantityAfterInvoiceNumber + ". Incorrect"); 
-	    }
+	        test.log(Status.FAIL, "Expected Available Quantity value (Available Quantity value After Invoice Number = Available Quantity value After Mark Shipped) After Invoice Number is: " + MethodsOrderFlowNegative.varAvailableQuantityAfterMarkShipped + " But Actual Available Quantity value After Mark Shipped is: " + MethodsOrderFlowNegative.varAvailableQuantityAfterInvoiceNumber + ". InCorrect"); 
+	        softAssert.fail("Expected Available Quantity value (Available Quantity value After Invoice Number = Available Quantity value After Mark Shipped) After Invoice Number is: " + MethodsOrderFlowNegative.varAvailableQuantityAfterMarkShipped + " But Actual Available Quantity value After Mark Shipped is: " + MethodsOrderFlowNegative.varAvailableQuantityAfterInvoiceNumber + ". InCorrect"); 
+	    } 
 
-	    if(MethodsOrderFlowNegative.varPendingStockAfterInvoiceNumber == MethodsOrderFlowNegative.varPendingStockAfterDispatch){ 
-	        test.log(Status.PASS, "Expected Pending Stock value (Pending Stock value After Invoice Number = Pending Stock value After Dispatch) After Invoice Number is: " + MethodsOrderFlowNegative.varPendingStockAfterDispatch + " And Actual Pending Stock value After Dispatch is: " + MethodsOrderFlowNegative.varPendingStockAfterInvoiceNumber + ". Correct"); 
+	    if (MethodsOrderFlowNegative.varPendingStockAfterInvoiceNumber == MethodsOrderFlowNegative.varPendingStockAfterMarkShipped) { 
+	        test.log(Status.PASS, "Expected Pending Stock value (Pending Stock value After Invoice Number = Pending Stock value After Mark Shipped) After Invoice Number is: " + MethodsOrderFlowNegative.varPendingStockAfterMarkShipped + " And Actual Pending Stock value After Mark Shipped is: " + MethodsOrderFlowNegative.varPendingStockAfterInvoiceNumber + ". Correct"); 
 	    } else { 
-	        test.log(Status.FAIL, "Expected Pending Stock value (Pending Stock value After Invoice Number = Pending Stock value After Dispatch) After Invoice Number is: " + MethodsOrderFlowNegative.varPendingStockAfterDispatch + " But Actual Pending Stock value After Dispatch is: " + MethodsOrderFlowNegative.varPendingStockAfterInvoiceNumber + ". Incorrect"); 
-	        softAssert.fail("Expected Pending Stock value (Pending Stock value After Invoice Number = Pending Stock value After Dispatch) After Invoice Number is: " + MethodsOrderFlowNegative.varPendingStockAfterDispatch + " But Actual Pending Stock value After Dispatch is: " + MethodsOrderFlowNegative.varPendingStockAfterInvoiceNumber + ". Incorrect"); 
-	    }
+	        test.log(Status.FAIL, "Expected Pending Stock value (Pending Stock value After Invoice Number = Pending Stock value After Mark Shipped) After Invoice Number is: " + MethodsOrderFlowNegative.varPendingStockAfterMarkShipped + " But Actual Pending Stock value After Mark Shipped is: " + MethodsOrderFlowNegative.varPendingStockAfterInvoiceNumber + ". InCorrect"); 
+	        softAssert.fail("Expected Pending Stock value (Pending Stock value After Invoice Number = Pending Stock value After Mark Shipped) After Invoice Number is: " + MethodsOrderFlowNegative.varPendingStockAfterMarkShipped + " But Actual Pending Stock value After Mark Shipped is: " + MethodsOrderFlowNegative.varPendingStockAfterInvoiceNumber + ". InCorrect"); 
+	    } 
 
-	    if(MethodsOrderFlowNegative.varTotalDemandAfterInvoiceNumber == MethodsOrderFlowNegative.varTotalDemandAfterDispatch){ 
-	        test.log(Status.PASS, "Expected Total Demand value (Total Demand value After Invoice Number = Total Demand value After Dispatch) After Invoice Number is: " + MethodsOrderFlowNegative.varTotalDemandAfterDispatch + " And Actual Total Demand value After Dispatch is: " + MethodsOrderFlowNegative.varTotalDemandAfterInvoiceNumber + ". Correct"); 
+	    if (MethodsOrderFlowNegative.varTotalDemandAfterInvoiceNumber == MethodsOrderFlowNegative.varTotalDemandAfterMarkShipped) { 
+	        test.log(Status.PASS, "Expected Total Demand value (Total Demand value After Invoice Number = Total Demand value After Mark Shipped) After Invoice Number is: " + MethodsOrderFlowNegative.varTotalDemandAfterMarkShipped + " And Actual Total Demand value After Mark Shipped is: " + MethodsOrderFlowNegative.varTotalDemandAfterInvoiceNumber + ". Correct"); 
 	    } else { 
-	        test.log(Status.FAIL, "Expected Total Demand value (Total Demand value After Invoice Number = Total Demand value After Dispatch) After Invoice Number is: " + MethodsOrderFlowNegative.varTotalDemandAfterDispatch + " But Actual Total Demand value After Dispatch is: " + MethodsOrderFlowNegative.varTotalDemandAfterInvoiceNumber + ". Incorrect"); 
-	        softAssert.fail("Expected Total Demand value (Total Demand value After Invoice Number = Total Demand value After Dispatch) After Invoice Number is: " + MethodsOrderFlowNegative.varTotalDemandAfterDispatch + " But Actual Total Demand value After Dispatch is: " + MethodsOrderFlowNegative.varTotalDemandAfterInvoiceNumber + ". Incorrect"); 
-	    }
+	        test.log(Status.FAIL, "Expected Total Demand value (Total Demand value After Invoice Number = Total Demand value After Mark Shipped) After Invoice Number is: " + MethodsOrderFlowNegative.varTotalDemandAfterMarkShipped + " But Actual Total Demand value After Mark Shipped is: " + MethodsOrderFlowNegative.varTotalDemandAfterInvoiceNumber + ". InCorrect"); 
+	        softAssert.fail("Expected Total Demand value (Total Demand value After Invoice Number = Total Demand value After Mark Shipped) After Invoice Number is: " + MethodsOrderFlowNegative.varTotalDemandAfterMarkShipped + " But Actual Total Demand value After Mark Shipped is: " + MethodsOrderFlowNegative.varTotalDemandAfterInvoiceNumber + ". InCorrect"); 
+	    } 
 
-	    if(MethodsOrderFlowNegative.varStockAfterInvoiceNumber == MethodsOrderFlowNegative.varStockAfterDispatch){ 
-	        test.log(Status.PASS, "Expected Stock value (Stock value After Invoice Number = Stock value After Dispatch) After Invoice Number is: " + MethodsOrderFlowNegative.varStockAfterDispatch + " And Actual Stock value After Dispatch is: " + MethodsOrderFlowNegative.varStockAfterInvoiceNumber + ". Correct"); 
+	    if (MethodsOrderFlowNegative.varStockAfterInvoiceNumber == MethodsOrderFlowNegative.varStockAfterMarkShipped) { 
+	        test.log(Status.PASS, "Expected Stock value (Stock value After Invoice Number = Stock value After Mark Shipped) After Invoice Number is: " + MethodsOrderFlowNegative.varStockAfterMarkShipped + " And Actual Stock value After Mark Shipped is: " + MethodsOrderFlowNegative.varStockAfterInvoiceNumber + ". Correct"); 
 	    } else { 
-	        test.log(Status.FAIL, "Expected Stock value (Stock value After Invoice Number = Stock value After Dispatch) After Invoice Number is: " + MethodsOrderFlowNegative.varStockAfterDispatch + " But Actual Stock value After Dispatch is: " + MethodsOrderFlowNegative.varStockAfterInvoiceNumber + ". Incorrect"); 
-	        softAssert.fail("Expected Stock value (Stock value After Invoice Number = Stock value After Dispatch) After Invoice Number is: " + MethodsOrderFlowNegative.varStockAfterDispatch + " But Actual Stock value After Dispatch is: " + MethodsOrderFlowNegative.varStockAfterInvoiceNumber + ". Incorrect"); 
-	    }
+	        test.log(Status.FAIL, "Expected Stock value (Stock value After Invoice Number = Stock value After Mark Shipped) After Invoice Number is: " + MethodsOrderFlowNegative.varStockAfterMarkShipped + " But Actual Stock value After Mark Shipped is: " + MethodsOrderFlowNegative.varStockAfterInvoiceNumber + ". InCorrect"); 
+	        softAssert.fail("Expected Stock value (Stock value After Invoice Number = Stock value After Mark Shipped) After Invoice Number is: " + MethodsOrderFlowNegative.varStockAfterMarkShipped + " But Actual Stock value After Mark Shipped is: " + MethodsOrderFlowNegative.varStockAfterInvoiceNumber + ". InCorrect"); 
+	    } 
 
-	    if(MethodsOrderFlowNegative.varIntransientStockAfterInvoiceNumber == MethodsOrderFlowNegative.varIntransientStockAfterDispatch){ 
-	        test.log(Status.PASS, "Expected Intransient Stock value (Intransient Stock value After Invoice Number = Intransient Stock value After Dispatch) After Invoice Number is: " + MethodsOrderFlowNegative.varIntransientStockAfterDispatch + " And Actual Intransient Stock value After Dispatch is: " + MethodsOrderFlowNegative.varIntransientStockAfterInvoiceNumber + ". Correct"); 
-	    } else { 
-	        test.log(Status.FAIL, "Expected Intransient Stock value (Intransient Stock value After Invoice Number = Intransient Stock value After Dispatch) After Invoice Number is: " + MethodsOrderFlowNegative.varIntransientStockAfterDispatch + " But Actual Intransient Stock value After Dispatch is: " + MethodsOrderFlowNegative.varIntransientStockAfterInvoiceNumber + ". Incorrect"); 
-	        softAssert.fail("Expected Intransient Stock value (Intransient Stock value After Invoice Number = Intransient Stock value After Dispatch) After Invoice Number is: " + MethodsOrderFlowNegative.varIntransientStockAfterDispatch + " But Actual Intransient Stock value After Dispatch is: " + MethodsOrderFlowNegative.varIntransientStockAfterInvoiceNumber + ". Incorrect"); 
-	    }
-
-	    if(MethodsOrderFlowNegative.varAvailableStockAfterInvoiceNumber == MethodsOrderFlowNegative.varAvailableStockAfterDispatch){ 
-	        test.log(Status.PASS, "Expected Available Stock value (Available Stock value After Invoice Number = Available Stock value After Dispatch) After Invoice Number is: " + MethodsOrderFlowNegative.varAvailableStockAfterDispatch + " And Actual Available Stock value After Dispatch is: " + MethodsOrderFlowNegative.varAvailableStockAfterInvoiceNumber + ". Correct"); 
-	    } else { 
-	        test.log(Status.FAIL, "Expected Available Stock value (Available Stock value After Invoice Number = Available Stock value After Dispatch) After Invoice Number is: " + MethodsOrderFlowNegative.varAvailableStockAfterDispatch + " But Actual Available Stock value After Dispatch is: " + MethodsOrderFlowNegative.varAvailableStockAfterInvoiceNumber + ". Incorrect"); 
-	        softAssert.fail("Expected Available Stock value (Available Stock value After Invoice Number = Available Stock value After Dispatch) After Invoice Number is: " + MethodsOrderFlowNegative.varAvailableStockAfterDispatch + " But Actual Available Stock value After Dispatch is: " + MethodsOrderFlowNegative.varAvailableStockAfterInvoiceNumber + ". Incorrect"); 
-	    }
+	    softAssert.assertAll();
 	}
 
 	

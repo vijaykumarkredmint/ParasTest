@@ -9,6 +9,7 @@
       <class name="bearerTokenGenerate.TestsBearerTokenGenerate"/>
       <class name="orderFlowPositive.TestsOrderFlowPositive"/>
       <class name="orderFlowNegative.TestsOrderFlowNegative"/>
+      <class name="orderSplit.TestsOrderSplit"/>
       <class name="orderCancelCreateOrder.TestsOrderCancelCreateOrder"/>
       <class name="orderUpdateDispatch.TestsOrderUpdateDispatch"/>
     </classes>

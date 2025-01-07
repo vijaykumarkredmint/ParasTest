@@ -120,7 +120,7 @@ public class ExtentReportManager implements ITestListener {
     public void onFinish(ITestContext testContext) {
         extent.flush();  // Flush the report at the end of the test execution
         System.out.println("Report has been flushed to file.");
-        System.out.println("Report location: " + repName);
+        System.out.println("Report Name: " + repName);
 
         // Get the full path to the report
 //        String reportFilePath = System.getProperty("user.dir") + "/reports/" + repName;
@@ -142,7 +142,7 @@ public class ExtentReportManager implements ITestListener {
         String reportFilePath = "/Users/admin/UATParas/ParasUAT/ParasUATProject/reports/" + repName;
 
         // Send the report via email
-        sendReportByEmail(reportFilePath);
+//        sendReportByEmail(reportFilePath);
 
         // Open the report in the default browser
         openReportInBrowser(reportFilePath);
@@ -187,15 +187,16 @@ public class ExtentReportManager implements ITestListener {
 
             // Create the email body
             MimeBodyPart messageBodyPart = new MimeBodyPart();
-            messageBodyPart.setText(" Dear Recipient],\n"
+            messageBodyPart.setText("Dear Recipient,\n"
             		+ "\n"
-            		+ "This email is for the Test Report.\n"
+            		+ "This email is for the API Test Report of ParasUAT(https://order-uat.kredmint.in/).\n"
             		+ "\n"
-            		+ "Please find attached the Test Report for your reference. To view the report in an easily understandable format, kindly follow these steps:\n"
+            		+ "Please find the attached Test Report for your reference. To view the report in an easily understandable format, kindly follow these steps:\n"
             		+ "\n"
-            		+ "First, Download the report.\n"
-            		+ "Then, Open the file in your browser for optimal viewing.\n"
-            		+ "If you have any questions or need further assistance, feel free to reach out.");
+            		+ "-> First, Download the report.\n"
+            		+ "-> Then, Open the file in your browser for optimal viewing.\n"
+            		+ "\n"
+            		+ "If you have any questions or need further assistance regarding this report, Please feel free to reach out to Vijay Kumar.");
 
             // Create the attachment part
             MimeBodyPart attachmentPart = new MimeBodyPart();

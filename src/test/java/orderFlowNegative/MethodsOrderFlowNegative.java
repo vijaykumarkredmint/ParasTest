@@ -78,6 +78,15 @@ public class MethodsOrderFlowNegative {
 	public static long varIntransientStockAfterDispatch;
 	public static long varAvailableStockAfterDispatch;
 	
+//	InventoryDetailsAfterMarkShipped
+	public static long varPendingStockAfterMarkShipped;
+	public static long varTotalDemandAfterMarkShipped;
+	public static long varUsedQuantityAfterMarkShipped;
+	public static long varAvailableQuantityAfterMarkShipped;
+	public static long varStockAfterMarkShipped;
+	public static long varIntransientStockAfterMarkShipped;
+	public static long varAvailableStockAfterMarkShipped;
+	
 //	InvoiceNumber
 	public static String varInvoiceNumber="IN"+varOrderId;
 	
@@ -383,63 +392,71 @@ public class MethodsOrderFlowNegative {
 		varUsedQuantityAfterDispatch=responseOrderFlowNegativeInventoryDetailsAfterDispatch.jsonPath().getLong("payload.batchDetailsList[0].usedQty");
 		return responseOrderFlowNegativeInventoryDetailsAfterDispatch;
 	}
+
+	
+	
+	public static Response methodOrderFlowNegativeMarkShipped() {
+	    Response responseOrderFlowNegativeMarkShipped = given()
+	    			.baseUri(AllCommonVariables.baseUriOms)
+	            	.header("Authorization", VarBearerTokenGenerate.varBearerTokenValue)
+	            	.header("Content-Type", AllCommonVariables.varContentTypeHeader)
+	            .when()
+	            	.patch("order/"+varOrderId+"/shipped?status=SHIPPED");
+	    return responseOrderFlowNegativeMarkShipped;
+	}
 	
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+	public static Response methodOrderFlowNegativeInventoryDetailsAfterMarkShipped() {
+		Response responseOrderFlowNegativeInventoryDetailsAfterMarkShipped =
+				given()
+					.baseUri(AllCommonVariables.baseUriOms)
+            		.header("Authorization", VarBearerTokenGenerate.varBearerTokenValue)
+	            	.header("Content-Type", AllCommonVariables.varContentTypeHeader)
+	            .when()
+		            .get("inventory?sku=SKUGH13&locationId=FT1");
+		varPendingStockAfterMarkShipped = responseOrderFlowNegativeInventoryDetailsAfterMarkShipped.jsonPath().getLong("payload.packTypePendingStock.PCS");
+		varTotalDemandAfterMarkShipped = responseOrderFlowNegativeInventoryDetailsAfterMarkShipped.jsonPath().getLong("payload.packTypeInflight.PCS");
+		varStockAfterMarkShipped=responseOrderFlowNegativeInventoryDetailsAfterMarkShipped.jsonPath().getLong("payload.packTypeStock.PCS");
+		varIntransientStockAfterMarkShipped=responseOrderFlowNegativeInventoryDetailsAfterMarkShipped.jsonPath().getLong("payload.packTypeTransient.PCS");
+		varAvailableStockAfterMarkShipped=responseOrderFlowNegativeInventoryDetailsAfterMarkShipped.jsonPath().getLong("payload.packTypeAvailable.PCS");
+		varAvailableQuantityAfterMarkShipped=responseOrderFlowNegativeInventoryDetailsAfterMarkShipped.jsonPath().getLong("payload.batchDetailsList[0].availableQuantity");
+		varUsedQuantityAfterMarkShipped=responseOrderFlowNegativeInventoryDetailsAfterMarkShipped.jsonPath().getLong("payload.batchDetailsList[0].usedQty");
+		return responseOrderFlowNegativeInventoryDetailsAfterMarkShipped;
+	}
+
 	
 	
 	public static Response methodOrderFlowNegativeInvoiceNumber() {
 	    Response responseOrderFlowNegativeInvoiceNumber = given()
-	                .baseUri(AllCommonVariables.baseUriOms)
-	                .header("Authorization", VarBearerTokenGenerate.varBearerTokenValue)
-	                .header("Content-Type", AllCommonVariables.varContentTypeHeader)
+	    			.baseUri(AllCommonVariables.baseUriOms)
+	            	.header("Authorization", VarBearerTokenGenerate.varBearerTokenValue)
+	            	.header("Content-Type", AllCommonVariables.varContentTypeHeader)
 	            .when()
-	                .patch("https://oms-uat.kredmint.in/oms/order/" + varOrderId + "/invoice?invoice=" + varInvoiceNumber);
+	            	.patch("order/"+varOrderId+"/invoice?invoice="+varInvoiceNumber);
 	    return responseOrderFlowNegativeInvoiceNumber;
 	}
 
 	
 	
 	public static Response methodOrderFlowNegativeInventoryDetailsAfterInvoiceNumber() {
-	    Response responseOrderFlowNegativeInventoryDetailsAfterInvoiceNumber =
-	            given()
-	                .baseUri(AllCommonVariables.baseUriOms)
-	                .header("Authorization", VarBearerTokenGenerate.varBearerTokenValue)
-	                .header("Content-Type", AllCommonVariables.varContentTypeHeader)
+		Response responseOrderFlowNegativeInventoryDetailsAfterInvoiceNumber =
+				given()
+					.baseUri(AllCommonVariables.baseUriOms)
+            		.header("Authorization", VarBearerTokenGenerate.varBearerTokenValue)
+	            	.header("Content-Type", AllCommonVariables.varContentTypeHeader)
 	            .when()
-	                .get("inventory?sku=SKUGH13&locationId=FT1");
-
-	    // Extract values for the negative test case
-	    varPendingStockAfterInvoiceNumber = responseOrderFlowNegativeInventoryDetailsAfterInvoiceNumber.jsonPath().getLong("payload.packTypePendingStock.PCS");
-	    varTotalDemandAfterInvoiceNumber = responseOrderFlowNegativeInventoryDetailsAfterInvoiceNumber.jsonPath().getLong("payload.packTypeInflight.PCS");
-	    varStockAfterInvoiceNumber = responseOrderFlowNegativeInventoryDetailsAfterInvoiceNumber.jsonPath().getLong("payload.packTypeStock.PCS");
-	    varIntransientStockAfterInvoiceNumber = responseOrderFlowNegativeInventoryDetailsAfterInvoiceNumber.jsonPath().getLong("payload.packTypeTransient.PCS");
-	    varAvailableStockAfterInvoiceNumber = responseOrderFlowNegativeInventoryDetailsAfterInvoiceNumber.jsonPath().getLong("payload.packTypeAvailable.PCS");
-	    varAvailableQuantityAfterInvoiceNumber = responseOrderFlowNegativeInventoryDetailsAfterInvoiceNumber.jsonPath().getLong("payload.batchDetailsList[0].availableQuantity");
-	    varUsedQuantityAfterInvoiceNumber = responseOrderFlowNegativeInventoryDetailsAfterInvoiceNumber.jsonPath().getLong("payload.batchDetailsList[0].usedQty");
-
-	    return responseOrderFlowNegativeInventoryDetailsAfterInvoiceNumber;
+		            .get("inventory?sku=SKUGH13&locationId=FT1");
+		varPendingStockAfterInvoiceNumber = responseOrderFlowNegativeInventoryDetailsAfterInvoiceNumber.jsonPath().getLong("payload.packTypePendingStock.PCS");
+		varTotalDemandAfterInvoiceNumber = responseOrderFlowNegativeInventoryDetailsAfterInvoiceNumber.jsonPath().getLong("payload.packTypeInflight.PCS");
+		varStockAfterInvoiceNumber=responseOrderFlowNegativeInventoryDetailsAfterInvoiceNumber.jsonPath().getLong("payload.packTypeStock.PCS");
+		varIntransientStockAfterInvoiceNumber=responseOrderFlowNegativeInventoryDetailsAfterInvoiceNumber.jsonPath().getLong("payload.packTypeTransient.PCS");
+		varAvailableStockAfterInvoiceNumber=responseOrderFlowNegativeInventoryDetailsAfterInvoiceNumber.jsonPath().getLong("payload.packTypeAvailable.PCS");
+		varAvailableQuantityAfterInvoiceNumber=responseOrderFlowNegativeInventoryDetailsAfterInvoiceNumber.jsonPath().getLong("payload.batchDetailsList[0].availableQuantity");
+		varUsedQuantityAfterInvoiceNumber=responseOrderFlowNegativeInventoryDetailsAfterInvoiceNumber.jsonPath().getLong("payload.batchDetailsList[0].usedQty");
+		return responseOrderFlowNegativeInventoryDetailsAfterInvoiceNumber;
 	}
 
-	
-	
-	
 	
 	
 	public static Response methodOrderFlowNegativeDeliver() {
@@ -717,7 +734,7 @@ public class MethodsOrderFlowNegative {
 			    "\"rejectedQty\": " + varRejectedQty1 + ", " +
 			    "\"free\": " + varFree1 + 
 			"}";
-	    Response responseOrderFlowPositiveAccept1CompleteQC =
+	    Response responseOrderFlowNegativeAccept1CompleteQC =
 	    		given()
 	    			.baseUri(AllCommonVariables.baseUriOms)
 	            	.header("Authorization", VarBearerTokenGenerate.varBearerTokenValue)
@@ -725,7 +742,7 @@ public class MethodsOrderFlowNegative {
 	            	.body(rTPAcceptItemQC)
 	            .when()
 	            	.patch("qualityCheck/"+varOrderIdReturn);
-	    return responseOrderFlowPositiveAccept1CompleteQC;
+	    return responseOrderFlowNegativeAccept1CompleteQC;
 	}
 	
 	
