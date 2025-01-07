@@ -1,5 +1,8 @@
 package utilities;
 
+import java.awt.Desktop;
+import java.io.File;
+import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
@@ -25,7 +28,8 @@ public class ExtentReportManager implements ITestListener {
     private String repName;
 
     // List of recipient email addresses
-    private List<String> recipients = List.of("shivam.jindal@kredmint.com","vijay.kumar@kredmint.com","vijaykumarmeerut1@gmail.com", "vk1151257@gmail.com");
+    private List<String> recipients = List.of("shivam.jindal@kredmint.com", "vijay.kumar@kredmint.com", 
+                                               "vijaykumarmeerut1@gmail.com", "vk1151257@gmail.com");
 
     public void onStart(ITestContext testContext) {
         // Initialize the report setup
@@ -101,6 +105,9 @@ public class ExtentReportManager implements ITestListener {
 
         // Send the report via email
         sendReportByEmail(reportFilePath);
+
+        // Open the report in the default browser
+        openReportInBrowser(reportFilePath);
     }
 
     // Get the current ExtentTest object (used in tests)
@@ -112,8 +119,6 @@ public class ExtentReportManager implements ITestListener {
     private void sendReportByEmail(String reportFilePath) {
         // Gmail SMTP configuration
         String host = "smtp.gmail.com"; 
-//        String from = "vijaykumarmeerut1@gmail.com"; // Sender's email address
-//        String password = "dkwm oulr ybmg uoyb"; // Replace with your App password if 2FA is enabled (or the Gmail password if not)
         String from = "vijay.kumar@kredmint.com"; // Sender's email address
         String password = "qvmo tbgw cqgz fayr"; // Replace with your App password if 2FA is enabled (or the Gmail password if not)
 
@@ -144,7 +149,7 @@ public class ExtentReportManager implements ITestListener {
 
             // Create the email body
             MimeBodyPart messageBodyPart = new MimeBodyPart();
-            messageBodyPart.setText("Please find attached the test report.");
+            messageBodyPart.setText("Hello, This email is for the Test Report. Please find attached Test Report");
 
             // Create the attachment part
             MimeBodyPart attachmentPart = new MimeBodyPart();
@@ -164,6 +169,24 @@ public class ExtentReportManager implements ITestListener {
         } catch (Exception e) {
             e.printStackTrace();
             System.out.println("Error sending email: " + e.getMessage());
+        }
+    }
+
+    // Method to open the report in the default browser
+    private void openReportInBrowser(String reportFilePath) {
+        File reportFile = new File(reportFilePath);
+
+        if (Desktop.isDesktopSupported()) {
+            try {
+                // Open the report file in the default web browser
+                Desktop.getDesktop().browse(reportFile.toURI());
+                System.out.println("Report opened in browser.");
+            } catch (IOException e) {
+                e.printStackTrace();
+                System.out.println("Error opening report in browser: " + e.getMessage());
+            }
+        } else {
+            System.out.println("Desktop is not supported on this platform.");
         }
     }
 }
