@@ -1,13 +1,13 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 79, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 37.81 s <<< FAILURE! -- in TestSuite
-orderUpdateDispatch.TestsOrderUpdateDispatch.testOrderUpdateDispatchInventoryDetailsAfterUpdateOrder -- Time elapsed: 0.183 s <<< FAILURE!
+Tests run: 88, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 24.13 s <<< FAILURE! -- in TestSuite
+orderUpdateDispatch.TestsOrderUpdateDispatch.testOrderUpdateDispatchInventoryDetailsAfterUpdateOrder -- Time elapsed: 0.136 s <<< FAILURE!
 java.lang.AssertionError: 
 The following asserts failed:
-	Pending Stock value Before Create Order is: 157, New Ordered Quantity is: 7, Expected Pending Stock value (Pending Stock Value Before Updating Order + New Ordered Quantity) After Update Order is: 164, But Actual Pending Stock value After Update Order is: 162. Incorrect,
-	Expected Intransient Stock value (Intransient Stock value After Update Order = Intransient Stock value Before Create Order) After Update Order is: 84 But Actual Intransient Stock value After Update Order is: 86. Incorrect,
-	Expected Available Stock value (Available Stock value After Update Order = Available Stock value Before Create Order) After Update Order is: 99910 But Actual Available Stock value After Update Order is: 99908. Incorrect
+	Pending Stock value Before Create Order is: 167, New Ordered Quantity is: 7, Expected Pending Stock value (Pending Stock Value Before Updating Order + New Ordered Quantity) After Update Order is: 174, But Actual Pending Stock value After Update Order is: 172. Incorrect,
+	Expected Intransient Stock value (Intransient Stock value After Update Order = Intransient Stock value Before Create Order) After Update Order is: 88 But Actual Intransient Stock value After Update Order is: 90. Incorrect,
+	Expected Available Stock value (Available Stock value After Update Order = Available Stock value Before Create Order) After Update Order is: 99906 But Actual Available Stock value After Update Order is: 99904. Incorrect
 	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
 	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
 	at orderUpdateDispatch.TestsOrderUpdateDispatch.testOrderUpdateDispatchInventoryDetailsAfterUpdateOrder(TestsOrderUpdateDispatch.java:543)

@@ -28,16 +28,8 @@ public class ExtentReportManager implements ITestListener {
     private String repName;
 
     // List of recipient email addresses
-//    private List<String> recipients = List.of("dev.arya@kredmint.com", "vijay.kumar@kredmint.com", "vishal.srivastava@kredmint.com", "shivam.jindal@kredmint.com", "shivam.goel@kredmint.com", "hemant.kumar@kredmint.com");
-    
-    
-    
-    
-    
-    
-    
-    
-    private List<String> recipients = List.of("vijay.kumar@kredmint.com");
+    private List<String> recipients = List.of("dev.arya@kredmint.com", "vijay.kumar@kredmint.com", "vishal.srivastava@kredmint.com", "shivam.jindal@kredmint.com", "shivam.goel@kredmint.com", "hemant.kumar@kredmint.com");
+//    private List<String> recipients = List.of("vijay.kumar@kredmint.com");
 
     public void onStart(ITestContext testContext) {
         // Initialize the report setup
@@ -46,19 +38,7 @@ public class ExtentReportManager implements ITestListener {
         repName = "Test-report-" + timeStamp + ".html";
 //        String projectPath = System.getProperty("user.dir");
 //        sparkReporter = new ExtentSparkReporter(projectPath + "/reports/" + repName);
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-      sparkReporter = new ExtentSparkReporter("/Users/admin/UATParas/ParasUAT/ParasUATProject/reports/" + repName);
+        sparkReporter = new ExtentSparkReporter("/Users/admin/UATParas/ParasUAT/ParasUATProject/reports/" + repName);
         
 
         sparkReporter.config().setDocumentTitle("ParasUATProject");
@@ -124,25 +104,10 @@ public class ExtentReportManager implements ITestListener {
 
         // Get the full path to the report
 //        String reportFilePath = System.getProperty("user.dir") + "/reports/" + repName;
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
         String reportFilePath = "/Users/admin/UATParas/ParasUAT/ParasUATProject/reports/" + repName;
 
         // Send the report via email
-//        sendReportByEmail(reportFilePath);
+        sendReportByEmail(reportFilePath);
 
         // Open the report in the default browser
         openReportInBrowser(reportFilePath);
