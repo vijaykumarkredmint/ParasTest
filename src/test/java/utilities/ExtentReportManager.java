@@ -28,16 +28,38 @@ public class ExtentReportManager implements ITestListener {
     private String repName;
 
     // List of recipient email addresses
-    private List<String> recipients = List.of("shivam.jindal@kredmint.com", "vijay.kumar@kredmint.com", 
-                                               "vijaykumarmeerut1@gmail.com", "vk1151257@gmail.com");
+//    private List<String> recipients = List.of("dev.arya@kredmint.com", "vijay.kumar@kredmint.com", "vishal.srivastava@kredmint.com", "shivam.jindal@kredmint.com", "shivam.goel@kredmint.com", "hemant.kumar@kredmint.com");
+    
+    
+    
+    
+    
+    
+    
+    
+    private List<String> recipients = List.of("vijay.kumar@kredmint.com");
 
     public void onStart(ITestContext testContext) {
         // Initialize the report setup
         System.out.println("Starting report generation...");
         String timeStamp = new SimpleDateFormat("yyyy-MM-dd - HH:mm:ss").format(new Date());
         repName = "Test-report-" + timeStamp + ".html";
-        String projectPath = System.getProperty("user.dir");
-        sparkReporter = new ExtentSparkReporter(projectPath + "/reports/" + repName);
+//        String projectPath = System.getProperty("user.dir");
+//        sparkReporter = new ExtentSparkReporter(projectPath + "/reports/" + repName);
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      sparkReporter = new ExtentSparkReporter("/Users/admin/UATParas/ParasUAT/ParasUATProject/reports/" + repName);
+        
 
         sparkReporter.config().setDocumentTitle("ParasUATProject");
         sparkReporter.config().setReportName("Test-report");
@@ -101,7 +123,23 @@ public class ExtentReportManager implements ITestListener {
         System.out.println("Report location: " + repName);
 
         // Get the full path to the report
-        String reportFilePath = System.getProperty("user.dir") + "/reports/" + repName;
+//        String reportFilePath = System.getProperty("user.dir") + "/reports/" + repName;
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        String reportFilePath = "/Users/admin/UATParas/ParasUAT/ParasUATProject/reports/" + repName;
 
         // Send the report via email
         sendReportByEmail(reportFilePath);
@@ -149,7 +187,15 @@ public class ExtentReportManager implements ITestListener {
 
             // Create the email body
             MimeBodyPart messageBodyPart = new MimeBodyPart();
-            messageBodyPart.setText("Hello, This email is for the Test Report. Please find attached Test Report");
+            messageBodyPart.setText(" Dear Recipient],\n"
+            		+ "\n"
+            		+ "This email is for the Test Report.\n"
+            		+ "\n"
+            		+ "Please find attached the Test Report for your reference. To view the report in an easily understandable format, kindly follow these steps:\n"
+            		+ "\n"
+            		+ "First, Download the report.\n"
+            		+ "Then, Open the file in your browser for optimal viewing.\n"
+            		+ "If you have any questions or need further assistance, feel free to reach out.");
 
             // Create the attachment part
             MimeBodyPart attachmentPart = new MimeBodyPart();
